@@ -54,7 +54,7 @@
 	top: 90px;
 	font-size:6em;
 	z-index: 10;
-	text-align: center;
+	text-align: left;
 }
 .da-slide p{
 	font-family: 'open_sansregular';
@@ -63,9 +63,9 @@
 	font-size: 16px;
 	overflow: hidden;
 	line-height: 24px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
-	width:64%;
+	width:60%;
 	font-weight: 400;
 }
 .da-img{
@@ -82,7 +82,7 @@
 .da-slide .da-link{
 	top: 280px;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	font-weight: 400;
 	width:70%;
