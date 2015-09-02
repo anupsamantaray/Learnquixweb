@@ -1,3 +1,7 @@
+<?php
+	session_start();
+	include "database/dbcon.php";
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -21,37 +25,35 @@
 <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="js/jquery.cslider.js"></script>
-	<script type="text/javascript">
-			$(function() {
+<script type="text/javascript">
+$(function() {
 
-				$('#da-slider').cslider({
-					autoplay : true,
-					bgincrement : 450
-				});
+	$('#da-slider').cslider({
+		autoplay : true,
+		bgincrement : 450
+	});
 
-			});
-		</script>
+});
+</script>
 <!-- Owl Carousel Assets -->
 <link href="css/owl.carousel.css" rel="stylesheet">
 <script src="js/owl.carousel.js"></script>
 <script>
-	$(document).ready(function() {
-
-		$("#owl-demo").owlCarousel({
-			items : 4,
-			lazyLoad : true,
-			autoPlay : true,
-			navigation : true,
-			navigationText : ["", ""],
-			rewindNav : false,
-			scrollPerPage : false,
-			pagination : false,
-			paginationNumbers : false,
-		});
-
+$(document).ready(function() {
+	$("#owl-demo").owlCarousel({
+		items : 4,
+		lazyLoad : true,
+		autoPlay : true,
+		navigation : true,
+		navigationText : ["", ""],
+		rewindNav : false,
+		scrollPerPage : false,
+		pagination : false,
+		paginationNumbers : false,
 	});
-</script>
 
+});
+</script>
 <script type="text/javascript">
     $(function() {
         var url = window.location.href;
@@ -112,10 +114,10 @@
 		<div class="soc_icons navbar-right">
 			<ul class="list-unstyled text-center">
 				<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>	
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 if( count($errorData)>0) {
 	foreach ($errorData as $error) {
 ?>
-<span class="errorMessage"><img src="img/right_icon.png" />&nbsp;&nbsp;<?PHP echo $error;?>	</span>
+<span class="errorMessage"><img src="images/right_icon.png" />&nbsp;&nbsp;<?PHP echo $error;?>	</span>
 <?
 	}
 }

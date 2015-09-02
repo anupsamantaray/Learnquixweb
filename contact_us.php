@@ -3,14 +3,14 @@
 	$errorData = array();
 	$successData=array();
 	
-		if( $_POST ) {
-			$txtname			= $_POST["texname"];
-			$contact			= $_POST["contact"];
-			$email				= $_POST["emails"];
-			$message		    = $_POST["txtarea1"];
+		if( $_POST["emails"] ) {
+			$txtname	= $_POST["texname"];
+			$contact	= $_POST["contact"];
+			$email		= $_POST["emails"];
+			$message	= $_POST["userMsg"];
 			
-			mysql_query("INSERT INTO ls_contactus(name,emails,contactno,message) VALUES ('".$txtname."','".$email."','".$contact."','".$message."')");
-			
+			$insert="INSERT INTO lq_contactus(name,emails,contactno,message) VALUES ('".$txtname."','".$email."','".$contact."','".$message."')";
+			$result=mysql_query($insert);
 			
 		// Client copy of email
 			$subject= 'Thanks for your request.';
@@ -64,7 +64,7 @@
 					
 					@mail( $to, $subject, $body, $headers );
 		
-			print("<script>window.location='contactus.php?sv=1'</script>");
+			print("<script>window.location='contact_us.php?sv=1&sel=5'</script>");
 		}
 	
 		if( isset($_REQUEST["sv"]) && $_REQUEST["sv"]=='1' ) {
@@ -110,15 +110,17 @@ function ValidationFunction(){
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-4 company_ad">
-				<h2>find Address :</h2>
+				<h2>Find Address :</h2>
 				<address>
-					 <p>500 Lorem Ipsum Dolor Sit,</p>
-					 <p>22-56-2-9 Sit Amet, Lorem,</p>
-					 <p>USA</p>
-					<p>Phone:(00) 222 666 444</p>
+					<p>Flat No - 270,Block - N,</p>
+					<p>BP Township, Patuli</p>
+					<p>Kolkata, 700094</p>
+					<p>INDIA</p>
+					<p>Phone:(00) 000 000 000</p>
+					<p>Mobile:(+91) 900 465 3799, 900 701 2732</p>
 					<p>Fax: (000) 000 00 00 0</p>
-					<p>Email: <a href="mailto:info@mycompany.com">info(at)mycompany.com</a></p>
-					<p>Follow on: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+					<p>Email: <a href="mailto:shishir.behera@gmail.com">shishir.behera@gmail.com</a></p>
+					<p>Follow on: <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://twitter.com/" target="_blank">Twitter</a></p>
 				</address>
 			</div>
 			<div class="col-md-8">
@@ -133,12 +135,12 @@ function ValidationFunction(){
 						</div>
 						<div>
 							<span>e-mail</span>
-							<span><input type="email" class="form-control" id="email10" validation="email|Provide your email ."></span>
+							<span><input type="email" name="emails" class="form-control" id="email10" validation="email|Provide your email ."></span>
 							<div e_rel="email10" class="error_msgs"></div>
 						</div>
 						<div>
 							<span>contact no</span>
-							<span><input type="email" class="form-control" id="texphone" validation="blank|Provide contact no.*number|Provide contact no."></span>
+							<span><input type="text" name="contact" class="form-control" id="texphone" validation="blank|Provide contact no.*number|Provide contact no."></span>
 							<div e_rel="texphone" class="error_msgs"></div>
 						</div>
 						<div>
