@@ -712,6 +712,13 @@ body {
 .form-control:focus {
 	border-color: #ff5454;
 }
+
+.error_msgs{
+	position: absolute;
+	left: 0px;
+	color: rgb(255, 0, 0);
+	bottom:-25px;
+}
 /* start details */
 .details img{
 	margin-bottom: 20px;

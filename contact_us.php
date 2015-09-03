@@ -128,22 +128,22 @@ function ValidationFunction(){
 				<h2>Contact Us</h2>
 				<span style="color:#009900"><?PHP include "common/errorRenderer.php"; ?></span>	
 					<form method="post" name="form1"  id="form1" action="<?PHP echo $_SERVER["PHP_SELF"]?>">
-						<div>
+						<div style="position: relative;">
 							<span>name</span>
 							<span><input type="username"  name="texname" class="form-control" id="texname" validation="blank|Provide your name."></span>
 							<div e_rel="texname" class="error_msgs"></div>
 						</div>
-						<div>
+						<div style="position: relative;">
 							<span>e-mail</span>
 							<span><input type="email" name="emails" class="form-control" id="email10" validation="email|Provide your email ."></span>
 							<div e_rel="email10" class="error_msgs"></div>
 						</div>
-						<div>
+						<div style="position: relative;">
 							<span>contact no</span>
 							<span><input type="text" name="contact" class="form-control" id="texphone" validation="blank|Provide contact no.*number|Provide contact no."></span>
 							<div e_rel="texphone" class="error_msgs"></div>
 						</div>
-						<div>
+						<div style="position: relative;">
 							<span>messages</span>
 							<span><textarea name="userMsg" id="messags" validation="blank|Provide your message."></textarea></span>
 							<div e_rel="messags" class="error_msgs"></div>
