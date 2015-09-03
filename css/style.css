@@ -188,6 +188,9 @@ body {
 	text-align: center;
 	margin: 0 auto;
 }
+.errorholder{
+	padding-left:0 !important;
+}
 .bg{
 	background: #3b3b3b;
 	-webkit-transition: all 0.3s ease-in-out;
