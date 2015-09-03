@@ -64,7 +64,7 @@
 					
 					@mail( $to, $subject, $body, $headers );
 		
-			print("<script>window.location='contact_us.php?sv=1&sel=5'</script>");
+			//print("<script>window.location='contact_us.php'</script>");
 		}
 	
 		if( isset($_REQUEST["sv"]) && $_REQUEST["sv"]=='1' ) {
@@ -127,7 +127,7 @@ function ValidationFunction(){
 			  <div class="contact-form">
 				<h2>Contact Us</h2>
 				<span style="color:#009900"><?PHP include "common/errorRenderer.php"; ?></span>	
-					<form method="post" name="form1"  id="form1" action="<?PHP echo $_SERVER["PHP_SELF"]?>">
+					<form method="post" name="form1"  id="form1" action="<?PHP echo $_SERVER["PHP_SELF"]?>?sv=1">
 						<div style="position: relative;">
 							<span>name</span>
 							<span><input type="username"  name="texname" class="form-control" id="texname" validation="blank|Provide your name."></span>
