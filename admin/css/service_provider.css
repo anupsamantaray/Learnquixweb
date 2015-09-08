@@ -1,0 +1,550 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+*  {  padding: 0 ;  margin: 0 ; }
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+	background-color:#fff !important;
+	width:100%;
+	margin:0 auto;
+} 
+td, div, h1, h2, h3, p, input, form{
+	font-size:16px;
+}
+a{
+	text-decoration: none ;
+}
+img{
+	border:none;
+}
+ul{ 
+	list-style:none;
+}	
+.clr{
+	clear: both ;	
+}
+.wraper{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+/*--------------------------------header--------------------------------*/
+	.allheader{
+		padding:25px 0;
+		background:#004682;
+	}
+	.allheader2{
+		border-bottom:none !important;
+	}
+		.mainlogo{
+			margin: 0 0 0 30px;
+		}
+		.allheader ul{
+			float: right;
+			margin:0;
+		}
+		.allheader ul li{
+			float:left;
+			padding:0 15px 0 0;
+			color:#004682;
+			font-size:20px;
+			font-weight:300;
+		}
+			.allheader ul li span{
+				font-weight:400;
+				color:#fff;
+				font-size:16px;
+			}
+		.allheader ul li a{
+			margin:0;
+		}
+	.logOutButtonfont {
+		background:none;
+		border:none;
+		display:inline-block;
+		color:#ff0000;
+		font-size:16px;
+		padding:0 20px;
+		text-decoration:none;
+		font-weight:400 ;
+		cursor: pointer ;
+		margin: -5px 0 0 0 ;
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+
+
+	.logOutButtonfont2 {
+		background:none;
+		border:none;
+		display:inline-block;
+		color:#ff0000;
+		font-size:16px;
+		padding:0px 20px;
+		text-decoration:none;
+		font-weight:400 ;
+		cursor: pointer ;
+		margin: -5px 0 0 0 ;
+		background:url(../img/logout.png) 0 4px no-repeat;
+	}
+
+
+/*--------------------------------dashbord--------------------------------*/
+
+	.dashbord{
+		width: 950px;
+		margin: 0 auto;
+		padding: 12% 0 0 0;
+	}
+		.sub_dashbord{
+			float:left;
+			margin: 0 30px 20px 30px;
+			text-align:center;
+			width:130px;
+		}
+			.sub_dashbord p{
+				padding: 8px 0 0 0;
+				font-size:18px;
+			}
+		.textdash{
+			padding:15px;
+			display:block;
+			border:5px solid #dddddd;
+			text-align:center;
+			transition: all 0.4s ease;
+			border-radius: 10px;
+		}
+		.textdash:hover{
+			border:5px solid #004682;
+		}
+
+/*--------------------------Left_part------------------------------*/
+
+	.left_pert{
+		position: fixed !important;
+		left: 0;
+		height: 100%;
+		background-color: #004682;
+		padding:30px 0 !important;
+		margin: 0;
+		z-index: 1;
+		top: 0;
+	}
+	.inerLogo{
+		margin: 7px 0 50px 0;
+		width: 100%;
+		padding: 0 20px;
+		
+	}
+		.logoutDiv{
+			background:rgba(10, 59, 101, 0.5);
+			padding:20px;
+		}
+		.logoutDiv p{
+			font-weight: 300 ;
+			color: #94BFE4 ;
+			font-size: 18px ;
+			padding:0;
+			margin:0;
+		}
+			.logoutDiv p span{
+				color:#fff;
+			}
+				.logoutDiv p a{
+					color: #ff0000;
+					text-align:right;
+					margin: 0;
+					padding: 8px 0 0 20px;
+					display: block;
+					font-weight:400;
+					text-decoration: none;
+					background: url(../img/logout.png) 109px 14px no-repeat;
+				}
+				.logoutDiv p a:hover{
+					color:#ff0000;
+					text-decoration:none;
+				}
+		.navisation{
+			padding:22px 20px;
+		}
+			.navisation ul{
+			}
+			.navisation ul li{
+				display:block;
+				border-bottom:1px solid #0E2F4C;
+			}
+			.navisation ul li a{
+				padding: 8px 0;
+				text-decoration: none;
+				display: block;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 300;
+				transition: all 0.4s ease;
+			}
+			.navisation ul li a:hover{
+				color:#f6f6f6;
+				text-decoration: none;
+			}
+			.navisation ul li a:active{
+				color:#f6f6f6;
+				text-decoration: none;
+			}
+				.smIcon{
+					margin:0 7px 0 0 !important;
+					vertical-align:inherit !important;
+					padding-top:2px;
+				}
+				
+/*---------------------right_pert------------------------*/
+
+	.right_pert{
+		margin: 0;
+		padding: 0 2% 1% 19% !important;
+	}
+		.right_pert h1{
+			font-size:46px;
+			padding:30px 0;
+			font-weight:300;
+			color:#000;
+			margin:0;
+		}
+			.addbutton{
+				position:absolute;
+				top:30.4%;
+				right:0%;
+			}
+			.company_button{
+				padding: 8px 20px;
+				background:transparent;
+				cursor: pointer;
+				margin:0;
+				float: right;
+				border: 2px solid #004682;
+				color: #000;
+				font-size: 16px;
+				text-align:center;
+				border-radius: 5px;
+				transition: all 0.4s ease;
+			}
+			.company_button:hover{
+				background: #004682;
+				border: 2px solid #004682;
+				color:#fff;
+			}
+		.bodyContent{
+			padding:30px 0;
+		}
+			.pictureAdd{
+				width:180px;
+				float:left;
+				margin:0 10px 20px 10px;
+			}
+				.addPic{
+					width:100%;
+					border:2px solid #0baeab;
+					border-radius:5px;
+				}
+				
+/*--------------------------Booking------------------------------*/
+
+		.bookingDiv{
+			display:flex;
+			padding:15px 0;
+			margin:0 0 15px 0;
+			border-bottom:1px solid #d5d5d5;
+		}
+			.userPicture{
+				width:90px;
+				height:90px;
+				margin-right:15px;
+				padding:2px;
+				border:2px solid #D3D3D3;
+				border-radius:100%;
+			}
+				.userDetails h2{
+					color:#000;
+					margin:0;
+					padding:0 0 8px 0;
+					font-weight:400;
+					font-size:18px;
+				}
+				.userDetails h3{
+					color:#d3d3d3;
+					margin:0;
+					padding:0 0 5px 0;
+					font-weight:300;
+					font-size:16px;
+				}
+				.userDetails p{
+					color:#000;
+					margin:0;
+					padding:0 0 5px 0;
+					font-weight:300;
+					font-size:18px;
+				}
+					.userDetails p a{
+						text-decoration:none;
+						color:#000;
+						transition: all 0.4s ease;
+					}
+					.userDetails p a:hover{
+						color:#f3520c;
+					}
+				.smIcon2{
+					margin:0 5px 0 0 !important;
+					vertical-align:inherit !important;
+					padding-top:0px;
+				}
+				.userPicturenew{
+					border-radius:100%;
+					width:100%;
+				}
+/*------------------------discount------------------------------*/
+
+	.addDiscount{
+		width:180px;
+		float:left;
+		margin:0 10px 20px 10px;
+		background:#0baeab;
+		border:2px solid #137b79;
+		padding:20px 0;
+		border-radius:5px;
+	}
+		.addDiscount p{
+			color:#fff;
+			margin:0;
+			text-align:center;
+			padding:0;
+			font-weight:300;
+			font-size:24px;
+		}
+			.addDiscount p span{
+				display:block;
+				padding:0;
+				font-size:56px;
+				font-weight:normal;
+			}
+			
+/*-----------------------Chat--------------------------*/
+
+	.chatLeft{
+		
+	}
+	.chatLeft2{
+		padding-right:0 !important;
+	}
+	.chatRight{
+		border-left:1px solid #d5d5d5;
+		padding:0 0 0 15px;
+		
+	}
+		.seclectNav{
+			border-bottom:1px solid #e5e5e5;
+			padding:10px;
+			display:block;
+		}
+			.seclectNav h1{
+				font-size:18px;
+				color:#000;
+				margin:0;
+				padding:0;
+				font-weight:400;
+			}
+				.seclectNav h1 span{
+					display:block;
+					padding:4px 0 0 0;
+					color:#acadad;
+					font-size:16px;
+					font-weight:300;
+				}
+			.seclectNav p{
+				font-size:16px;
+				color:#000;
+				margin:0;
+				padding:6px 0 0 0;
+				font-weight:300;
+			}
+			.active{
+				background:#ebffff;
+			}
+		.chatUser{
+			display:flex;
+			margin-bottom:15px;
+		}
+			.userImages{
+				width:60px;
+				height:60px;
+				margin:0 20px 0 0;
+			}
+				.pic1{
+					width:100%;
+					border-radius:100%;
+					border:1px solid #db4300;
+					padding:2px;
+				}
+			.chatDiv{
+				padding:10px 15px;
+				border-radius:8px;
+				position:relative;
+				border:1px solid #e5e5e5;
+				width:100%;
+			}
+				.name_user{
+					font-size:16px;
+					color:#dc4d10;
+					margin:0;
+					padding:0;
+					font-weight:600;
+				}
+				.commen_user{
+					font-size:14px;
+					color:#000;
+					margin:0;
+					padding:4px 0;
+					font-weight:300;
+				}
+				.user_time{
+					font-size:12px;
+					color:#acadad;
+					margin:0;
+					padding:0;
+					text-align:right;
+					font-weight:300;
+				}
+			.arrowdiv{
+				position: absolute;
+				left: -16px;
+				z-index: 1;
+				top: 12px;
+			}
+			.chatDiv2{
+				padding:10px 15px;
+				border-radius:8px;
+				position:relative;
+				border:1px solid #e5e5e5;
+				width:100%;
+			}
+				.name_user2{
+					font-size:16px;
+					color:#dc4d10;
+					margin:0;
+					padding:0;
+					text-align:right;
+					font-weight:600;
+				}
+				.commen_user2{
+					font-size:14px;
+					color:#000;
+					margin:0;
+					padding:4px 0;
+					text-align:right;
+					font-weight:300;
+				}
+				.user_time2{
+					font-size:12px;
+					color:#acadad;
+					margin:0;
+					padding:0;
+					text-align:left;
+					font-weight:300;
+				}
+			.arrowdiv2{
+				position: absolute;
+				right: -16px;
+				z-index: 1;
+				top: 12px;
+			}
+				.userImages2{
+					width:60px;
+					height:60px;
+					margin:0 0 0 20px;
+				}
+			.pic2{
+					width:100%;
+					border-radius:100%;
+					border:1px solid #4db2b2;
+					padding:2px;
+				}
+			.typeText{
+				padding:50px 0 0 0;
+			}
+/*------------------------Login---------------------*/
+
+
+	.login{
+		padding: 10% 0;
+	}
+		.login_child{
+			width: 500px;
+			margin: 0 auto;
+			border-radius: 8px;
+			background: #F8FCFF;
+			padding: 30px;
+			border: 1px solid #89A4BB;
+		}
+		.login_child h1{
+			font-size:36px;
+			color:#000;
+			margin:0;
+			padding:0 0 30px 0;
+			font-weight:300 !important;
+			text-align:center;
+		}
+		.textnewinput {
+			width: 100%;
+			border:1px solid #BFBFBF;
+			padding:10px;
+			font-size:18px;
+			margin:0 0 15px 0;
+			background:none;
+			border-radius:5px;
+			resize: none;
+			font-weight: 300;
+			font-family: 'Roboto', sans-serif;
+		}
+		.loginbutton{
+			padding:5px 30px;
+			background:transparent;
+			cursor: pointer;
+			margin:10px 0 0 0;
+			font-family: 'Roboto', sans-serif;
+			float: right;
+			border: 2px solid #004682;
+			color: #000;
+			font-size: 18px;
+			text-align:center;
+			border-radius: 5px;
+			font-weight: 300;
+			transition: all 0.4s ease;
+		}
+		.loginbutton:hover{
+			background: #004682;
+			border: 2px solid #004682;
+			color:#fff;
+		}
+		.errorDiv{
+			position:relative;
+		}
+		.childError{
+			position:absolute;
+			left:0;
+			bottom:0;
+		}
+		.errorMessageAdmin  {
+			font-size: 12px ;
+			/*border: 1px solid #b94131 ;
+			background: url(../images/AlertMeassage.png) no-repeat 0 0 #fff ;
+			border-radius: 0.2em ;*/
+			color: #ff0000;
+	
+		}
+		.remember{
+			float:left;
+			padding: 18px 0 0 0;
+		}

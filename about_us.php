@@ -3,8 +3,7 @@
 	<div class="container">
 		<div class="about row">
 			<h2>about us</h2>
-			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words. </p>
+			<p class="para">We are a dedicated team of professionals who want to make learning easy, simple and fun for school kids. Based out of Bhubaneswar with Offices in Bangalore & Mumbai we leverage technology to develop superior products & services that benefit our customers in an enlightening way. We are supported by an Odisha based NGO named GyanTarang which endeavours to improve the spread of education through new age technology.</p>
 			<a href="single-page.php" class="fa-btn btn-1 btn-1e">read more</a>
 		</div>
 	</div>
