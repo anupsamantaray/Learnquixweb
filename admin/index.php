@@ -7,11 +7,11 @@
 			<div class="col-md-12">
 				<div class="dashbord">
 					<div class="sub_dashbord">
-						<a href="#" class="textdash"><img src="img/book.png" alt=""></a>
+						<a href="discount.php" class="textdash"><img src="img/book.png" alt=""></a>
 						<p>Bookings</p>
 					</div>
 					<div class="sub_dashbord">
-						<a href="#" class="textdash"><img src="img/book.png" alt=""></a>
+						<a href="discount.php" class="textdash"><img src="img/book.png" alt=""></a>
 						<p>Chat history</p>
 					</div>
 					<div class="sub_dashbord">

@@ -4,22 +4,22 @@
 		<div id="da-slider" class="da-slider text-center">
 			<div class="da-slide">
 				<h2>education portal</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+				<p>The Education Portal is a featured portal, <span class="hide_text">which means it has been identified as one of the best portals on Wikipedia. If you see a way this portal can be updated or improved without compromising previous work, please feel free to contribute.</span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
 				<h2>online educations</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award. </span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
 				<h2>education portal</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award. </span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
 				<h2>online educations</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award. </span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 	   </div>
@@ -30,26 +30,26 @@
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
 				<span class="bg"><i class="fa fa-globe"></i></span>
-				<h4><a href="#">Sed Porta Dolor</a></h4>
-				<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 1500s.</p>
-				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Sample Question</a>
+				<h4><a href="#">Sample Question</a></h4>
+				<p class="para">These questions are designed to measure your vocabulary, specifically your understanding of word meanings.</p>
+				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
 				<span class="bg"><i class="fa fa-laptop"></i></span>
-				<h4><a href="#">Lorem Ipsum is</a></h4>
-				<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Ebooks</a>
+				<h4><a href="#">e-Books</a></h4>
+				<p class="para">Electronic version of a printed book which can be read on a computer or a specifically designed handheld device.</p>
+				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
 				<span class="bg"><i class="fa fa-cog"></i></span>
-				<h4><a href="#">Sed Porta Dolor</a></h4>
-				<p class="para">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32  by H. Rackham.</p>
-				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Videos</a>
+				<h4><a href="#">Videos</a></h4>
+				<p class="para">Learn about Science, Math, Social Studies with interesting videos, quiz games, interactive diagrams .</p>
+				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
 				<span class="bg"><i class="fa fa-shield"></i> </span>
 				<h4><a href="#">Contrary  belief</a></h4>
-				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in  .</p>
 				<a href="single-page.php" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>	
 		</div>

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dashbord</title>
+<title>Control Panel</title>
 <link href="css/service_provider.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />

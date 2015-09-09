@@ -10,14 +10,5 @@
   var menu=new menu.dd("menu");
   menu.init("menu","menuhover");
 </script>
-<!--div class="footer">  
-	<div class="footerWrapper">  	
-    <ul>
-        <li> &copy; Loyal App </li>
-        <li class="borTwo"> Developed by : <a href="http://www.mindscale.co.in" target="_blank">www.mindscale.co.in</a> </li>
-    </ul>
-    <div class="clr">  </div>
-    </div>
-	
-</div--> </div></div><!--end footer div-->
+</div></div>
 
