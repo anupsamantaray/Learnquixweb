@@ -722,6 +722,87 @@ body {
 	color: rgb(255, 0, 0);
 	bottom:-25px;
 }
+.logindiv{
+	position: absolute;
+	top: -35px;
+	right: 4px;
+	z-index: 111;
+}
+	.logindiv p{
+		font-size:14px;
+		margin:0;
+		font-weight:300;
+	}
+	.logindiv p span{
+		font-size:16px;
+		margin:0;
+		padding:0 3px 0 0;
+		color:#41ab01 !important;
+	}
+	.logindiv a{
+		font-size:14px;
+		color:#000;
+		font-weight:300;
+		text-decoration:none;
+		transition: all 0.3s ease-in-out 0s;
+	}
+	.logindiv a:hover{
+		color:#FF5454;
+		text-decoration:none;
+	}
+#panel {
+		padding: 10px;
+		display: none;
+		position: absolute;
+		width: 230px;
+		right: -88px;
+		background-color: #FFF;
+		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+		top: 36px;
+	}
+
+	.accountId{
+		z-index:999;
+	}
+		.accountId table{
+			width:100%;
+		}
+		.accountId table tr td{
+			padding:5px 1px;
+			display:block;
+		}
+		.inputtext{
+			width:100%;
+			border: none;
+			text-align: center;
+			padding: 5px;
+			font-size: 14px;
+			color: #000;
+			height: 23px;
+		}
+		.loginbutton{
+			padding: 6px 25px;
+			text-align: center;
+			margin: 0px;
+			font-size: 16px;
+			font-weight: 300;
+			color: #000;
+			background: transparent none repeat scroll 0% 0%;
+			border: 2px solid #FF5454;
+			border-radius:4px;
+			float: left;
+			transition: all 0.4s ease 0s;
+		}
+		.loginbutton:hover{
+				background:#FF5454;
+				color:#fff !important;
+		}
+	.toparrow {
+		position: absolute;
+		top: -18px;
+		left: 20px;
+	}
+
 /* start details */
 .details img{
 	margin-bottom: 20px;

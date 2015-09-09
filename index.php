@@ -35,13 +35,13 @@
 				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-laptop"></i></span>
+				<span class="bg"><i class="fa fa-book"></i></span>
 				<h4><a href="#">e-Books</a></h4>
 				<p class="para">Electronic version of a printed book which can be read on a computer or a specifically designed handheld device.</p>
 				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-cog"></i></span>
+				<span class="bg"><i class="fa fa-play"></i></span>
 				<h4><a href="#">Videos</a></h4>
 				<p class="para">Learn about Science, Math, Social Studies with interesting videos, quiz games, interactive diagrams .</p>
 				<a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a>

@@ -64,6 +64,13 @@ $(document).ready(function() {
         });
     }); 
 </script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
 
 <!-- //Owl Carousel Assets -->
 <!----font-Awesome----->
@@ -78,6 +85,22 @@ $(document).ready(function() {
 				<h1><a href="index.php">Learn Quix</a></h1>
 			</div>
 			<div class="h_search navbar-right">
+				<div class="logindiv">
+					<p><a href="#" id="flip">Login</a> | <a href="#">Registration</a></p>
+					<p style="display:none"><span>wellcome,</span>Arindam | <a href="#" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+					<div id="panel" class="accountId">
+						<div class="toparrow">
+							<img src="images/toparrow.png">
+						</div>
+						<table>
+							<tr>
+								<td><input name="" type="text" placeholder="Username"  required="required" class="form-control"/></td>
+								<td><input name="" type="password" placeholder="Password"  required="required" class="form-control"/></td>
+								<td><a href="#" class="loginbutton">Login</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
 				<form>
 					<input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
 					<input type="submit" value="search">
