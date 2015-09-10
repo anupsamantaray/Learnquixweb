@@ -1,5 +1,6 @@
 <?php
 	include "database/dbcon.php";
+	include "common/userAuthenticate.php";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,7 +28,7 @@
 				</div>
 				<div class="col-md-6 header"> 
 					<ul>
-					<li style="border-right:1px solid #c5c5c5; margin-right:15px;">Welcome,<span><?PHP echo $_SESSION["adminName"];?></span></li>
+					<li style="border-right:1px solid #c5c5c5; margin-right:15px;"><span>Welcome,<?PHP echo $_SESSION["adminName"];?></span></li>
 
 					<li class="bOne2">
 						<a href="logout.php"><button type="button" class="logOutButtonfont2"> Logout </button> </a>

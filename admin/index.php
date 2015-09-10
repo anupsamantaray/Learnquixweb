@@ -8,7 +8,7 @@
 				<div class="dashbord">
 					<div class="sub_dashbord">
 						<a href="discount.php" class="textdash"><img src="img/book.png" alt=""></a>
-						<p>Bookings</p>
+						<p>Add Classes</p>
 					</div>
 					<div class="sub_dashbord">
 						<a href="discount.php" class="textdash"><img src="img/book.png" alt=""></a>
