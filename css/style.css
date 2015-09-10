@@ -567,6 +567,57 @@ body {
 	-o-transition: opacity .15s ease-in-out;
 	transition: opacity .15s ease-in-out;
 }
+
+.regpopup{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.7);
+	z-index:9999 !important;
+	padding:6% 0 0 0;
+	left:0;
+	top:0;
+}
+.subreg{
+	width:500px;
+	margin:0 auto;
+	border-radius:4px;
+	padding:20px;
+	position:relative;
+	background:#fff;
+}
+.closse{
+	position: absolute;
+	top:0;
+	right:0;
+	color: #9C9C9C;
+	padding:10px !important;
+	font-size:16px !important;
+	text-decoration:none;
+	font-family: 'open_sansregular';
+}
+.closse:hover{
+	text-decoration:none;
+	color: #9C9C9C;
+}
+.subreg h2{
+	margin:0;
+	padding:0 0 15px 0;
+	font-size:24px;
+}
+.subreg table{
+	width:100%;
+	margin:20px 0 0 0;
+}
+.subreg table tr{
+	
+}
+.subreg table tr td{
+	padding:5px 0;
+	font-size:16px;
+}
+
+
 /* start tag_nav */
 .tag_nav {
 	margin: 8% 0;
@@ -792,10 +843,12 @@ body {
 			border-radius:4px;
 			float: left;
 			transition: all 0.4s ease 0s;
+			text-decoration:none;
 		}
 		.loginbutton:hover{
 				background:#FF5454;
 				color:#fff !important;
+				text-decoration:none;
 		}
 	.toparrow {
 		position: absolute;

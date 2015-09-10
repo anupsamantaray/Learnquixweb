@@ -53,7 +53,7 @@
 	width: 70%;
 	top: 90px;
 	font-size:6em;
-	z-index: 10;
+	z-index:11;
 	text-align: left;
 }
 .da-slide p{
@@ -93,7 +93,7 @@
 	text-align: center;
 	left: 0px;
 	bottom: 20px;
-	z-index: 2000;
+	z-index:111;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }

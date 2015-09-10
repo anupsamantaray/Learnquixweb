@@ -78,6 +78,42 @@ $(document).ready(function(){
 <!----font-Awesome----->
 </head>
 <body>
+<!--Registration_popup-->
+						
+	<div class="regpopup">
+		<div class="subreg">
+			<h2>Creat Account</h2>
+			<h2><a href="#" class="closse">X</a></h2>
+			<table>
+				<tr>
+					<td style="width:110px">Name</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your email"></td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
+				</tr>
+				<tr>
+					<td>School</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name"></td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><a href="#" class="loginbutton">Login</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+<!--End_Registration_popup-->
 <div class="header_bg">
 	<div class="container">
 		<div class="row header">
