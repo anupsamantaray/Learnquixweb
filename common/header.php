@@ -25,20 +25,17 @@
 <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="js/jquery.cslider.js"></script>
+<!-- Owl Carousel Assets -->
+<link href="css/owl.carousel.css" rel="stylesheet">
+<script src="js/owl.carousel.js"></script>
+<!-- //Owl Carousel Assets -->
 <script type="text/javascript">
 $(function() {
-
 	$('#da-slider').cslider({
 		autoplay : true,
 		bgincrement : 450
 	});
-
 });
-</script>
-<!-- Owl Carousel Assets -->
-<link href="css/owl.carousel.css" rel="stylesheet">
-<script src="js/owl.carousel.js"></script>
-<script>
 $(document).ready(function() {
 	$("#owl-demo").owlCarousel({
 		items : 4,
@@ -51,66 +48,69 @@ $(document).ready(function() {
 		pagination : false,
 		paginationNumbers : false,
 	});
-
-});
-</script>
-<script type="text/javascript">
-    $(function() {
-        var url = window.location.href;
-        $(".navbar-nav li a").each(function() {
-            if (url == (this.href)) {
-                $(this).closest("li").addClass("active");
-            }
-        });
-    }); 
-</script>
-<script> 
-$(document).ready(function(){
-    $("#flip").click(function(){
+	$("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
+	$("#flipreg").click(function(){
+        $(".popup_reg").show();
+    });
+	$(".popclose").click(function(){
+        $(".popup_reg").hide();
+    });
+});
+$(function() {
+	var url = window.location.href;
+	$(".navbar-nav li a").each(function() {
+		if (url == (this.href)) {
+			$(this).closest("li").addClass("active");
+		}
+	});
 });
 </script>
-
-<!-- //Owl Carousel Assets -->
 <!----font-Awesome----->
 <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
 </head>
 <body>
 <!--Registration_popup-->
-						
-	<div class="regpopup">
-		<div class="subreg">
-			<h2>Creat Account</h2>
-			<h2><a href="#" class="closse">X</a></h2>
-			<table>
-				<tr>
-					<td style="width:110px">Name</td>
-					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name"></td>
-				</tr>
-				<tr>
-					<td>Email</td>
-					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your email"></td>
-				</tr>
-				<tr>
-					<td>Contact</td>
-					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
-				</tr>
-				<tr>
-					<td>School</td>
-					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name"></td>
-				</tr>
-				<tr>
-					<td>City</td>
-					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name"></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><a href="#" class="loginbutton">Login</a></td>
-				</tr>
-			</table>
-		</div>
+	<div class="regpopup popup_reg" style="display:none;">
+		<form name="regsubmit" method="post" action="regsubmit.php">
+			<div class="subreg">
+				<h2>Create Account</h2>
+				<h2><a href="javascript:void(0)" class="closse popclose">X</a></h2>
+				<table>
+					<tr>
+						<td style="width:110px">Name</td>
+						<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name"></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your email"></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="username" placeholder="Type your password"></td>
+					</tr>
+					<tr>
+						<td>Contact</td>
+						<td><input name="usrcontact" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
+					</tr>
+					<tr>
+						<td>School</td>
+						<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name"></td>
+					</tr>
+					<tr>
+						<td>City</td>
+						<td><input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<!--td><a href="javascript:void(0)" class="loginbutton">Register</a></td-->
+						<td><input type="submit" name="Register" class="loginbutton"></td>
+					</tr>
+				</table>
+			</div>
+		</form>
 	</div>
 
 <!--End_Registration_popup-->
@@ -121,9 +121,13 @@ $(document).ready(function(){
 				<h1><a href="index.php">Learn Quix</a></h1>
 			</div>
 			<div class="h_search navbar-right">
-				<div class="logindiv">
-					<p><a href="#" id="flip">Login</a> | <a href="#">Registration</a></p>
-					<p style="display:none"><span>wellcome,</span>Arindam | <a href="#" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+				<div class="logindiv popup_login">
+					<?php if((isset($_SESSION['usrname'])) && ($_SESSION['usrname']!='')){?>
+						<p><span>welcome,</span><?=$_SESSION['usrname']?> | <a href="javascript:void(0)" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+					<?}
+					else{?>
+						<p><a href="javascript:void(0)" id="flip">Login</a> | <a href="javascript:void(0)" id="flipreg">Registration</a></p>
+					<?}?>
 					<div id="panel" class="accountId">
 						<div class="toparrow">
 							<img src="images/toparrow.png">
@@ -132,7 +136,7 @@ $(document).ready(function(){
 							<tr>
 								<td><input name="" type="text" placeholder="Username"  required="required" class="form-control"/></td>
 								<td><input name="" type="password" placeholder="Password"  required="required" class="form-control"/></td>
-								<td><a href="#" class="loginbutton">Login</a></td>
+								<td><a href="javascript:void(0)" class="loginbutton">Login</a></td>
 							</tr>
 						</table>
 					</div>
