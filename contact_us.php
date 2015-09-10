@@ -1,4 +1,4 @@
-<?php include "common/header3.php"?>
+<?php include "common/header2.php"?>
 <?php	
 	$errorData = array();
 	$successData=array();
@@ -77,6 +77,7 @@
 $(document).ready(function(){
 	$("#form1").validation();
 	$("#btnsubmit").bind( "click", submitButtonClickHandler );
+	$(".contctusact").addClass('active');
 	
 });
 function submitButtonClickHandler( e ) {

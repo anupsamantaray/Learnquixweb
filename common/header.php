@@ -64,6 +64,13 @@ $(document).ready(function() {
         });
     }); 
 </script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
 
 <!-- //Owl Carousel Assets -->
 <!----font-Awesome----->
@@ -71,6 +78,42 @@ $(document).ready(function() {
 <!----font-Awesome----->
 </head>
 <body>
+<!--Registration_popup-->
+						
+	<div class="regpopup">
+		<div class="subreg">
+			<h2>Creat Account</h2>
+			<h2><a href="#" class="closse">X</a></h2>
+			<table>
+				<tr>
+					<td style="width:110px">Name</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your email"></td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
+				</tr>
+				<tr>
+					<td>School</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name"></td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td><input name="texname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><a href="#" class="loginbutton">Login</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+<!--End_Registration_popup-->
 <div class="header_bg">
 	<div class="container">
 		<div class="row header">
@@ -78,6 +121,22 @@ $(document).ready(function() {
 				<h1><a href="index.php">Learn Quix</a></h1>
 			</div>
 			<div class="h_search navbar-right">
+				<div class="logindiv">
+					<p><a href="#" id="flip">Login</a> | <a href="#">Registration</a></p>
+					<p style="display:none"><span>wellcome,</span>Arindam | <a href="#" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+					<div id="panel" class="accountId">
+						<div class="toparrow">
+							<img src="images/toparrow.png">
+						</div>
+						<table>
+							<tr>
+								<td><input name="" type="text" placeholder="Username"  required="required" class="form-control"/></td>
+								<td><input name="" type="password" placeholder="Password"  required="required" class="form-control"/></td>
+								<td><a href="#" class="loginbutton">Login</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
 				<form>
 					<input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
 					<input type="submit" value="search">

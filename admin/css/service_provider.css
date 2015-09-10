@@ -548,3 +548,28 @@ ul{
 			float:left;
 			padding: 18px 0 0 0;
 		}
+		
+/*--------------------------------scroll-----------------------------*/
+
+	.scroll {
+		width:100%;
+		height:600px;
+		background:transparent;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		}
+		.scroll::-webkit-scrollbar {
+			width: 5px;
+			transition: all 0.4s ease;
+		}
+
+		.scroll::-webkit-scrollbar-track {
+			border-radius: 16px;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+		}
+
+		.scroll::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			-webkit-box-shadow: inset 0 0 22px rgba(0, 0, 0, 0.8);
+
+		}
