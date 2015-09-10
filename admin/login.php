@@ -67,7 +67,7 @@ if(isset($_COOKIE['remember'])){
 									</div>
 									<div class="logHolTwo">
 										<label class="remember">
-											<input type="checkbox" name="remember" <?php if(isset($_COOKIE['remember']))echo "checked"; ?> /> Remember me</label>
+											<input type="checkbox" name="remember" <?php if(isset($_COOKIE['remember']))echo "checked"; ?> /> <span style="font-weight: 300;">Remember me</span></label>
 											<button class="loginbutton" id="btnsubmit" name="btnsubmit" /> Login  </button>
 										<div class="clr"></div>
 									</div>
