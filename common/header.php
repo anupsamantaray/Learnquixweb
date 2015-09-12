@@ -77,10 +77,10 @@ $(function() {
 		<form name="regsubmit" method="post" action="regsubmit.php">
 			<div class="subreg">
 				<h2>Create Account</h2>
-				<h2><a href="javascript:void(0)" class="closse popclose">X</a></h2>
+				<h2><a href="javascript:void(0)" class="closse popclose"><img src="images/cross.png"></a></h2>
 				<table>
 					<tr>
-						<td style="width:110px">Name</td>
+						<td style="width:126px">Name</td>
 						<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name" required="required" ></td>
 					</tr>
 					<tr>
@@ -101,15 +101,15 @@ $(function() {
 					</tr>
 					<tr>
 						<td>Password</td>
-						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="username" placeholder="Type your password" required="required" ></td>
+						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
 					</tr>
 					<tr>
 						<td>Confirm Password</td>
-						<td><input name="usrcpass" class="form-control" id="" validation="blank|Provide your confirm password." type="username" placeholder="Type password again" required="required" ></td>
+						<td><input name="usrcpass" class="form-control" id="" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ></td>
 					</tr>
 					<tr>
 						<td>Upload Photo</td>
-						<td><input name="usrphoto" class="form-control" id="" validation="blank|Provide your photo." type="file" ></td>
+						<td><input name="usrphoto" class="form-control picuplode" id="" validation="blank|Provide your photo." type="file" ></td>
 					</tr>
 					<tr>
 						<td></td>
@@ -131,7 +131,7 @@ $(function() {
 			<div class="h_search navbar-right">
 				<div class="logindiv popup_login">
 					<?php if((isset($_SESSION['usrname'])) && ($_SESSION['usrname']!='')){?>
-						<p><span>welcome,</span><?=$_SESSION['usrname']?> | <a href="regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+						<p><i class="userpicture"><img src="images/no-img.jpg" class="profile_pic"></i><!--span>welcome,</span--><?=$_SESSION['usrname']?> | <a href="regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
 					<?}
 					else{?>
 						<p><a href="javascript:void(0)" id="flip">Login</a> | <a href="javascript:void(0)" id="flipreg">Registration</a></p>

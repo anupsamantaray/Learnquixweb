@@ -614,9 +614,27 @@ body {
 }
 .subreg table tr td{
 	padding:5px 0;
-	font-size:16px;
+	font-size:14px;
 }
-
+.picuplode{
+	padding: 0 !important;
+	height: auto !important;
+	border: none !important;
+	margin: 0 0 10px 0 !important;
+}
+.userpicture{
+	width:30px;
+	height:30px;
+	margin: 0 5px 0 0;
+	display:block;
+}
+.profile_pic{
+	width:100%;
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	border: 1px solid #c5c5c5;
+}
 
 /* start tag_nav */
 .tag_nav {
@@ -780,9 +798,11 @@ body {
 	z-index: 111;
 }
 	.logindiv p{
-		font-size:14px;
+		font-size:16px;
 		margin:0;
 		font-weight:300;
+		display: flex;
+		padding: 0px;
 	}
 	.logindiv p span{
 		font-size:16px;
@@ -791,9 +811,10 @@ body {
 		color:#41ab01 !important;
 	}
 	.logindiv a{
-		font-size:14px;
+		font-size:16px;
 		color:#000;
 		font-weight:300;
+		margin: 0 0 0 5px;
 		text-decoration:none;
 		transition: all 0.3s ease-in-out 0s;
 	}
