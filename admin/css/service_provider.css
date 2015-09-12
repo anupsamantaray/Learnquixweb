@@ -170,13 +170,14 @@ ul{
 					text-decoration:none;
 				}
 		.navisation{
-			padding:22px 20px;
+			padding:0 0 24px 0;
 		}
 			.navisation ul{
 			}
 			.navisation ul li{
 				display:block;
 				border-bottom:1px solid #0E2F4C;
+				padding:0;
 			}
 			.navisation ul li a{
 				padding: 8px 0;
@@ -189,14 +190,16 @@ ul{
 			}
 			.navisation ul li a:hover{
 				color:#f6f6f6;
+				background:rgba(0, 0, 0, 0.9);
 				text-decoration: none;
 			}
 			.navisation ul li a:active{
 				color:#f6f6f6;
 				text-decoration: none;
+				background:rgba(0, 0, 0, 0.9);
 			}
 				.smIcon{
-					margin:0 7px 0 0 !important;
+					margin:0 7px 0 7px !important;
 					vertical-align:inherit !important;
 					padding-top:2px;
 				}
@@ -553,7 +556,7 @@ ul{
 
 	.scroll {
 		width:100%;
-		height:600px;
+		height:450px;
 		background:transparent;
 		overflow-y: scroll;
 		overflow-x: hidden;
