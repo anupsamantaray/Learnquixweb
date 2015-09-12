@@ -12,4 +12,8 @@ if(isset($_REQUEST['Register'])){
 	$_SESSION["usrname"] = $usrname;
 	echo "<script>location.href='index.php';</script>";
 }
+if(($_REQUEST['op']) && ($_REQUEST['op']=='lgt')){
+	session_destroy();
+	echo "<script>location.href='index.php';</script>";
+}
 ?>

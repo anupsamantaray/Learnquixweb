@@ -81,15 +81,11 @@ $(function() {
 				<table>
 					<tr>
 						<td style="width:110px">Name</td>
-						<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name"></td>
+						<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name" required="required" ></td>
 					</tr>
 					<tr>
 						<td>Email</td>
-						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your email"></td>
-					</tr>
-					<tr>
-						<td>Password</td>
-						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="username" placeholder="Type your password"></td>
+						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required" ></td>
 					</tr>
 					<tr>
 						<td>Contact</td>
@@ -97,11 +93,23 @@ $(function() {
 					</tr>
 					<tr>
 						<td>School</td>
-						<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name"></td>
+						<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name" required="required" ></td>
 					</tr>
 					<tr>
 						<td>City</td>
-						<td><input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name"></td>
+						<td><input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required" ></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="username" placeholder="Type your password" required="required" ></td>
+					</tr>
+					<tr>
+						<td>Confirm Password</td>
+						<td><input name="usrcpass" class="form-control" id="" validation="blank|Provide your confirm password." type="username" placeholder="Type password again" required="required" ></td>
+					</tr>
+					<tr>
+						<td>Upload Photo</td>
+						<td><input name="usrphoto" class="form-control" id="" validation="blank|Provide your photo." type="file" ></td>
 					</tr>
 					<tr>
 						<td></td>
@@ -123,7 +131,7 @@ $(function() {
 			<div class="h_search navbar-right">
 				<div class="logindiv popup_login">
 					<?php if((isset($_SESSION['usrname'])) && ($_SESSION['usrname']!='')){?>
-						<p><span>welcome,</span><?=$_SESSION['usrname']?> | <a href="javascript:void(0)" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+						<p><span>welcome,</span><?=$_SESSION['usrname']?> | <a href="regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
 					<?}
 					else{?>
 						<p><a href="javascript:void(0)" id="flip">Login</a> | <a href="javascript:void(0)" id="flipreg">Registration</a></p>
