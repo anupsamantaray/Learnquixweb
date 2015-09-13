@@ -57,6 +57,24 @@ $(document).ready(function() {
 	$(".popclose").click(function(){
         $(".popup_reg").hide();
     });
+	$(".loginbutton").click(function(){
+		if($("#usrclass").val()==0){
+			$(".errorcls").show();
+			return false;
+		}else{
+			if($("#pass").val() != $("#cpass").val()){
+				//alert("Password and confirm password should be same.");
+				$(".errorpass").show();
+				return false;
+			}else{
+				return true;
+			}
+		}
+	});
+	$(".loginshbtn").click(function(){
+		//$(".loginhdbtn").trigger('click');
+		$("#loginform").submit();
+	});
 });
 $(function() {
 	var url = window.location.href;
@@ -74,7 +92,7 @@ $(function() {
 <body>
 <!--Registration_popup-->
 	<div class="regpopup popup_reg" style="display:none;">
-		<form name="regsubmit" method="post" action="regsubmit.php">
+		<form name="regsubmit" method="post" action="regsubmit.php" enctype="multipart/form-data">
 			<div class="subreg">
 				<h2>Create Account</h2>
 				<h2><a href="javascript:void(0)" class="closse popclose"><img src="images/cross.png"></a></h2>
@@ -92,24 +110,37 @@ $(function() {
 						<td><input name="usrcontact" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
 					</tr>
 					<tr>
+						<td>Class</td>
+						<td>
+							<select class="form-control" name="usrclass" id="usrclass">
+								<option value="0">Select</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<span class="errorcls" style="display:none; color:#FF5454;">Please select your class.</span>
+						</td>
+					</tr>
+					<tr>
 						<td>School</td>
 						<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name" required="required" ></td>
 					</tr>
 					<tr>
 						<td>City</td>
-						<td><input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required" ></td>
+						<td>
+							<input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required">
+						</td>
 					</tr>
 					<tr>
 						<td>Password</td>
-						<td><input name="usrpass" class="form-control" id="" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
+						<td><input name="usrpass" class="form-control" id="pass" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
 					</tr>
 					<tr>
 						<td>Confirm Password</td>
-						<td><input name="usrcpass" class="form-control" id="" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ></td>
+						<td><input name="usrcpass" class="form-control" id="cpass" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ><span class="errorpass" style="display:none; color:#FF5454;">Password and confirm password should be same.</span></td>
 					</tr>
 					<tr>
 						<td>Upload Photo</td>
-						<td><input name="usrphoto" class="form-control picuplode" id="" validation="blank|Provide your photo." type="file" ></td>
+						<td><input name="usrphoto" class="form-control picuplode" id="usrphoto" validation="blank|Provide your photo." type="file" ></td>
 					</tr>
 					<tr>
 						<td></td>
@@ -131,22 +162,26 @@ $(function() {
 			<div class="h_search navbar-right">
 				<div class="logindiv popup_login">
 					<?php if((isset($_SESSION['usrname'])) && ($_SESSION['usrname']!='')){?>
-						<p><i class="userpicture"><img src="images/no-img.jpg" class="profile_pic"></i><!--span>welcome,</span--><?=$_SESSION['usrname']?> | <a href="regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
+						<p><i class="userpicture"> <?php if((isset($_SESSION['user_pic'])) && ($_SESSION['user_pic']!='')){ ?> <img src="upload/student_images/<?=$_SESSION['user_pic']?>" class="profile_pic"> <?php }else{ ?><img src="images/no-img.jpg" class="profile_pic"><?php } ?></i><!--span>welcome,</span--><?=$_SESSION['usrname']?> | <a href="regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
 					<?}
-					else{?>
+					else{ ?>
 						<p><a href="javascript:void(0)" id="flip">Login</a> | <a href="javascript:void(0)" id="flipreg">Registration</a></p>
-					<?}?>
+					<? } ?>
 					<div id="panel" class="accountId">
 						<div class="toparrow">
 							<img src="images/toparrow.png">
 						</div>
-						<table>
-							<tr>
-								<td><input name="" type="text" placeholder="Username"  required="required" class="form-control"/></td>
-								<td><input name="" type="password" placeholder="Password"  required="required" class="form-control"/></td>
-								<td><a href="javascript:void(0)" class="loginbutton">Login</a></td>
-							</tr>
-						</table>
+						<form name="loginsub" method="post" id="loginform" action="regsubmit.php?action=login">
+							<table>
+								<tr>
+									<td><input name="logemail" type="text" placeholder="Email" required="required" class="form-control"/></td>
+									<td><input name="logpass" type="password" placeholder="Password" required="required" class="form-control"/></td>
+									<td><a href="javascript:void(0)" class="loginbutton loginshbtn">Login</a>
+										<!--input type="submit" name="loggedin" value="submit" class="loginbutton loginhdbtn" style="display:show;"-->
+									</td>
+								</tr>
+							</table>
+						</form>
 					</div>
 				</div>
 				<form>
