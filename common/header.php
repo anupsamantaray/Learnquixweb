@@ -52,10 +52,10 @@ $(document).ready(function() {
         $("#panel").slideToggle("slow");
     });
 	$("#flipreg").click(function(){
-        $(".popup_reg").show();
+        $(".popup_reg").fadeIn('slow');
     });
 	$(".popclose").click(function(){
-        $(".popup_reg").hide();
+        $(".popup_reg").fadeOut('slow');
     });
 	$(".loginbutton").click(function(){
 		if($("#usrclass").val()==0){
