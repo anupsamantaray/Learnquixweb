@@ -103,7 +103,7 @@ $(function() {
 					</tr>
 					<tr>
 						<td>Email</td>
-						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required" ></td>
+						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required"></td>
 					</tr>
 					<tr>
 						<td>Contact</td>
@@ -174,7 +174,7 @@ $(function() {
 						<form name="loginsub" method="post" id="loginform" action="regsubmit.php?action=login">
 							<table>
 								<tr>
-									<td><input name="logemail" type="text" placeholder="Email" required="required" class="form-control"/></td>
+									<td><input name="logemail" type="text" placeholder="Email" required="required" class="form-control" style="width:100%;"/></td>
 									<td><input name="logpass" type="password" placeholder="Password" required="required" class="form-control"/></td>
 									<td><a href="javascript:void(0)" class="loginbutton loginshbtn">Login</a>
 										<!--input type="submit" name="loggedin" value="submit" class="loginbutton loginhdbtn" style="display:show;"-->
