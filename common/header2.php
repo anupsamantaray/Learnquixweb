@@ -17,6 +17,7 @@
      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 <!-- start plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -35,6 +36,9 @@
                 $(this).closest("li").addClass("active");
             }
         });
+		$(".remmnmnu").hover(function(){
+			$(".remsubmnu").toggle();
+		});
     }); 
 </script>
 <div class="header_bg1">
@@ -66,10 +70,18 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
+					<li class="remmnmnu"><a href="javascript:void(0)">Remember Cards</a>
+					   <ul style="display:none;" class="remsubmnu">
+							<li style="background:#ed9e3e;"><a href="pagetest.php">Memory Cards</a></li>
+							<li style="background:#ed9e3e;"><a href="concept.php">Concept Map</a></li>
+							<li style="background:#ed9e3e;"><a href="picture.php">Picture Game</a></li>
+					  </ul>
+					</li>
 					<li><a href="technology.php">Technologies</a></li>
 					<li><a href="about_us.php">About</a></li>
 					<li><a href="blogs.php">Blog</a></li>
 					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
+					<li><a href="games.php">Videos & Fun Games</a></li>
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 				<!-- start soc_icons -->

@@ -1,8 +1,11 @@
 <div class="footer_bg"><!-- start footer -->
 	<div class="container">
-		<div class="row  footer">
+		<div class="row footer">
 			<div class="copy text-center">
 				<p class="link"><span>&#169; All rights reserved | <a href="#">Learn Quix</a></span></p>
+			</div>
+			<div class="copy">
+				<span><a href="faq.php">FAQ</a></span>
 			</div>
 		</div>
 	</div>
