@@ -70,11 +70,11 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li class="remmnmnu"><a href="javascript:void(0)">Remember Cards</a>
-					   <ul style="display:none;" class="remsubmnu">
-							<li style="background:#ed9e3e;"><a href="pagetest.php">Memory Cards</a></li>
-							<li style="background:#ed9e3e;"><a href="concept.php">Concept Map</a></li>
-							<li style="background:#ed9e3e;"><a href="picture.php">Picture Game</a></li>
+					<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
+					   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
+							<li><a href="pagetest.php">Memory Cards</a></li>
+							<li><a href="concept.php">Concept Map</a></li>
+							<li><a href="picture.php">Picture Game</a></li>
 					  </ul>
 					</li>
 					<li><a href="technology.php">Technologies</a></li>
@@ -88,11 +88,11 @@
 			</nav>
 			<div class="soc_icons navbar-right">
 				<ul class="list-unstyled text-center">
-					<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<!--li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li-->
 					<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 					<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					<!--li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li-->
 				</ul>	
 			</div>
 		</div>

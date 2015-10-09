@@ -188,6 +188,9 @@ body {
 	text-align: center;
 	margin: 0 auto;
 }
+.errorholder{
+	padding-left:0 !important;
+}
 .bg{
 	background: #3b3b3b;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -564,6 +567,75 @@ body {
 	-o-transition: opacity .15s ease-in-out;
 	transition: opacity .15s ease-in-out;
 }
+
+.regpopup{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.7);
+	z-index:9999 !important;
+	padding:6% 0 0 0;
+	left:0;
+	top:0;
+}
+.subreg{
+	width:500px;
+	margin:0 auto;
+	border-radius:4px;
+	padding:20px;
+	position:relative;
+	background:#fff;
+}
+.closse{
+	position: absolute;
+	top:0;
+	right:0;
+	color: #9C9C9C;
+	padding:10px !important;
+	font-size:16px !important;
+	text-decoration:none;
+	font-family: 'open_sansregular';
+}
+.closse:hover{
+	text-decoration:none;
+	color: #9C9C9C;
+}
+.subreg h2{
+	margin:0;
+	padding:0 0 15px 0;
+	font-size:24px;
+}
+.subreg table{
+	width:100%;
+	margin:20px 0 0 0;
+}
+.subreg table tr{
+	
+}
+.subreg table tr td{
+	padding:5px 0;
+	font-size:14px;
+}
+.picuplode{
+	padding: 0 !important;
+	height: auto !important;
+	border: none !important;
+	margin: 0 0 10px 0 !important;
+}
+.userpicture{
+	width:30px;
+	height:30px;
+	margin: 0 5px 0 0;
+	display:block;
+}
+.profile_pic{
+	width:100%;
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	border: 1px solid #c5c5c5;
+}
+
 /* start tag_nav */
 .tag_nav {
 	margin: 8% 0;
@@ -712,6 +784,99 @@ body {
 .form-control:focus {
 	border-color: #ff5454;
 }
+
+.error_msgs{
+	position: absolute;
+	left: 0px;
+	color: rgb(255, 0, 0);
+	bottom:-25px;
+}
+.logindiv{
+	position: absolute;
+	top: -35px;
+	right: 4px;
+	z-index: 111;
+}
+	.logindiv p{
+		font-size:16px;
+		margin:0;
+		font-weight:300;
+		display: flex;
+		padding: 0px;
+	}
+	.logindiv p span{
+		font-size:16px;
+		margin:0;
+		padding:0 3px 0 0;
+		color:#41ab01 !important;
+	}
+	.logindiv a{
+		font-size:16px;
+		color:#000;
+		font-weight:300;
+		margin: 0 0 0 5px;
+		text-decoration:none;
+		transition: all 0.3s ease-in-out 0s;
+	}
+	.logindiv a:hover{
+		color:#FF5454;
+		text-decoration:none;
+	}
+#panel {
+		padding: 10px;
+		display: none;
+		position: absolute;
+		width: 230px;
+		right: -88px;
+		background-color: #FFF;
+		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+		top: 36px;
+	}
+
+	.accountId{
+		z-index:999;
+	}
+		.accountId table{
+			width:100%;
+		}
+		.accountId table tr td{
+			padding:5px 1px;
+			display:block;
+		}
+		.inputtext{
+			width:100%;
+			border: none;
+			text-align: center;
+			padding: 5px;
+			font-size: 14px;
+			color: #000;
+			height: 23px;
+		}
+		.loginbutton{
+			padding: 6px 25px;
+			text-align: center;
+			margin: 0px;
+			font-size: 16px;
+			font-weight: 300;
+			color: #000;
+			background: transparent none repeat scroll 0% 0%;
+			border: 2px solid #FF5454;
+			border-radius:4px;
+			float: left;
+			transition: all 0.4s ease 0s;
+			text-decoration:none;
+		}
+		.loginbutton:hover{
+				background:#FF5454;
+				color:#fff !important;
+				text-decoration:none;
+		}
+	.toparrow {
+		position: absolute;
+		top: -18px;
+		left: 20px;
+	}
+
 /* start details */
 .details img{
 	margin-bottom: 20px;
@@ -1163,4 +1328,20 @@ body {
 	}
 	.promo_button{
 		margin: 15px 0px 0px 80px;
+	}
+	.mydrop{
+		margin:0 !important;
+		padding:0 !important;
+		width:175px !important;
+	}
+	.mydrop a{
+		padding:10px !important;
+		margin: 0px !important;
+		font-size: 14px !important;
+		color:#fff !important;
+		background-color: #3B3B3B !important;
+		transition: all 0.4s ease 0s;
+	}
+	.mydrop a:hover{
+		background-color: #FF5454 !important;
 	}
