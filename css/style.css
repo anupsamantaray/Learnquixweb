@@ -1345,3 +1345,73 @@ body {
 	.mydrop a:hover{
 		background-color: #FF5454 !important;
 	}
+		/*---------------------*/
+	
+	.inerBody h3{
+		border-bottom: 2px dotted #FF5454;
+		padding:0 0 15px 0;
+		margin: 0px;
+		width:20%;
+		color: #FF5454;
+	}
+	.rightNew2{
+		padding:0 !important;
+		margin-top:0;
+	}
+	.faqdiv{
+		padding:0 0 20px 0 !important;
+		border-top:inherit !important;
+		margin:0 !important;
+	}
+	.carousel-inner h2{
+		margin: 0;     
+		color: #666;
+		padding-top: 90px;
+		font-size: 52px;
+		font-family: "trebuchet ms", sans-serif;    
+}
+	.item{
+		/*background: #333; */   
+		text-align: center;
+		border:3px solid #F3F3F3;
+		padding:2px;
+		height:300px !important;
+	}
+	.slideleft{
+		position: absolute !important;
+		top: 40% !important;
+		z-index: 5 !important;
+		color:#BF2B2B;
+		display: inline-block !important;
+	}
+	.carousel-control.left{
+		background-image:inherit !important;
+	}
+	.carousel-control.right{
+		background-image:inherit !important;
+	}
+	.memory_option{
+		margin:30px 0 0 0;
+		padding:15px;
+		background:#fff;
+		border:1px dashed #c5c5c5;
+		 position:relative;
+	}
+	
+	.annibutton {
+	  border: 0;
+	  background:#FF5454;
+	  border-radius:8px;
+	  box-shadow: 0 5px 0 #BF2B2B;
+	  color: #fff;
+	  cursor: pointer;
+	  font-size:16px;
+	  margin:15px 0 0 0;
+	  outline: 0;
+	  padding: 12px 20px;
+	  transition: all .1s linear;
+	}
+	.annibutton:active {
+	  box-shadow: 0 2px 0 #BF2B2B;
+	  transform: translateY(3px);
+	}
