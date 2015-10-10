@@ -77,6 +77,7 @@
 							<li><a href="picture.php">Picture Game</a></li>
 					  </ul>
 					</li>
+					<li><a href="technology.php">Courses</a></li>
 					<li><a href="technology.php">Technologies</a></li>
 					<li><a href="about_us.php">About</a></li>
 					<li><a href="blogs.php">Blog</a></li>
