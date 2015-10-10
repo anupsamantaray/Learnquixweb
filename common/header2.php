@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	include "database/dbcon.php";
+	$slct_qry = mysql_query("SELECT * FROM student_class");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -38,6 +39,9 @@
         });
 		$(".remmnmnu").hover(function(){
 			$(".remsubmnu").toggle();
+		});
+		$(".coursecls").hover(function(){
+			$(".remsucrse").toggle();
 		});
     }); 
 </script>
@@ -77,7 +81,17 @@
 							<li><a href="picture.php">Picture Game</a></li>
 					  </ul>
 					</li>
-					<li><a href="technology.php">Courses</a></li>
+					<li class="coursecls"><a href="technology.php">Courses</a>
+						<ul style="display:none;" class="remsucrse dropdown-menu mydrop">
+						<?
+							if(mysql_num_rows($slct_qry)>0){
+								while($rslt = mysql_fetch_assoc($slct_qry)){
+									echo "<li><a href='courses/index.php/?clid=".$rslt['id']."'>".$rslt['class']."</a></li>";
+								}
+							}
+						?>
+						</ul>
+					</li>
 					<li><a href="technology.php">Technologies</a></li>
 					<li><a href="about_us.php">About</a></li>
 					<li><a href="blogs.php">Blog</a></li>
@@ -87,15 +101,15 @@
 				</div><!-- /.navbar-collapse -->
 				<!-- start soc_icons -->
 			</nav>
-			<div class="soc_icons navbar-right">
+			<!--div class="soc_icons navbar-right">
 				<ul class="list-unstyled text-center">
-					<!--li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li-->
+					<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 					<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
-					<!--li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li-->
+					<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 				</ul>	
-			</div>
+			</div-->
 		</div>
 		<div class="clearfix"></div>
 	</div>
