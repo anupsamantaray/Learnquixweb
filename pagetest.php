@@ -4,20 +4,88 @@
 $mess=$_GET['err'];
 }*/
 ?>
-<link href="style.css" rel="stylesheet" type="text/css" />
+
+<body>
+<div class="main_bg"><!-- start main -->
+	<div class="container">
+		<div class="technology row">
+			<h2>Memory Cards</h2>
+			<div class="col-md-12 rightNew2">
+				<div class="col-md-7 rightNew2">
+					<p class="para">Memory cards are unique way of memorising learning items. Capturing keywords/main formulae on a Card template; the Memory Card is a handy tool while revising Chapters and preparing for exams. It also enables the transfer of subject content to long term memory for better retention by looking at it time and again. We create memory cards for students built in a way that his/her gap in memory is filled with least effort.</p>
+					<div class="memory_option effect5">
+						<h4>1. Force = Mass X Acceleration</h4>
+						<h4>2. S = ut + 1/2 at2</h4>
+						<h4>3. v2 - u2 = 2as</h4>
+						
+					</div>
+					<!--button class="annibutton">Awesome Button</button-->
+					<div class="read_more">
+						<a href="single-page.html" class="fa-btn btn-1 btn-1e">Memory Cards</a>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="bs-example">
+						<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+							<!-- Carousel indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+								<li data-target="#myCarousel" data-slide-to="4"></li>
+							</ol>   
+						   <!-- Carousel items -->
+							<div class="carousel-inner">
+								<div class="active item item2">
+									<img src="images/01.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/02.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/07.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/06.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/05.jpg" alt="" class="">
+								</div>
+							</div>
+							<!-- Carousel nav -->
+							<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+								<span class="fa fa-chevron-left slideleft"></span>
+							</a>
+							<a class="carousel-control right" href="#myCarousel" data-slide="next">
+								<span class="fa fa-chevron-right slideleft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- end main -->
+
+
+
+
+
+
+
+
+<!--link href="style.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" type="text/css" media="screen" href="css/style1.css">
 
 <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
     <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
-	<!-----pop up------>
 <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
 <script type="text/javascript" src="js/jquery.reveal.js"></script>
 <link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
-    <!-- jQuery -->
+
    	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-    <!-- FlexSlider -->
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
     var $ = jQuery.noConflict();
@@ -40,10 +108,7 @@ $mess=$_GET['err'];
 	});
   });
 </script>
-<!-----pop up
-<script type="text/javascript" src="js/jquery.reveal.js"></script>
-<link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
+
 	
 <link rel="stylesheet" href="default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
@@ -150,32 +215,6 @@ alert('<?= $mess ?>');
 }
 ?>
 </script>
-<!--script language=JavaScript>
-var message="Function Disabled!";
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-document.oncontextmenu=new Function("alert(message);return false")
-</script-->
-<!----pop up------>
 <div id="myModal" class="reveal-modal" style="width:400px;">
 		<h1 style="font-size:20px;">Create Account</h1>
 		<form name="creataccount" action="creataction.php" method="post" onsubmit="return validate();">
@@ -206,7 +245,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 						}
 						?>
 						</select>
-						<!--<input type="text" name="class" id="class"  class="form2"/>-->
+						
 						</td>
 				</tr>
 				<tr>
@@ -223,8 +262,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 		<a class="close-reveal-modal">&#215;</a>
 		</form>
 </div>
-<!----pop up end------>				
-				 <!--------------banner bar --------> 
+
  <div id="banner-bar" style="height:350px; margin-top:10px; display:none;">
  		<div id="banner1">
 				<div class="slider_container">
@@ -276,9 +314,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 										<tr>
 												<td colspan="4"><input type="password" name="pass" value="" placeholder="password" class="form" required/></td>
 										</tr>
-										<!--<tr>
-												<td colspan="4"><select class="form"><option>Select</option></select></td>
-										</tr>-->
+									
 										
 										<tr>
 												<td colspan="4"><input type="submit" name="button" value="Join Now" class="button" /></td>
@@ -292,18 +328,13 @@ document.oncontextmenu=new Function("alert(message);return false")
    </div>
 </div>
  </div> 
-  <!--------------banner bar end-------->
-   
-<!--------------text line bar-------->
 <div id="textline_bar" style="display:none;">
 		<div id="textline_box">
 				<p class="text" style="color:#fff; margin-left:60px; margin-top:10px; float:left; font-style:italic; "><img src="image/img2.jpg" style="float:left; border-radius:70px;"/>
 				<span style="margin-top:25px; float:left; margin-left:10px;">This is demo text. To be modified with real content later.<br /> This is demo text. To be modified with real content later.This is demo text. To be modified with real content later.</span> </p>
 		</div>
 </div>
-<!--------------text line end-------->
 
-<!--------------hover box-------->
 <div id="hover_bar" style="display:none;">
 		<div id="hover_box">
 				<div id="hover_box2">
@@ -311,164 +342,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 		<div class="products-container wrapper" style="background:none; margin-bottom:0px;">
 			<style type="text/css" scoped="scoped">
 				ul#product-menu li { width: 151px }
-			</style>
-            
-            <style>
-ul.flatflipbuttons{
-list-style:none;
--webkit-perspective: 10000px; /* larger the value, the less pronounced the 3D effect */
--moz-perspective: 10000px;
-/*perspective: 10000px;
-margin-left:50px;
-margin-top:20px;*/
-}
-
-ul.flatflipbuttons li{
-display: inline-block;
-/*margin-right: 20px; /* spacing between buttons */
-background:none;
-text-transform: uppercase;
-text-align: center;
-/*margin-top:20px;*/
-}
-
-ul.flatflipbuttons li a{
-display:block;
-font: bold 16px Arial; /* font size, pertains to icon fonts specifically */
-margin-bottom: 0px;
-color: black;
-padding:10px 15px;
-background: #3B9DD5;
-text-decoration: none;
-outline: none;
--webkit-transition:all 300ms ease-out; /* CSS3 transition. Last value is pause before transition play */
--moz-transition:all 300ms ease-out;
-transition:all 300ms ease-out;
-}
-
-ul.flatflipbuttons li:nth-of-type(1) a{
-color: white;
-background: #c57b0e;
-}
-
-ul.flatflipbuttons li:nth-of-type(2) a{
-background: #A1CD3A;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(3) a{
-background: #80C5EC;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(4) a{
-color: white;
-background: #635746;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(5) a{
-background: #F2C96D;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(6) a{
-background: #A1CD3A;
-
-
-}
-
-ul.flatflipbuttons li:nth-of-type(7) a{
-background: #A1CD3A;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(8) a{
-background: #80C5EC;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(9) a{
-background: #635746;
-
-}
-
-ul.flatflipbuttons li:nth-of-type(10) a{
-background: #F2C96D;
-
-}
-ul.flatflipbuttons li:nth-of-type(11) a{
-background: #A1CD3A;
-
-}
-ul.flatflipbuttons li:nth-of-type(12) a{
-background: #80C5EC;
-
-}
-
-ul.flatflipbuttons li a span{
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-display: table-cell;
-vertical-align: middle;
-width: 100%;
-height: 100%;
--webkit-transition: all 300ms ease-out; /* CSS3 transition. */
--moz-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-}
-
-ul.flatflipbuttons li b{ /* CSS for text beneath button */
-display: block;
-position: relative;
-width: 100%;
-opacity: 0;
--webkit-transition: all 300ms ease-out 0.2s; /* CSS3 transition. 0.2s delay */
--moz-transition: all 300ms ease-out 0.2s;
-transition: all 300ms ease-out 0.2s;
-}
-
-
-ul.flatflipbuttons li a img{ /* CSS for image if defined inside button */
-border-width: 0;
-vertical-align: middle;
-}
-
-
-ul.flatflipbuttons li:hover a{
--webkit-transform: rotateY(180deg); /* flip horizontally 180deg*/
--moz-transform: rotateY(180deg);
-transform: rotateY(180deg);
-background: #c1e4ec; /* bgcolor of button onMouseover*/
--webkit-transition-delay: 0.2s;
--moz-transition-delay: 0.2s;
-transition-delay: 0.2s;
-}
-
-ul.flatflipbuttons li:hover a span{
-color: black; /* color of icon font onMouseover */
--webkit-transform: rotateY(180deg);
--moz-transform: rotateY(180deg); /* flip horizontally 180deg*/
-transform: rotateY(180deg);
-background: #c1e4ec;
-padding:10px 15px;
--webkit-transition-delay: 0.2s;
--moz-transition-delay: 0.2s;
-transition-delay: 0.2s;
-}
-
-
-ul.flatflipbuttons li:hover b{
-opacity: 1;
-}
-
-
-
-</style>
-
-
-			<ul class="product-menu clearfix clear five" id="sti-menu">
+<ul class="product-menu clearfix clear five" id="sti-menu">
 				<li>
 					<a href="http://preview.ait-themes.com/drivingschool/wp1/price-list-of-courses/">
 						<h3 class="product-item" data-type="mText">Heading Here</h3>
@@ -533,7 +407,6 @@ opacity: 1;
 		</div>
 </div>
 </div>
-<!--------------hover box end-------->
  <div id="content-bar">
  		<div id="content">
 				<div class="content-box">
@@ -545,9 +418,7 @@ opacity: 1;
 										     Memory cards are unique way of memorising learning items. Capturing keywords/main formulae on a Card template; the Memory Card is a handy tool while revising Chapters and preparing for exams.
 										     It also enables the transfer of subject content to long term memory for better retention by looking at it time and again.
 										    We create memory cards for students built in a way that his/her gap in memory is filled with least effort.<br/><br />
-										   <!-- <span  style="font-size:28px;font-style:normal;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;border-radius:25px;padding:5px;background-color:#efefef;color:rgb(0, 112, 176);">1</span> <span style="font-size:28px;font-style:italic;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;background-color:#efefef;color:rgb(0, 112, 176);border-radius:10px;;padding:5px;padding-right:7px;">Force = Mass X Acceleration</span><br /><br />
-<span  style="font-size:28px;font-style:normal;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;border-radius:25px;padding:7px;background-color:#efefef;color:rgb(0, 112, 176);">2</span> <span style="font-size:28px;font-style:italic;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;background-color:#efefef;color:rgb(0, 112, 176);border-radius:10px;;padding:7px;"> S=ut+1/2at<sup>2</sup></span><br /><br />
-<span  style="font-size:28px;font-style:normal;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;border-radius:25px;padding:7px;background-color:#efefef;color:rgb(0, 112, 176);">3</span> <span style="font-size:28px;font-style:italic;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;background-color:#efefef;color:rgb(0, 112, 176);border-radius:10px;;padding:7px;"> v<sup>2</sup>-u<sup>2</sup>=2as</span>-->
+										   
 											<div style="padding-left:0px;">
                                             	<div style="font-size:28px;float:left;font-style:italic;width:80%;font-family:'Lucida Console', Monaco, monospace;border:2px solid #000;background-color:#efefef;color:rgb(0, 112, 176);border-radius:10px;;padding:5px;padding-right:7px;">
                                                 	 1. Force = Mass X Acceleration
@@ -577,7 +448,7 @@ opacity: 1;
 														<div id="wrapper">
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-			 <!--<img src="images/play.jpg" data-thumb="images/nemo.jpg" alt="" height="200" width="200"   />-->
+			 
                 <img src="images/deer.jpg" data-thumb="images/up.jpg" alt="" height="200" width="200"  />
 				 <img src="images/bird.jpg" data-thumb="images/bird.jpg" height="200" width="200"  alt="" />
                 <img src="images/butterfly.jpg" data-thumb="images/walle.jpg" alt="" height="200" width="200" />
@@ -600,23 +471,8 @@ opacity: 1;
 				  </div>
 				</div>
 		</div>
- </div>
- <!--------------content bar emd---------> 
- 
- <!--------------footer---------> 
- <!--div id="footer-bar">
- 		<div id="footer">
-				<ul>
-						<li><a href="index.php" class="active"><span>Home</span></a></li>
-						<li><a href="feedback.php"><span>Feedback</span></a></li>
-						<li><a href="about.php"><span>About</span></a></li>
-						<li><a href="services.php"><span>Services</span></a></li>
-						<li><a href="contact.php"><span>Contact</span></a></li>
-						<li style="margin:-10px 10px 0"><a href="http://www.facebook.com" target="_blank"><img src="image/facebook.png" style="float: left;  margin-top: 5px;"></a><a href="http://www.youtube.com/watch?v=mPTh8OEBwEo" target="_blank"><img src="image/youtube.png" style="float: left; margin-left: 5px;margin-top: 5px;"></a><a href="http://www.twitter.com" target="_blank"><img src="image/twitter.png" style="float: left;margin-left: 5px; margin-top: 5px;"></a></li>
-				</ul>
-                 <p class="copy">Copyright © 2014. All Rights Reserved</p>
-		</div>
  </div-->
+
 <?php
 	include_once("common/footer.php");
 ?>

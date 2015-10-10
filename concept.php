@@ -5,19 +5,77 @@ include_once('common/header2.php');
 $mess=$_GET['err'];
 }*/
 ?>
-<link href="style.css" rel="stylesheet" type="text/css" />
+
+<body>
+<div class="main_bg"><!-- start main -->
+	<div class="container">
+		<div class="technology row">
+			<h2>Concept Map</h2>
+			<div class="col-md-12 rightNew2">
+				<div class="col-md-7 rightNew2">
+					<p class="para">The ConceptoGridTM is a versatile tool developed for students to enable them learn easily. It presents the subject as an interconnected flow of ideas that help a student learn things just by looking at ideas & examples in a glance. ConceptoGrid4UTM establishes a combination of concepts interlinked in a unique way depending upon the student's learning skill and already acquired knowledge of a particular subject.</p>
+					<div class="memory_option effect5" style="border:none;">
+						<center><img src="images/concept.jpg" alt="" class=""></center>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="bs-example">
+						<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+							<!-- Carousel indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+								<li data-target="#myCarousel" data-slide-to="4"></li>
+							</ol>   
+						   <!-- Carousel items -->
+							<div class="carousel-inner">
+								<div class="active item item2">
+									<img src="images/01.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/02.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/07.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/06.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/05.jpg" alt="" class="">
+								</div>
+							</div>
+							<!-- Carousel nav -->
+							<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+								<span class="fa fa-chevron-left slideleft"></span>
+							</a>
+							<a class="carousel-control right" href="#myCarousel" data-slide="next">
+								<span class="fa fa-chevron-right slideleft"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- end main -->
+
+
+
+
+
+
+<!--link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" media="screen" href="css/style1.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
 <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
-<!-----pop up------>
 <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
 <script type="text/javascript" src="js/jquery.reveal.js"></script>
 <link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
-	
-    <!-- jQuery -->
    	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-    <!-- FlexSlider -->
+
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
     var $ = jQuery.noConflict();
@@ -40,10 +98,6 @@ $mess=$_GET['err'];
 	});
   });
 </script>
-<!-----pop up
-<script type="text/javascript" src="js/jquery.reveal.js"></script>
-<link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
 	
 <link rel="stylesheet" href="default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
@@ -150,32 +204,6 @@ alert('<?= $mess ?>');
 }
 ?>
 </script>
-<!--script language=JavaScript>
-var message="Function Disabled!";
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-document.oncontextmenu=new Function("alert(message);return false")
-</script-->
-<!----pop up------>
 <div id="myModal" class="reveal-modal" style="width:400px;">
 		<h1 style="font-size:20px;">Create Account</h1>
 		<form name="creataccount" action="creataction.php" method="post" onsubmit="return validate();">
@@ -206,7 +234,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 						}
 						?>
 						</select>
-						<!--<input type="text" name="class" id="class"  class="form2"/>-->
 						</td>
 				</tr>
 				<tr>
@@ -223,8 +250,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 		<a class="close-reveal-modal">&#215;</a>
 		</form>
 </div>
-<!----pop up end------>
-<!--------------banner bar --------> 
  <div id="banner-bar" style="height:350px; margin-top:10px; display:none;">
  		<div id="banner1">
 				<div class="slider_container">
@@ -276,10 +301,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 										<tr>
 												<td colspan="4"><input type="password" name="pass" value="" placeholder="password" class="form" required/></td>
 										</tr>
-										<!--<tr>
-												<td colspan="4"><select class="form"><option>Select</option></select></td>
-										</tr>-->
-										
 										<tr>
 												<td colspan="4"><input type="submit" name="button" value="Join Now" class="button" /></td>
 										</tr>
@@ -292,18 +313,12 @@ document.oncontextmenu=new Function("alert(message);return false")
    </div>
 </div>
  </div> 
-  <!--------------banner bar end-------->
-   
-<!--------------text line bar-------->
 <div id="textline_bar" style="display:none;">
 		<div id="textline_box">
 				<p class="text" style="color:#fff; margin-left:60px; margin-top:10px; float:left; font-style:italic; "><img src="image/img2.jpg" style="float:left; border-radius:70px;"/>
 				<span style="margin-top:25px; float:left; margin-left:10px;">This is demo text. To be modified with real content later.<br /> This is demo text. To be modified with real content later.This is demo text. To be modified with real content later.</span> </p>
 		</div>
 </div>
-<!--------------text line end-------->
-
-<!--------------hover box-------->
 <div id="hover_bar" style="display:none;">
 		<div id="hover_box">
 				<div id="hover_box2">
@@ -378,7 +393,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 		</div>
 </div>
 </div>
-<!--------------hover box end-------->
  <div id="content-bar">
  		<div id="content">
 				<div class="content-box">
@@ -430,21 +444,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 								</div>
 				  </div>
 				</div>
-		</div>
- </div>
- <!--------------content bar emd---------> 
-<!--------------footer---------> 
- <!--div id="footer-bar">
- 		<div id="footer">
-				<ul>
-						<li><a href="index.php" class="active"><span>Home</span></a></li>
-						<li><a href="feedback.php"><span>Feedback</span></a></li>
-						<li><a href="about.php"><span>About</span></a></li>
-						<li><a href="services.php"><span>Services</span></a></li>
-						<li><a href="contact.php"><span>Contact</span></a></li>
-						<li style="margin:-10px 10px 0"><a href="http://www.facebook.com" target="_blank"><img src="image/facebook.png" style="float: left;  margin-top: 5px;"></a><a href="http://www.youtube.com/watch?v=mPTh8OEBwEo" target="_blank"><img src="image/youtube.png" style="float: left; margin-left: 5px;margin-top: 5px;"></a><a href="http://www.twitter.com" target="_blank"><img src="image/twitter.png" style="float: left;margin-left: 5px; margin-top: 5px;"></a></li>
-				</ul>
-                 <p class="copy">Copyright © 2014. All Rights Reserved</p>
 		</div>
  </div-->
 <?php

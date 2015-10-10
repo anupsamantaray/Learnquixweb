@@ -1373,8 +1373,13 @@ body {
 	.item{
 		/*background: #333; */   
 		text-align: center;
-		border:3px solid #F3F3F3;
+		/*border:3px solid #F3F3F3;
 		padding:2px;
+		height:300px !important;*/
+	}
+	.item2{
+		border:3px solid #F3F3F3 !important;
+		padding:2px !important;
 		height:300px !important;
 	}
 	.slideleft{
@@ -1414,4 +1419,11 @@ body {
 	.annibutton:active {
 	  box-shadow: 0 2px 0 #BF2B2B;
 	  transform: translateY(3px);
+	}
+	.divBorder{
+		border:1px dashed #F3F3F3 !important;
+		padding:2px !important;
+	}
+	.rightNew3{
+		padding-left:0 !important;
 	}

@@ -5,16 +5,43 @@ include_once("common/header2.php");
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="technology row">
-			<h2>Memory Cards</h2>
+			<h2>FAQ</h2>
 			<div class="col-md-12 rightNew2">
-				<div class="col-md-7 rightNew2">
-					<p class="para">Memory cards are unique way of memorising learning items. Capturing keywords/main formulae on a Card template; the Memory Card is a handy tool while revising Chapters and preparing for exams. It also enables the transfer of subject content to long term memory for better retention by looking at it time and again. We create memory cards for students built in a way that his/her gap in memory is filled with least effort.</p>
-					<div class="memory_option effect5">
-						<h2>;vgkjm;',kj</h2>
+				<div class="col-md-7 rightNew3">
+					<div class="technology_list">
+						<h4>1. What do we deliver :</h4>
+						<div class="tech_para">
+							<p class="para">We deliver educational content which has been designed scientifically by a team of Teachers and experts in psychology. It aims to build conceptual constructs in Students for better understanding. </p>
+						</div>
+						<div class="clearfix"></div>	
 					</div>
-					<!--button class="annibutton">Awesome Button</button-->
-					<div class="read_more">
-						<a href="single-page.html" class="fa-btn btn-1 btn-1e">Memory Cards</a>
+					<div class="technology_list">
+						<h4>2. How are our products different : </h4>
+						<div class="tech_para">
+							<p class="para">The content is very crisp and takes a student through easy and quick steps to learn what they would take much longer to learn from normal textbooks thus saving crucial time before exams.Tools such as Concept flow grid(TM) and Thought Clouds(TM) enable a student get clarity of thought and retain things in memory long after they have been studied. </p>
+						</div>
+						<div class="clearfix"></div>	
+					</div>
+					<div class="technology_list">
+						<h4>3. How do students benefit from our products : </h4>
+						<div class="tech_para">
+							<p class="para">Students perform much beter in exams even while spending only a small amount of time. Even average students can ace exams by carefully following the learning content. </p>
+						</div>
+						<div class="clearfix"></div>	
+					</div>
+					<div class="technology_list">
+						<h4>4. How can students & teachers access our products :</h4>
+						<div class="tech_para">
+							<p class="para">Our products are currently accessible through our website. Very soon it shall be available on mobile and through our indigenusly developed App - QuicLearn </p>
+						</div>
+						<div class="clearfix"></div>	
+					</div>
+					<div class="technology_list">
+						<h4>5. What is Chetana Scholarship :</h4>
+						<div class="tech_para">
+							<p class="para">It is a scholarship which is sponsored by Gyan Tarang the NGO which supports us in many ways. It aims to encourage positive mindset for studies among students by rewarding meritorius students as well as hardworking students across subjects and geographies. </p>
+						</div>
+						<div class="clearfix"></div>	
 					</div>
 				</div>
 				<div class="col-md-5">
@@ -25,17 +52,25 @@ include_once("common/header2.php");
 								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 								<li data-target="#myCarousel" data-slide-to="1"></li>
 								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+								<li data-target="#myCarousel" data-slide-to="4"></li>
 							</ol>   
 						   <!-- Carousel items -->
 							<div class="carousel-inner">
-								<div class="active item">
-									<img src="images/01.png" alt="" class="">
+								<div class="active item item2">
+									<img src="images/01.jpg" alt="" class="">
 								</div>
-								<div class="item">
-									<img src="images/02.png" alt="" class="">
+								<div class="item item2">
+									<img src="images/02.jpg" alt="" class="">
 								</div>
-								<div class="item">
-									<img src="images/03.jpg" alt="" class="">
+								<div class="item item2">
+									<img src="images/07.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/06.jpg" alt="" class="">
+								</div>
+								<div class="item item2">
+									<img src="images/05.jpg" alt="" class="">
 								</div>
 							</div>
 							<!-- Carousel nav -->

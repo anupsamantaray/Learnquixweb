@@ -5,18 +5,40 @@ include_once("common/header2.php");
 $mess=$_GET['err'];
 }*/
 ?>
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+
+<body>
+<div class="main_bg"><!-- start main -->
+	<div class="container">
+		<div class="technology row">
+			<h2>Fun & Video Games</h2>
+			<div class="col-md-12 rightNew2">
+				<div class="col-md-6 rightNew3">
+					<div class="divBorder">
+						Videos
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="divBorder">
+						Videos
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- end main -->
+
+
+
+
+
+<!--link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style1.css">
 <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
 <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
-<!-----pop up------>
 <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
 <script type="text/javascript" src="js/jquery.reveal.js"></script>
 <link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
-    <!-- jQuery -->
    	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-    <!-- FlexSlider -->
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
     var $ = jQuery.noConflict();
@@ -39,11 +61,6 @@ $mess=$_GET['err'];
 	});
   });
 </script>
-<!-----pop up
-<script type="text/javascript" src="js/jquery.reveal.js"></script>
-<link rel="stylesheet" href="css/reveal.css">
-<!-----pop up ned------>
-	
 <link rel="stylesheet" href="default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="slider.css" type="text/css" media="screen" />
@@ -115,32 +132,6 @@ alert('<?= $mess ?>');
 }
 ?>
 </script>
-<!--script language=JavaScript>
-var message="Function Disabled!";
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-document.oncontextmenu=new Function("alert(message);return false")
-</script-->
-<!----pop up------>
 <div id="myModal" class="reveal-modal" style="width:400px;">
 		<h1 style="font-size:20px;">Create Account</h1>
 		<form name="creataccount" action="creataction.php" method="post" onsubmit="return validate();">
@@ -171,7 +162,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 							}
 							?>
 						</select>
-						<!--<input type="text" name="class" id="class"  class="form2"/>-->
 					</td>
 				</tr>
 				<tr>
@@ -187,8 +177,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 		<a class="close-reveal-modal">&#215;</a>
 		</form>
 </div>
-<!----pop up end------>
-   <!--------------banner bar --------> 
  <div id="banner-bar" style="height:350px; margin-top:10px; display:none;">
  		<div id="banner1">
 				<div class="slider_container">
@@ -240,10 +228,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 										<tr>
 												<td colspan="4"><input type="password" name="pass" value="" placeholder="password" class="form" required/></td>
 										</tr>
-										<!--<tr>
-												<td colspan="4"><select class="form"><option>Select</option></select></td>
-										</tr>-->
-										
 										<tr>
 												<td colspan="4"><input type="submit" name="button" value="Join Now" class="button" /></td>
 										</tr>
@@ -256,17 +240,12 @@ document.oncontextmenu=new Function("alert(message);return false")
    </div>
 </div>
 </div> 
-  <!--------------banner bar end-------->
-<!--------------text line bar-------->
 <div id="textline_bar" style="display:none;">
 		<div id="textline_box">
 				<p class="text" style="color:#fff; margin-left:60px; margin-top:10px; float:left; font-style:italic; "><img src="image/img2.jpg" style="float:left; border-radius:70px;"/>
 				<span style="margin-top:25px; float:left; margin-left:10px;">This is demo text. To be modified with real content later.<br /> This is demo text. To be modified with real content later.This is demo text. To be modified with real content later.</span> </p>
 		</div>
 </div>
-<!--------------text line end-------->
-
-<!--------------hover box-------->
 <div id="hover_bar" style="display:none;">
 		<div id="hover_box">
 				<div id="hover_box2">
@@ -341,9 +320,6 @@ document.oncontextmenu=new Function("alert(message);return false")
 		</div>
 </div>
 </div>
-<!--------------hover box end-------->
- 
- <!--------------content---------> 
   <div id="content-menubar" style="display:none;">
 		<div id="content-menu">
 				<ul>
@@ -390,7 +366,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 			</div>
 		</div>
 	</div>
-</div>
+</div-->
 <?php
 	include_once("common/footer.php");
 ?>

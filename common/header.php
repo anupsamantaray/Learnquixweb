@@ -213,6 +213,7 @@ $(function() {
 		        <li><a href="about_us.php">About</a></li>
 		        <li><a href="blogs.php">Blog</a></li>
 		        <li><a href="contact_us.php" class="insidecontact">Contact</a></li>
+				<li><a href="games.php">Videos & Fun Games</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		    <!-- start soc_icons -->
