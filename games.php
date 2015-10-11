@@ -6,7 +6,6 @@ $mess=$_GET['err'];
 }*/
 ?>
 
-<body>
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="technology row">

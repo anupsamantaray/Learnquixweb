@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	include "database/dbcon.php";
+	$slct_qry = mysql_query("SELECT * FROM student_class");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -30,12 +31,6 @@
 <script src="js/owl.carousel.js"></script>
 <!-- //Owl Carousel Assets -->
 <script type="text/javascript">
-$(function() {
-	$('#da-slider').cslider({
-		autoplay : true,
-		bgincrement : 450
-	});
-});
 $(document).ready(function() {
 	$("#owl-demo").owlCarousel({
 		items : 4,
@@ -82,6 +77,18 @@ $(function() {
 		if (url == (this.href)) {
 			$(this).closest("li").addClass("active");
 		}
+	});
+	$('#da-slider').cslider({
+		autoplay : true,
+		bgincrement : 450
+	});
+	$(".coursecls").hover(function(){
+		$(".remsucrse").toggle();
+		$(".remsucrse").css({'z-index':'9999'});
+	});
+	$(".remmnmnu").hover(function(){
+		$(".remsubmnu").toggle();
+		$(".remsubmnu").css({'z-index':'9999'});
 	});
 });
 </script>
@@ -209,6 +216,24 @@ $(function() {
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li><a href="index.php">Home</a></li>
+				<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
+				   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
+						<li><a href="pagetest.php">Memory Cards</a></li>
+						<li><a href="concept.php">Concept Map</a></li>
+						<li><a href="picture.php">Picture Game</a></li>
+				  </ul>
+				</li>
+				<li class="coursecls"><a href="javascript:void(0)">Courses</a>
+					<ul style="display:none;" class="remsucrse dropdown-menu mydrop">
+					<?
+						if(mysql_num_rows($slct_qry)>0){
+							while($rslt = mysql_fetch_assoc($slct_qry)){
+								echo "<li><a href='courses/index.php?clid=".$rslt['id']."'>".$rslt['class']."</a></li>";
+							}
+						}
+					?>
+					</ul>
+				</li>
 		        <li><a href="technology.php">Technologies</a></li>
 		        <li><a href="about_us.php">About</a></li>
 		        <li><a href="blogs.php">Blog</a></li>
@@ -220,11 +245,11 @@ $(function() {
 		</nav>
 		<div class="soc_icons navbar-right">
 			<ul class="list-unstyled text-center">
-				<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-				<!--li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li-->
 				<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
-				<!--li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li-->
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>	
 		</div>
 	</div>

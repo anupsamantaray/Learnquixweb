@@ -13,12 +13,7 @@
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
- <!--[if lt IE 9]>
-     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-
 <!-- start plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -73,45 +68,21 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li><a href="index.php">Home</a></li>
-					<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
-					   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
-							<li><a href="pagetest.php">Memory Cards</a></li>
-							<li><a href="concept.php">Concept Map</a></li>
-							<li><a href="picture.php">Picture Game</a></li>
-					  </ul>
-					</li>
+					<li><a href="../index.php">Home</a></li>
 					<li class="coursecls"><a href="javascript:void(0)">Courses</a>
 						<ul style="display:none;" class="remsucrse dropdown-menu mydrop">
 						<?
 							if(mysql_num_rows($slct_qry)>0){
 								while($rslt = mysql_fetch_assoc($slct_qry)){
-									echo "<li><a href='courses/index.php?clid=".$rslt['id']."'>".$rslt['class']."</a></li>";
+									echo "<li><a href='index.php?clid=".$rslt['id']."'>".$rslt['class']."</a></li>";
 								}
 							}
 						?>
 						</ul>
 					</li>
-					<li><a href="technology.php">Technologies</a></li>
-					<li><a href="about_us.php">About</a></li>
-					<li><a href="blogs.php">Blog</a></li>
-					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
-					<li><a href="games.php">Videos & Fun Games</a></li>
 				  </ul>
-				</div><!-- /.navbar-collapse -->
-				<!-- start soc_icons -->
+				</div>
 			</nav>
-			<div class="soc_icons navbar-right">
-			<ul class="list-unstyled text-center">
-				<ul class="list-unstyled text-center">
-				<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-			</ul>	
-		</div>
 		</div>
 		<div class="clearfix"></div>
 	</div>
