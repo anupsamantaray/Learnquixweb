@@ -30,6 +30,7 @@
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
 				<span class="bg"><i class="fa fa-globe"></i></span>
+<<<<<<< HEAD
 				<h4><a href="http://learnscience.co.in/courses/wil_index.php?id=old" target="_blank">Sample Question</a></h4>
 				<p class="para">Receive a huge collection of Sample Question papers.. We have designed this based on our expert teachers’ inputs with years of experience. Get a good idea of how the coming exam papers would look like.</p>
 				<a href="http://learnscience.co.in/courses/wil_index.php?id=old" class="fa-btn btn-1 btn-1e" target="_blank">Read More</a>
@@ -51,6 +52,29 @@
 				<h4><a href="javascript:void(0)">Mind Map</a></h4>
 				<p class="para">A mind-map puts all ideas into a frame that fits into your memory for a fast recall. Research shows you can retain things through a “visual memory”.  Use mindmaps for quick revision before the exams and see your scores improving !.</p>
 				<a href="javascript:void(0)" class="fa-btn btn-1 btn-1e">read more</a>
+=======
+				<h4><a href="courses/sample_questions.php">Sample Question</a></h4>
+				<p class="para">These questions are designed to measure your vocabulary, specifically your understanding of word meanings.</p>
+				<!--a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a-->
+			</div>
+			<div class="col-md-3 images_1_of_4 bg1 text-center">
+				<span class="bg"><i class="fa fa-book"></i></span>
+				<h4><a href="courses/ebook.php">e-Books</a></h4>
+				<p class="para">Electronic version of a printed book which can be read on a computer or a specifically designed handhold device.</p>
+				<!--a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a-->
+			</div>
+			<div class="col-md-3 images_1_of_4 bg1 text-center">
+				<span class="bg"><i class="fa fa-video-camera"></i></span>
+				<h4><a href="courses/video.php">Videos</a></h4>
+				<p class="para">Learn about Science, Math, Social Studies with interesting videos, quiz games, interactive diagrams .</p>
+				<!--a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a-->
+			</div>		
+			<div class="col-md-3 images_1_of_4 bg1 text-center">
+				<span class="bg"><i class="fa fa-shield"></i> </span>
+				<h4><a href="javascript:void(0)">Contrary  belief</a></h4>
+				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in  .</p>
+				<!--a href="single-page.php" class="fa-btn btn-1 btn-1e">Read More</a-->
+>>>>>>> 7cd557c29aaafaf4453932eb8f030024e3213ca5
 			</div>	
 		</div>
 	</div>
