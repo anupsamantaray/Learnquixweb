@@ -1,5 +1,5 @@
 <?php include "header.php";
-	$clid = $_REQUEST['clid'];
+	$clid = isset($_REQUEST['clid'])?$_REQUEST['clid']:'';
 ?>
 <div class="container">
 		<div class="abou aboutNew details row">
@@ -7,7 +7,11 @@
 				<h2>All Class</h2>
 				<ul class="inernav">
 					<?php 
-						$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
+						if($clid != ''){
+							$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
+						}else{
+							$sltqry = mysql_query("SELECT * FROM student_class");
+						}
 						$resultqry = mysql_fetch_assoc($sltqry); 
 						$alid = $resultqry['id'];
 						$class = $resultqry['class'];
