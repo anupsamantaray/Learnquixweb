@@ -90,4 +90,4 @@
 		</div>
 	</div>
 </div><!-- end main -->
-<?php include "../common/footer.php"?>
+<?php include "footer.php"?>
