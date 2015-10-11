@@ -7,18 +7,19 @@
 				<h2>All Class</h2>
 				<ul class="inernav">
 					<?php 
-						if($clid != 9){
+						/*if($clid != 9){
 							$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
 						}else{
 							$sltqry = mysql_query("SELECT * FROM student_class");
-						}
+						}*/
+						$sltqry = mysql_query("SELECT * FROM student_class");
 						if(mysql_num_rows($sltqry)>0){
 							while($resultqry = mysql_fetch_assoc($sltqry)){
 								$alid = $resultqry['id'];
 								$class = $resultqry['class'];
 						
 					?>
-					<li><a href="index.php?clid=<?=$alid?>" <?if($clid==$alid){echo "class='active'";}?>>Class <?=$class?></a></li>
+					<li><a href="video.php?clid=<?=$alid?>" <?if($clid==$alid){echo "class='active'";}?>>Class <?=$class?></a></li>
 					<?
 							}
 						}
@@ -28,8 +29,6 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">This section contains the Ebook and Revision notes. Revision notes are very helpful in quick preparation for exam. </p>
-					
 					<? 
 						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id = '".$clid."'");
 						if(mysql_num_rows($slctwrry)>0){
@@ -46,13 +45,17 @@
 											while($reslt = mysql_fetch_assoc($slctqrry)){
 									?>
 									<tr class="gradeA even">
-										<td class=" "><a href="#"><?=$reslt['topic']?></a></td>
-										<!--td style ="width: 228px;" class="center">
-										<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
-										<button class="btn btn-success btn-label"><i class="fa fa-question" style="margin-right:8px;"></i> Difficult qusetion</button>
-										</td-->
+									<?php
+										$fet3=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
+										if(mysql_num_rows($fet3)>0){
+											$res3 = mysql_fetch_assoc($fet3);
+									?>
+										<td class=" "><a href="javascript:void(0)"><?=$reslt['topic']?></a></td>
+										<td style ="width: 228px;" class="center">
+										<a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" target="_blank"><i class="fa fa-globe" style="margin-right:8px;"></i>Download</a>
+										</td>
 									</tr>
-									<?
+										<?		}
 											}
 										}
 									?>
