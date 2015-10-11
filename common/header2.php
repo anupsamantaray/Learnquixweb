@@ -105,7 +105,7 @@
 				<ul class="list-unstyled text-center">
 					<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					<!--li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li-->
 					<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
 					<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 				</ul>	
