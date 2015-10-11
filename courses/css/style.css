@@ -1427,3 +1427,39 @@ body {
 	.rightNew3{
 		padding-left:0 !important;
 	}
+	.questionDiv{
+		padding:0 0 15px 0;
+	}
+	.questionDiv h5{
+		padding:0 0 10px 0;
+		font-size:16px;
+		font-weight:300;
+		margin:0;
+		color:2a2a2a;
+		line-height:22px;
+	}
+	.radio label, .checkbox label{
+		font-size:14px;
+		padding-bottom:6px !important;
+		color:#868686;
+		display: block;
+	}
+	.forme_Qus{
+		text-align:right;
+		padding:0 0 20px 0;
+		margin:0;
+		font-variant:300;
+	}
+	.forme_Qus a{
+		padding:0 0 0 8px;
+		margin: 0px;
+		font-size: 16px;
+		color:#FF5454;
+		text-decoration:none;
+		transition: all 0.4s ease 0s;
+	}
+	.forme_Qus a:hover{
+		color:#2a2a2a;
+		text-decoration:none;
+		
+	}
