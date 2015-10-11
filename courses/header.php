@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include "database/dbcon.php";
+	include "../database/dbcon.php";
 	$slct_qry = mysql_query("SELECT * FROM student_class");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

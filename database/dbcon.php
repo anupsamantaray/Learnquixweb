@@ -1,6 +1,6 @@
 <?php 
 date_default_timezone_set('asia/kolkata');
-
+$BASE_PDF_URL = "http://localhost/Learnscience/courses/";
 $host="localhost";
 $user="root";
 $pass="";
