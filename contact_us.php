@@ -113,14 +113,16 @@ function ValidationFunction(){
 			<div class="col-md-4 company_ad">
 				<h2>Find Address :</h2>
 				<address>
-					<p>Flat No - 270,Block - N,</p>
+					<p>270,Block - N,</p>
 					<p>BP Township, Patuli</p>
 					<p>Kolkata, 700094</p>
 					<p>INDIA</p>
 					<p>Phone:(00) 000 000 000</p>
 					<p>Mobile:(+91) 900 465 3799, 900 701 2732</p>
 					<p>Fax: (000) 000 00 00 0</p>
-					<p>Email: <a href="mailto:shishir.behera@gmail.com">shishir.behera@gmail.com</a></p>
+					<p>Email: <a href="mailto:help@learnscience.co.in ">help@learnscience.co.in </a></p>
+					
+					
 					<p>Follow on: <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://twitter.com/" target="_blank">Twitter</a></p>
 				</address>
 			</div>

@@ -3,7 +3,8 @@
 	<div class="container">
 		<div class="about row">
 			<h2>about us</h2>
-			<p class="para">We are a dedicated team of professionals who want to make learning easy, simple and fun for school kids. Based out of Bhubaneswar with Offices in Bangalore & Mumbai we leverage technology to develop superior products & services that benefit our customers in an enlightening way. We are supported by an Odisha based NGO named GyanTarang which endeavours to improve the spread of education through new age technology.</p>
+			<p class="para">We are a dedicated team of professionals who want to make learning easy, simple and fun for students. Based out of Kolkata with Offices in Bangalore & Mumbai we leverage technology to develop superior products & services that benefit students in an enlightening way. We also support GyanTarang, an organisation that supports a scholarship program for students who do well as well as those who demonstrate improvement in test after test.</p>
+			
 			<a href="single-page.php" class="fa-btn btn-1 btn-1e">read more</a>
 		</div>
 	</div>
