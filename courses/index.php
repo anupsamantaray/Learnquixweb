@@ -1,17 +1,23 @@
 <?php include "header.php";
 	$clid = isset($_REQUEST['clid'])?$_REQUEST['clid']:9;
 ?>
+<script type="text/javascript">
+  $(function() {
+		$(".coursecls").addClass("active");
+    });
+</script>
 <div class="container">
 		<div class="abou aboutNew details row">
 			<div class="col-md-2 leftNav" style="padding:0;">
 				<h2>All Class</h2>
 				<ul class="inernav">
 					<?php 
-						if($clid != 9){
+						/*if($clid != 9){
 							$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
 						}else{
 							$sltqry = mysql_query("SELECT * FROM student_class");
-						}
+						}*/
+						$sltqry = mysql_query("SELECT * FROM student_class");
 						if(mysql_num_rows($sltqry)>0){
 							while($resultqry = mysql_fetch_assoc($sltqry)){
 								$alid = $resultqry['id'];

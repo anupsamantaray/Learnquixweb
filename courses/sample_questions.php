@@ -45,12 +45,13 @@
 									?>
 									<tr class="gradeA even">
 										<td class=" ">
-											<?=$reslt['year']?>
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $reslt['oldquestion'];?>" target="_blank">
+												<?=$reslt['year']?>
+											</a>
 										</td>
-										<td style ="width: 228px;" class="center">
+										<!--td style ="width: 228px;" class="center">
 											<a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $reslt['oldquestion'];?>" target="_blank">Download<i class="fa fa-globe" style="margin-right:8px;"></i></a>
-											<!--button class="btn btn-success btn-label"><i class="fa fa-question" style="margin-right:8px;"></i> Difficult qusetion</button-->
-										</td>
+										</td-->
 									</tr>
 										<?
 											}

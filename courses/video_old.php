@@ -51,13 +51,8 @@
 											$res3 = mysql_fetch_assoc($fet3);
 									?>
 										<td class=" "><a href="javascript:void(0)"><?=$reslt['topic']?></a></td>
-										<td style ="width: 10%;" class="center">
-										<!--a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" target="_blank"><i class="fa fa-globe" style="margin-right:8px;"></i>Download</a-->
-										<div class="videobox" style="margin-left:0px;">
-											<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-												<img src="images/play_video.jpg" onclick="play('<?php echo $res3['id'];?>')" style="width:100%; float:left;">
-											</a>
-										</div>
+										<td style ="width: 228px;" class="center">
+										<a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" target="_blank"><i class="fa fa-globe" style="margin-right:8px;"></i>Download</a>
 										</td>
 									</tr>
 										<?		}
