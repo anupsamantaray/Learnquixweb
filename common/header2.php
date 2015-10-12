@@ -94,9 +94,13 @@
 					</li>
 					<li><a href="technology.php">Technologies</a></li>
 					<li><a href="about_us.php">About</a></li>
-					<li><a href="blogs.php">Blog</a></li>
+					<!--li><a href="blogs.php">Blog</a></li-->
 					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
+
+					<li><a href="javascript:void(0)" class="insidecontact">Hall Of Fame</a></li>
+
 					<li><a href="games.php">Videos & Fun Games</a></li>
+
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 				<!-- start soc_icons -->

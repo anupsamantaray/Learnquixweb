@@ -98,66 +98,66 @@ $(function() {
 </head>
 <body>
 <!--Registration_popup-->
-	<div class="regpopup popup_reg" style="display:none;">
-		<form name="regsubmit" method="post" action="regsubmit.php" enctype="multipart/form-data">
-			<div class="subreg">
-				<h2>Create Account</h2>
-				<h2><a href="javascript:void(0)" class="closse popclose"><img src="images/cross.png"></a></h2>
-				<table>
-					<tr>
-						<td style="width:126px">Name</td>
-						<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name" required="required" ></td>
-					</tr>
-					<tr>
-						<td>Email</td>
-						<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required"></td>
-					</tr>
-					<tr>
-						<td>Contact</td>
-						<td><input name="usrcontact" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
-					</tr>
-					<tr>
-						<td>Class</td>
-						<td>
-							<select class="form-control" name="usrclass" id="usrclass">
-								<option value="0">Select</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-							</select>
-							<span class="errorcls" style="display:none; color:#FF5454;">Please select your class.</span>
-						</td>
-					</tr>
-					<tr>
-						<td>School</td>
-						<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name" required="required" ></td>
-					</tr>
-					<tr>
-						<td>City</td>
-						<td>
-							<input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required">
-						</td>
-					</tr>
-					<tr>
-						<td>Password</td>
-						<td><input name="usrpass" class="form-control" id="pass" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
-					</tr>
-					<tr>
-						<td>Confirm Password</td>
-						<td><input name="usrcpass" class="form-control" id="cpass" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ><span class="errorpass" style="display:none; color:#FF5454;">Password and confirm password should be same.</span></td>
-					</tr>
-					<tr>
-						<td>Upload Photo</td>
-						<td><input name="usrphoto" class="form-control picuplode" id="usrphoto" validation="blank|Provide your photo." type="file" ></td>
-					</tr>
-					<tr>
-						<td></td>
-						<!--td><a href="javascript:void(0)" class="loginbutton">Register</a></td-->
-						<td><input type="submit" name="Register" class="loginbutton"></td>
-					</tr>
-				</table>
-			</div>
-		</form>
-	</div>
+<div class="regpopup popup_reg" style="display:none;">
+	<form name="regsubmit" method="post" action="regsubmit.php" enctype="multipart/form-data">
+		<div class="subreg">
+			<h2>Create Account</h2>
+			<h2><a href="javascript:void(0)" class="closse popclose"><img src="images/cross.png"></a></h2>
+			<table>
+				<tr>
+					<td style="width:126px">Name</td>
+					<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name" required="required" ></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required"></td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+					<td><input name="usrcontact" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
+				</tr>
+				<tr>
+					<td>Class</td>
+					<td>
+						<select class="form-control" name="usrclass" id="usrclass">
+							<option value="0">Select</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+						<span class="errorcls" style="display:none; color:#FF5454;">Please select your class.</span>
+					</td>
+				</tr>
+				<tr>
+					<td>School</td>
+					<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name" required="required" ></td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required">
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input name="usrpass" class="form-control" id="pass" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input name="usrcpass" class="form-control" id="cpass" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ><span class="errorpass" style="display:none; color:#FF5454;">Password and confirm password should be same.</span></td>
+				</tr>
+				<tr>
+					<td>Upload Photo</td>
+					<td><input name="usrphoto" class="form-control picuplode" id="usrphoto" validation="blank|Provide your photo." type="file" ></td>
+				</tr>
+				<tr>
+					<td></td>
+					<!--td><a href="javascript:void(0)" class="loginbutton">Register</a></td-->
+					<td><input type="submit" name="Register" class="loginbutton"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</div>
 
 <!--End_Registration_popup-->
 <div class="header_bg">
@@ -236,9 +236,13 @@ $(function() {
 				</li>
 		        <li><a href="technology.php">Technologies</a></li>
 		        <li><a href="about_us.php">About</a></li>
-		        <li><a href="blogs.php">Blog</a></li>
+		        <!--li><a href="blogs.php">Blog</a></li-->
 		        <li><a href="contact_us.php" class="insidecontact">Contact</a></li>
+
+		        <li><a href="javascript:void(0)" class="insidecontact">Hall Of Fame</a></li>
+
 				<li><a href="games.php">Videos & Fun Games</a></li>
+
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		    <!-- start soc_icons -->
