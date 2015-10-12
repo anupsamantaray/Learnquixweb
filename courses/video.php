@@ -3,19 +3,15 @@
 ?>
 <script type="text/javascript">
 $(function(){
-	$('.sp').click(function(){
-	$('.sp').css("color","#666");
-	$(this).css("color","#0070B0");
-	
-	});
+	/*document.getElementById("myvideo").pause();
+	var vid = document.getElementById("myvideo");
+	vid.pause();*/
+	  $('iframe').contents().find('video').each(function () 
+        {
+            //this.currentTime = 0;
+            this.pause();
+        });
 });
-function play(video){
-	$.ajax({url:"start_play.php?vid="+video,success:function(result){
-		$(".vide").show();
-		document.getElementsByClassName("vide")[0].innerHTML=result;
-		}
-	});
-}
 </script>
 <div class="container">
 	<div class="abou aboutNew details row">
@@ -53,35 +49,30 @@ function play(video){
 				
 					<div class="science_Div">
 						<h3 style="width:25%;"><!--i class="fa fa-puzzle-piece myicon"></i--><?=$rrslt['subject']?></h3>
-						<table aria-describedby="example_info" class="table table-striped table-bordered datatables dataTable" id="example" border="0" cellpadding="0" cellspacing="0">  
-							<tbody aria-relevant="all" aria-live="polite" role="alert">
-								<?php
-									$slctqrry = mysql_query("SELECT * FROM student_topic WHERE class_id = '".$clid."' AND subject_id = '".$rrslt['id']."'");
-									if(mysql_num_rows($slctqrry)>0){
-										while($reslt = mysql_fetch_assoc($slctqrry)){
-								?>
-								<tr class="gradeA even">
-								<?php
+						<?php
+							$slctqrry = mysql_query("SELECT * FROM student_topic WHERE class_id = '".$clid."' AND subject_id = '".$rrslt['id']."'");
+							if(mysql_num_rows($slctqrry)>0){
+								while($reslt = mysql_fetch_assoc($slctqrry)){
 									$fet3=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
 									if(mysql_num_rows($fet3)>0){
 										$res3 = mysql_fetch_assoc($fet3);
-								?>
-									<td class=" "><a href="javascript:void(0)"><?=$reslt['topic']?></a></td>
-									<td style ="width: 10%;" class="center">
-									<!--a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" target="_blank"><i class="fa fa-globe" style="margin-right:8px;"></i>Download</a-->
-									<div class="videobox" style="margin-left:0px;">
-										<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
-											<img src="images/play_video.jpg" onclick="play('<?php echo $res3['id'];?>')" style="width:100%; float:left;">
-										</a>
-									</div>
-									</td>
-								</tr>
-									<?		}
-										}
-									}
-								?>
-							</tbody>
-						</table>
+						?>
+						<div class="col-md-6" style="padding:0">
+							<p class="para myText"><i class="fa fa-hand-o-down myicon2"></i><?=$reslt['topic']?> </p>
+							<div class="videoDiv">
+								<div class="col-md-4 " style="padding:0 10px 0 0">
+									<iframe width="100%" height="50%" src="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autostart="false" id="myvideo" class="img-thumbnail myvideo"></iframe>
+								</div>
+								<!--div class="col-md-4 " style="padding:0 10px 0 0">
+									<img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo">
+								</div-->
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<?			}
+								}
+							}
+						?>
 						<div class="clearfix"></div>
 					</div>
 					<? } 
@@ -105,10 +96,6 @@ function play(video){
 			</div>
 		</div>
 	</div>
-</div>
-<div id="myModal" class="reveal-modal">
-	<div class="vide"></div>
-	<a class="close-reveal-modal">&#215;</a>
 </div>
 </div><!-- end main -->
 <?php include "footer.php"?>

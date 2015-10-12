@@ -20,8 +20,8 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/validation.js"></script
 
-<link rel="stylesheet" href="css/reveal.css">	
-<script type="text/javascript" src="js/jquery.reveal.js"></script>
+<!--link rel="stylesheet" href="css/reveal.css">	
+<script type="text/javascript" src="js/jquery.reveal.js"></script-->
 <!----font-Awesome----->
    	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
