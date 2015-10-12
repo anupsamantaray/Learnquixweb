@@ -52,21 +52,26 @@
 	color: #202020;
 	width: 70%;
 	top: 90px;
-	font-size:6em;
+	font-size:46px;
 	z-index: 10;
-	text-align: center;
+	text-align: left;
+	font-weight: 300;
 }
 .da-slide p{
 	font-family: 'open_sansregular';
-	top: 195px;
+	top: 176px;
 	color: #101010;
 	font-size: 16px;
 	overflow: hidden;
 	line-height: 24px;
-	text-align: center;
+	text-align:left;
 	margin: 0 auto;
-	width: 70%;
-	font-weight: 400;
+	padding:0;
+	width: 62%;
+	font-weight:300;
+}
+.da-slide p span{
+	display:block;
 }
 .da-img{
 	display:none;
@@ -82,7 +87,7 @@
 .da-slide .da-link{
 	top: 280px;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	font-weight: 400;
 	width:70%;
