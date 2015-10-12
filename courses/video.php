@@ -58,10 +58,10 @@ $(function(){
 										$res3 = mysql_fetch_assoc($fet3);
 						?>
 						<div class="col-md-6" style="padding:0">
-							<p class="para myText"><i class="fa fa-hand-o-down myicon2"></i><?=$reslt['topic']?> </p>
+							<p class="para myText"><i class="fa fa-hand-o-down myicon2"></i> <?=$reslt['topic']?> </p>
 							<div class="videoDiv">
 								<div class="col-md-4 " style="padding:0 10px 0 0">
-									<iframe width="100%" height="50%" src="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autostart="false" id="myvideo" class="img-thumbnail myvideo"></iframe>
+									<iframe width="100%" height="50%" src="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" frameborder="0" allowfullscreen id="myvideo" class="img-thumbnail myvideo"></iframe>
 								</div>
 								<!--div class="col-md-4 " style="padding:0 10px 0 0">
 									<img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo">
