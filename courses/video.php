@@ -60,9 +60,9 @@ $(function(){
 						<div class="col-md-6" style="padding:0">
 							<p class="para myText"><i class="fa fa-hand-o-down myicon2"></i> <?=$reslt['topic']?> </p>
 							<div class="videoDiv">
-								<div class="col-md-4 " style="padding:0 10px 0 0">
+								<div class="col-md-4 " style="padding:0 10px 0 0; position: relative;">
 									<!--iframe width="100%" height="50%" src="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" frameborder="0" allowfullscreen id="myvideo" class="img-thumbnail myvideo" play="false" flashvars="autoplay=false&play=false" menu="false"></iframe-->
-									<a href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" onclick="window.open('<?=$BASE_PDF_URL?><?php echo $res3['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo"></a>
+									<a href="<?=$BASE_PDF_URL?><?php echo $res3['video'];?>" onclick="window.open('<?=$BASE_PDF_URL?><?php echo $res3['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo"><i class="fa fa-caret-right vediosPlay"></i></a>
 								</div>
 								<!--div class="col-md-4 " style="padding:0 10px 0 0">
 									<img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo">

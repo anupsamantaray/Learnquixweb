@@ -61,17 +61,14 @@
 	font-family: 'open_sansregular';
 	top: 176px;
 	color: #101010;
-	font-size: 16px;
+	font-size: 14px;
 	overflow: hidden;
 	line-height: 24px;
 	text-align:left;
 	margin: 0 auto;
 	padding:0;
-	width: 62%;
+	width: 53%;
 	font-weight:300;
-}
-.da-slide p span{
-	display:block;
 }
 .da-img{
 	display:none;

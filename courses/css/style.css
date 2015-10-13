@@ -1463,3 +1463,19 @@ body {
 		text-decoration:none;
 		
 	}
+	.vediosPlay{
+		position: absolute;
+		top: 38px;
+		left: 58px;
+		font-size: 36px !important;
+		text-align: center;
+		color: #fff;
+		z-index: 111;
+		width: 35px;
+		height: 35px;
+		display: block !important;
+		background: #FF5454;
+		line-height: 37px !important;
+		border-radius: 100%;
+		padding: 0 14px;
+	}
