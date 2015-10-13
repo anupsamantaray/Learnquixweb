@@ -53,18 +53,56 @@ $(document).ready(function() {
         $(".popup_reg").fadeOut('slow');
     });
 	$(".loginbutton").click(function(){
+		if($("#usrname").val()==''){
+			$(".errorname").show();
+			return false;
+		}else{
+			$(".errorname").hide();
+		}
+		if($("#usremail").val()==''){
+			$(".erroremail").show();
+			return false;
+		}else{
+			$(".erroremail").hide();
+		}
+		if($("#usrcontact").val()==''){
+			$(".errorcontact").show();
+			return false;
+		}else{
+			$(".errorcontact").hide();
+		}
 		if($("#usrclass").val()==0){
 			$(".errorcls").show();
 			return false;
 		}else{
-			if($("#pass").val() != $("#cpass").val()){
-				//alert("Password and confirm password should be same.");
-				$(".errorpass").show();
-				return false;
-			}else{
-				return true;
-			}
+			$(".errorcls").hide();
 		}
+		if($("#usrschool").val()==''){
+			$(".errorschool").show();
+			return false;
+		}else{
+			$(".errorschool").hide();
+		}
+		if($("#usrcity").val()==''){
+			$(".errorcity").show();
+			return false;
+		}else{
+			$(".errorcity").hide();
+		}
+		if($("#pass").val()==''){
+			$(".errorpassword").show();
+			return false;
+		}else{
+			$(".errorpassword").hide();
+		}
+		
+		if($("#pass").val() != $("#cpass").val()){
+			$(".errorpass").show();
+			return false;
+		}else{
+			$(".errorpass").hide();
+		}
+		return true;
 	});
 	$(".loginshbtn").click(function(){
 		//$(".loginhdbtn").trigger('click');
@@ -106,15 +144,24 @@ $(function() {
 			<table>
 				<tr>
 					<td style="width:126px">Name</td>
-					<td><input name="usrname" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your name" required="required" ></td>
+					<td>
+						<input name="usrname" class="form-control" id="usrname" validation="blank|Provide your name." type="username" placeholder="Type your name" />
+						<span class="errorname" style="display:none; color:#FF5454;">Please enter your name.</span>
+					</td>
 				</tr>
 				<tr>
 					<td>Email</td>
-					<td><input name="usremail" class="form-control" id="" validation="blank|Provide your name." type="email" placeholder="Type your email" required="required"></td>
+					<td>
+						<input name="usremail" class="form-control" id="usremail" validation="blank|Provide your name." type="email" placeholder="Type your email" />
+						<span class="erroremail" style="display:none; color:#FF5454;">Please enter your email.</span>
+					</td>	
 				</tr>
 				<tr>
 					<td>Contact</td>
-					<td><input name="usrcontact" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your contact no."></td>
+					<td>
+						<input name="usrcontact" class="form-control" id="usrcontact" validation="blank|Provide your name." type="username" placeholder="Type your contact no.">
+						<span class="errorcontact" style="display:none; color:#FF5454;">Please enter your email.</span>
+					</td>
 				</tr>
 				<tr>
 					<td>Class</td>
@@ -129,21 +176,31 @@ $(function() {
 				</tr>
 				<tr>
 					<td>School</td>
-					<td><input name="usrschool" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your school name" required="required" ></td>
+					<td>
+						<input name="usrschool" class="form-control" id="usrschool" validation="blank|Provide your name." type="username" placeholder="Type your school name" >
+						<span class="errorschool" style="display:none; color:#FF5454;">Please enter your school name.</span>
+					</td>
 				</tr>
 				<tr>
 					<td>City</td>
 					<td>
-						<input name="usrcity" class="form-control" id="" validation="blank|Provide your name." type="username" placeholder="Type your city name" required="required">
+						<input name="usrcity" class="form-control" id="usrcity" validation="blank|Provide your name." type="username" placeholder="Type your city name" />
+						<span class="errorcity" style="display:none; color:#FF5454;">Please enter your city name.</span>
 					</td>
 				</tr>
 				<tr>
 					<td>Password</td>
-					<td><input name="usrpass" class="form-control" id="pass" validation="blank|Provide your password." type="password" placeholder="Type your password" required="required" ></td>
+					<td>
+						<input name="usrpass" class="form-control" id="pass" validation="blank|Provide your password." type="password" placeholder="Type your password" />
+						<span class="errorpassword" style="display:none; color:#FF5454;">Please enter password.</span>
+					</td>
 				</tr>
 				<tr>
 					<td>Confirm Password</td>
-					<td><input name="usrcpass" class="form-control" id="cpass" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" required="required" ><span class="errorpass" style="display:none; color:#FF5454;">Password and confirm password should be same.</span></td>
+					<td>
+						<input name="usrcpass" class="form-control" id="cpass" validation="blank|Provide your confirm password." type="password" placeholder="Type password again" />
+						<span class="errorpass" style="display:none; color:#FF5454;">Password and confirm password should be same.</span>
+					</td>
 				</tr>
 				<tr>
 					<td>Upload Photo</td>

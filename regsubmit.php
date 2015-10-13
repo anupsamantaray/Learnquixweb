@@ -35,7 +35,7 @@ if(isset($_REQUEST['op']) && ($_REQUEST['op']=='lgt')){
 if(isset($_REQUEST['action']) && ($_REQUEST['action']=='login')){
 	$logemail = (isset($_REQUEST['logemail'])&&($_REQUEST['logemail']!=''))?$_REQUEST['logemail']:'';
 	$logpass = (isset($_REQUEST['logpass'])&&($_REQUEST['logpass']!=''))?$_REQUEST['logpass']:'';
-	$srch_qry = mysql_query("SELECT * FROM `login` WHERE `email` = '".$logemail."' AND `password` = '".md5($logpass)."'");
+	$srch_qry = mysql_query("SELECT * FROM `login` WHERE `email` = '".$logemail."' AND `password` = '".$logpass."'");
 	if(mysql_num_rows($srch_qry)>0){
 		$reslt = mysql_fetch_assoc($srch_qry);
 		$_SESSION["user_id"] = $reslt['slno'];
