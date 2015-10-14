@@ -1,18 +1,25 @@
 <?php include "header.php";
-	$clid = isset($_REQUEST['clid'])?$_REQUEST['clid']:9;
+	$clid = (isset($_SESSION['class']) && ($_SESSION['class'] != ''))?$_SESSION['class']:0;
+	if($clid == 0){
+		$clid = (isset($_REQUEST['clid']) && ($_REQUEST['clid'] != ''))?$_REQUEST['clid']:9;
+	}
 ?>
+<script type="text/javascript">
+  $(function() {
+		$(".sample_questioncls").addClass("active");
+  });
+</script>
 <div class="container">
 		<div class="abou aboutNew details row">
 			<div class="col-md-2 leftNav" style="padding:0;">
 				<h2>All Class</h2>
 				<ul class="inernav">
 					<?php 
-						/*if($clid != 9){
+						if(isset($_SESSION['class']) && ($_SESSION['class'] != '')){
 							$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
 						}else{
 							$sltqry = mysql_query("SELECT * FROM student_class");
-						}*/
-						$sltqry = mysql_query("SELECT * FROM student_class");
+						}
 						if(mysql_num_rows($sltqry)>0){
 							while($resultqry = mysql_fetch_assoc($sltqry)){
 								$alid = $resultqry['id'];
@@ -29,7 +36,8 @@
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
 					<? 
-						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id = '".$clid."'");
+						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id='".$clid."'");
+						
 						if(mysql_num_rows($slctwrry)>0){
 							while($rrslt = mysql_fetch_assoc($slctwrry)){
 						?>
@@ -40,14 +48,23 @@
 								<tbody aria-relevant="all" aria-live="polite" role="alert">
 									<?php
 										$slctqrry=mysql_query("select * from `oldquestion` where `class_id`='".$clid."' and `subject_id`='".$rrslt['id']."' order by year");
+										
 										if(mysql_num_rows($slctqrry)>0){
 											while($reslt = mysql_fetch_assoc($slctqrry)){
 									?>
 									<tr class="gradeA even">
 										<td class=" ">
+											<?php 
+											if(isset($_SESSION['class']) && ($_SESSION['class'] != '')){
+											?>
 											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $reslt['oldquestion'];?>" target="_blank">
 												<?=$reslt['year']?>
 											</a>
+											<? }else{ ?>
+											<a href="javascript:void(0)" onClick="alert('Please login to see sample questions.');">
+												<?=$reslt['year']?>
+											</a>
+											<? } ?>
 										</td>
 										<!--td style ="width: 228px;" class="center">
 											<a class="btn btn-success btn-label" href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $reslt['oldquestion'];?>" target="_blank">Download<i class="fa fa-globe" style="margin-right:8px;"></i></a>
@@ -61,7 +78,7 @@
 							</table>
 							<div class="clearfix"></div>
 						</div>
-						<? } 
+						<? }
 						} ?>
 					<!--div class="row">
 						<div class="col-xs-6">

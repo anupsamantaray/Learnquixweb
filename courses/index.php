@@ -4,7 +4,7 @@
 <script type="text/javascript">
   $(function() {
 		$(".coursecls").addClass("active");
-    });
+  });
 </script>
 <div class="container">
 		<div class="abou aboutNew details row">
