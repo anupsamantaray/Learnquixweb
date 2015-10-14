@@ -217,7 +217,8 @@ $(function(){
 						<p><i class="userpicture"> <?php if((isset($_SESSION['user_pic'])) && ($_SESSION['user_pic']!='')){ ?> <img src="upload/student_images/<?=$_SESSION['user_pic']?>" class="profile_pic"> <?php }else{ ?><img src="images/no-img.jpg" class="profile_pic"><?php } ?></i><!--span>welcome,</span--><?=$_SESSION['usrname']?> | <a href="../regsubmit.php?op=lgt" style="color:#ff0000;"><i><img src="images/logout.png"></i> Logout</a></p>
 					<?}
 					else{ ?>
-						<p><a href="javascript:void(0)" id="flip">Login</a> | <a href="javascript:void(0)" id="flipreg">Registration</a></p>
+						<p><a href="javascript:void(0)" id="flip">Login</a>
+						<a href="javascript:void(0)" id="flipreg">Registration</a></p>
 					<? } ?>
 					<div id="panel" class="accountId">
 						<div class="toparrow">
