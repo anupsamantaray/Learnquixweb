@@ -271,9 +271,9 @@ $(function(){
 						?>
 						</ul>
 					</li>
-					<li><a href="ebook.php">Ebook</a></li>
-					<li><a href="video.php">Video</a></li>
-					<li><a href="sample_questions.php">Sample Question</a></li>
+					<li class="ebookcls"><a href="ebook.php">Ebook</a></li>
+					<li class="videocls"><a href="video.php">Video</a></li>
+					<li class="sample_questionscls"><a href="sample_questions.php">Sample Question</a></li>
 				  </ul>
 				</div>
 			</nav>
