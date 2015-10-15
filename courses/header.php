@@ -276,6 +276,7 @@ $(function(){
 					<li class="sample_questionscls"><a href="sample_questions.php">Sample Question</a></li>
 					<? if(isset($_SESSION["usrname"]) && ($_SESSION["usrname"] != '')){ ?>
 						<li class="promotioncls"><a href="promotion.php">Promotion</a></li>
+						<li class="feedbackcls"><a href="feedback.php">Feedback</a></li>
 					<? } ?>
 				  </ul>
 				</div>
