@@ -35,7 +35,7 @@
 				<div class="child_right">
 					<h2 class="userIDnew"><span>Welcome</span> Arindam  </h2>
 					<p class="para" style="text-align:center;">This section contains the Ebook and Revision notes. Revision notes are very helpful in quick preparation for exam. </p>
-					<div>
+					<div class="feedbackDiv">
 						<textarea name="txtarea1" id="txtarea1" cols="0" rows="5" placeholder="Enter some text your feedback" class="form-control"></textarea>
 						<a href="#a" class="fa-btn btn-1 btn-1e">Send</a>
 					</div>

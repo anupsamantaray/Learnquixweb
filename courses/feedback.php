@@ -11,9 +11,10 @@ if ($_SESSION['name']){
 			<div class="promosation">
 				<div class="child_right">
 					<h2 class="userIDnew"><span>Welcome</span> <?=$uname?>  </h2>
-					<div>
+					<div class="feedbackDiv">
 						<textarea name="txtarea1" id="txtarea1" cols="0" rows="5" placeholder="Enter your feedback" class="form-control"></textarea>
-						<a href="javascript:void(0)" class="fa-btn btn-1 btn-1e">Send</a>
+						<!--a href="javascript:void(0)" class="fa-btn btn-1 btn-1e">Send</a-->
+						<input name="Send" class="loginbutton" value="Send" type="button" style="margin-top:15px;">
 					</div>
 				</div>
 			</div>
