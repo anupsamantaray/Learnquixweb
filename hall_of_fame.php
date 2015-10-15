@@ -4,7 +4,6 @@
 $mess=$_GET['err'];
 }*/
 ?>
-
 <body>
 <div class="main_bg"><!-- start main -->
 	<div class="container">
@@ -14,26 +13,22 @@ $mess=$_GET['err'];
 				<div class="col-md-7 rightNew2">
 					<p class="para">We are pleased to announce that we had conducted the first Quiz in Bhubaneswar on December 28, 2014. We thank all the participants. Mr.Suman Acharya, Student Class IX of DAV Chandrashekharpur is the proud winner of the contest winning a handsome cash prize. We wish him all the best for future endeavor.</p>
 					<div class="hall_offaem">
+						<?php
+						$fetch=mysql_query("select * from `halloffame_image`");
+						while($res=mysql_fetch_array($fetch)){
+						?>
 						<div class="col-md-12 memory_option effect5">
 							<div class="col-sm-4 leftImges">
-								<img src="images/Amit Khanna.png" alt="" style="height:100%;">
+								<!--img src="images/Amit Khanna.png" alt="" style="height:100%;"-->
+								<img src="<?php echo $res['image'];?>" alt="" style="height:100%;">
 							</div>
 							<div class="col-sm-8">
-								<h4>Shashank Panii</h4>
-								<p class="para">1st Rank</p>
+								<h4><?=$res['name']?></h4>
+								<p class="para"><?=$res['rank']?> Rank</p>
 							</div>
 							<div class="clr"></div>
 						</div>
-						<div class="col-md-12 memory_option effect5">
-							<div class="col-sm-4 leftImges">
-								<img src="images/img2.jpg" alt="" style="height:100%;">
-							</div>
-							<div class="col-sm-8">
-								<h4>Sudhesana chatterjee</h4>
-								<p class="para">2nd Rank</p>
-							</div>
-							<div class="clr"></div>
-						</div>
+						<? } ?>
 					</div>
 				</div>
 				<div class="col-md-5">
