@@ -68,7 +68,7 @@
 								<div class="radio block"><label><input type="radio" name="5" value="4">The earth attract it</label></div>
 								<input type="hidden" name="h5" value="4">
 							</div>
-							<input type="submit" class="fa-btn btn-1 btn-1e" name="submit" value="submit">
+							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton" name="submit" value="submit">
 						</form>
 						<div class="clearfix"></div>
 					</div>
