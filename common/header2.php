@@ -283,7 +283,8 @@ $(function(){
 						?>
 						</ul>
 					</li>
-					<li><a href="technology.php">Technologies</a></li>
+					<!--li><a href="technology.php">Technologies</a></li-->
+					<li><a href="courses/quize.php">Quizes</a></li>
 					<li><a href="about_us.php">About</a></li>
 					<!--li><a href="blogs.php">Blog</a></li-->
 					<li class="contctusact"><a href="contact_us.php">Contact</a></li>

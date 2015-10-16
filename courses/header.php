@@ -277,7 +277,10 @@ $(function(){
 					<? if(isset($_SESSION["usrname"]) && ($_SESSION["usrname"] != '')){ ?>
 						<li class="promotioncls"><a href="promotion.php">Promotion</a></li>
 						<li class="feedbackcls"><a href="feedback.php">Feedback</a></li>
+					<? }else{ ?>
+					<!--li class="quizecls"><a href="quize.php">Quizes</a></li-->
 					<? } ?>
+					<li class="quizecls"><a href="quize.php">Quizes</a></li>
 				  </ul>
 				</div>
 			</nav>

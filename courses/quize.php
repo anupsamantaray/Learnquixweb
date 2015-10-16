@@ -7,12 +7,13 @@
 				<h2>All Class</h2>
 				<ul class="inernav">
 					<?php 
-						$sltqry = mysql_query("SELECT * FROM student_class WHERE id='".$clid."'");
-						$resultqry = mysql_fetch_assoc($sltqry); 
-						$alid = $resultqry['id'];
-						$class = $resultqry['class'];
+						$sltqry = mysql_query("SELECT * FROM student_class");
+						while($resultqry = mysql_fetch_assoc($sltqry)){ 
+							$alid = $resultqry['id'];
+							$class = $resultqry['class'];
 					?>
-					<li><a href="index.php?clid=<?=$alid?>">Class <?=$class?></a></li>
+					<li><a href="javascript:void(0)">Class <?=$class?></a></li>
+					<? } ?>
 				</ul>
 			</div>
 			<div class="col-md-10 rightNew">
