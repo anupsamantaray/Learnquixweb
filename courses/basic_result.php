@@ -88,9 +88,9 @@ $id=$_GET['id'];
 								<?php 
 									if(!empty($_POST['1'])){
 										if($_POST['1']=='1'){ ?>
-											<img src="../correct.jpg">
+											<img src="../right_icon.png">
 									<?	}else{ ?>
-										<img src="../wrong.jpg">
+										<img src="../cross2.png">
 								<?		}
 									}
 								?>
@@ -108,9 +108,9 @@ $id=$_GET['id'];
 								<?php 
 									if(!empty($_POST['2'])){
 										if($_POST['2']=='2'){ ?>
-											<img src="../correct.jpg">
+										<img src="../right_icon.png">
 									<?	}else{ ?>
-										<img src="../wrong.jpg">
+										<img src="../cross2.png">
 								<?		}
 									}
 								?>
@@ -128,9 +128,9 @@ $id=$_GET['id'];
 								<?php 
 									if(!empty($_POST['3'])){
 										if($_POST['3']=='3'){ ?>
-											<img src="../correct.jpg">
+											<img src="../right_icon.png">
 									<?	}else{ ?>
-										<img src="../wrong.jpg">
+										<img src="../cross2.png">
 								<?		}
 									}
 								?>
@@ -148,9 +148,9 @@ $id=$_GET['id'];
 								<?php 
 									if(!empty($_POST['4'])){
 										if($_POST['4']=='4'){ ?>
-											<img src="../correct.jpg">
+											<img src="../right_icon.png">
 									<?	}else{ ?>
-										<img src="../wrong.jpg">
+										<img src="../cross2.png">
 								<?		}
 									}
 								?>
@@ -168,9 +168,9 @@ $id=$_GET['id'];
 								<?php 
 									if(!empty($_POST['5'])){
 										if($_POST['5']=='4'){ ?>
-											<img src="../correct.jpg">
+											<img src="../right_icon.png">
 									<?	}else{ ?>
-										<img src="../wrong.jpg">
+										<img src="../cross2.png">
 								<?		}
 									}
 								?>
