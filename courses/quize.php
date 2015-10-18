@@ -1,6 +1,14 @@
-<?php include "header.php";
+<?php 
+	include "header.php";
 	$clid = $_REQUEST['clid'];
 ?>
+<script type="text/javascript">
+	/*$(document).ready(function(){
+		$(".sub_quiz").click(function(){
+			$(document).form.submit();
+		});
+	});*/
+</script>
 <div class="container">
 		<div class="abou aboutNew details row">
 			<div class="col-md-2 leftNav" style="padding:0;">
@@ -21,8 +29,9 @@
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
 					<p class="para" style="text-align:center;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </p>
 					<div class="science_Div">
-						<h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4>
-						<form name="f" action="will_index1_action.php" method="post">
+						<form name="quiz_form" action="will_index1_action.php" method="POST" enctype="multipart/form-data">
+					
+							<h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4>
 							<div class="questionDiv">
 								<h5>1. A person throws a ball vertically upward with an initial velocity of 15 m/s.How high it goes?</h5>
 							
@@ -67,11 +76,14 @@
 								<div class="radio block"><label><input type="radio" name="5" value="3">The air exert the frictional force</label></div>
 								<div class="radio block"><label><input type="radio" name="5" value="4">The earth attract it</label></div>
 								<input type="hidden" name="h5" value="4">
+							
 							</div>
-							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton" name="submit" value="submit">
-						</form>
-						<div class="clearfix"></div>
+							
+							<input type="submit" class="fa-btn btn-1 btn-1e" name="submit" value="Submit">
+						
+					</form>
 					</div>
+					
 				</div>
 			</div>
 		</div>

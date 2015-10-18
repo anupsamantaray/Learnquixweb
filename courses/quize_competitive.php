@@ -91,7 +91,7 @@
 								<div class="radio block"><label><input type="radio" name="7" value="4">Temperature of water increases with depth</label></div>
 								<input type="hidden" name="h7" value="2">
 							</div>
-							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton" name="submit" value="submit">
+							<input type="submit" class="fa-btn btn-1 btn-1e" name="submit" value="submit">
 						</form>
 						<div class="clearfix"></div>
 					</div>
