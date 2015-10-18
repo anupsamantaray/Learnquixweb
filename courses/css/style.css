@@ -1500,3 +1500,22 @@ body {
 		border-radius:0 15px 0 15px;
 		
 	}
+	.map_view_det{
+		border:dashed 2px #c5c5c5;
+		padding:5px;
+		width:600px;
+		height:348px;
+		margin:0 auto;
+	}
+	.promosation2{
+		background: transparent url("../images/promosation.jpg") repeat 0 0;
+		background-position:center;
+		background-origin:content-box;
+		/*background-size:cover;*/
+		padding:1.5% 0;
+		
+	}
+	.promosation2 p{
+		text-align:center;
+		padding-bottom:15px;
+	}
