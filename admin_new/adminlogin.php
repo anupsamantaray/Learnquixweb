@@ -5,11 +5,12 @@ if(isset($_POST['submit'])){
  $pwd=htmlentities($_POST['pass']);
 $res=mysql_query("select * from `adminlogin` where `username`='$user' and `password`='$pwd'");
 $no=mysql_num_rows($res);
+$rs=mysql_fetch_assoc($res);
 if($no>=1){
 $_SESSION['id']=$user;
 $_SESSION['pass']=$pwd;
-
-header("location:class_add.php");
+$_SESSION['admin_type']=$rs['admin_type'];
+header("location:question_add.php");
 }
 else{
 header("location:adminlogin.php");
