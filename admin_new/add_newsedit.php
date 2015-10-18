@@ -78,15 +78,9 @@ else{
   
  <!--------------footer---------> 
  <div id="footer-bar">
- 		<div id="footer">
-				<ul>
-						<li><a href="index.html"><span>Home</span></a></li>
-						<li><a href="work.html"><span>Work</span></a></li>
-						<li><a href="about.html"><span>About</span></a></li>
-						<li><a href="services.html"><span>Services</span></a></li>
-						<li><a href="contact.html"><span>Contact</span></a></li>
-				</ul>
-		</div>
+	<div id="footer">
+		<?php include_once('footermenu.php');?>	
+	</div>
  </div>
   <!--------------footer end--------->       
     </body>
