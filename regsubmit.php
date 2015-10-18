@@ -39,7 +39,7 @@ if(isset($_REQUEST['action']) && ($_REQUEST['action']=='login')){
 	$srch_qry = mysql_query("SELECT * FROM `login` WHERE `email` = '".$logemail."' AND `password` = '".$logpass."'");
 	if(mysql_num_rows($srch_qry)>0){
 		$reslt = mysql_fetch_assoc($srch_qry);
-		$_SESSION["user_id"] = $reslt['slno'];
+		$_SESSION["slno"] = $reslt['slno'];
 		$_SESSION["usrname"] = ucfirst($reslt['name']);
 		$_SESSION["user_pic"] = $reslt['pro_pic'];
 		$_SESSION["class"] = $reslt['class'];

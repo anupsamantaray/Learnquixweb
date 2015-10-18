@@ -1443,9 +1443,9 @@ body {
 	}
 	.radio label, .checkbox label{
 		font-size:14px;
-		padding-bottom:6px !important;
+		padding-bottom:10px !important;
 		color:#868686;
-		display: block;
+		/*display: block;*/
 	}
 	.forme_Qus{
 		text-align:right;
@@ -1518,4 +1518,31 @@ body {
 	.promosation2 p{
 		text-align:center;
 		padding-bottom:15px;
+	}
+	.forme_Qus_new{
+		text-align:center; 
+		font-size:18px;
+		padding:10px;
+		margin:0 0 20px 0;
+		background:#FF5454;
+		font-weight:300;
+		color:#fff;
+		width:35%;
+		border-radius:0 80px;
+		
+	}
+	.forme_Qus_new span{
+		color:#000000;
+		font-size:24px;
+		padding:0 5px;
+	}
+	.right_ans{
+		background:#ECECEC none repeat scroll 0% 0%;
+		color:#2a2a2a;
+		padding:10px !important;
+		width:25%;
+	}
+	.questionDiv_3{
+		border-bottom:1px solid #ECECEC;
+		margin-bottom:15px;
 	}

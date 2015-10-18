@@ -263,6 +263,9 @@ $(function(){
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="../index.php">Home</a></li>
+					<? if(isset($_SESSION["usrname"]) && ($_SESSION["usrname"] != '')){ ?>
+						<li class="profilecls"><a href="profile.php">My Profile</a></li>
+					<? } ?>
 					<li class="coursecls"><a href="javascript:void(0)">Courses</a>
 						<ul style="display:none;" class="remsucrse dropdown-menu mydrop">
 						<?

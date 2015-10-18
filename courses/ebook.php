@@ -62,7 +62,17 @@
 									?>
 										<td class=" "><a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank"><?=$reslt['topic']?></a></td>
 										<td style ="width: 228px;" class="center">
+										<?php
+										$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
+										if(mysql_num_rows($fet33)>0){
+											$res33 = mysql_fetch_assoc($fet33);
+										?>
+											<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>">
+												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Concept map</button>
+											</a>
+										<? }else{ ?>
 										<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+										<? } ?>
 										<button class="btn btn-success btn-label"><i class="fa fa-question" style="margin-right:8px;"></i> Difficult qusetion</button>
 										</td>
 									</tr>
