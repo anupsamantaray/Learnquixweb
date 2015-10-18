@@ -4,7 +4,11 @@
 $mess=$_GET['err'];
 }*/
 ?>
-
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".remmnmnu").addClass('active');
+	});
+</script>
 <body>
 <div class="main_bg"><!-- start main -->
 	<div class="container">
