@@ -18,7 +18,6 @@ function delete_data(vals){
 	}
 }
 </script>
-
 </head>
 <body>
  <!--------------top bar -------->
@@ -30,12 +29,12 @@ function delete_data(vals){
 <div id="main_bar">
 	<div id="main_box">
 		<div id="left_box">
-				<?php include_once("conleft_bar.php"); ?>
+			<?php include_once("conleft_bar.php"); ?>
 		</div>
 		<div id="right_box" style="margin-left:40px;">
 			<div class="headline">
 					<a href="">Dashboard </a> /
-					 <a href="">Settings</a>
+					<a href="">Settings</a>
 			</div>
 			<div id="content1">
 				<div class="head2">

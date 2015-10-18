@@ -1,6 +1,7 @@
 class_name,subject,topic,question,answer,correct
 IX,Science,Matters in Our Surroundings,<p>Camphor is purified by the process of</p>,|evaporation |distillation |sublimation |filtration ,sublimation 
 IX,Science,Matters in Our Surroundings,<p>LPG is used in the kitchens in our homes in the</p>,|Solid form |compressed form |gaseous form |none,gaseous form 
+IX,Science,Matters in Our Surroundings,,||||,
 IX,Science,Matters in Our Surroundings,<p>Which of the following is not fluid</p>,|water|air|sand|sharbat,sand
 IX,Science,Matters in Our Surroundings,<p>On Kelvin scale 0<sup>o</sup> C is equal to</p>,|273 K|-273 K|0 K|100 K,-273 K
 IX,Science,Matters in Our Surroundings,<p>SI unit of temperature is</p>,|Kelvin |Celsius |Fahrenheit |Pascal ,Kelvin 
@@ -19,6 +20,8 @@ IX,Science,Matters in Our Surroundings,<p>The amount of heat energy required to 
 IX,Science,Matters in Our Surroundings,<p>The amount of heat energy required to change 1 kg of liquid into solidat its boiling point is called</p>,|melting point|latent heat of fusion |boiling point |latent heat of vaporization,latent heat of vaporization
 IX,Science,Matters in Our Surroundings,<p>The density of water is _________ than that of ice</p>,|more|less|equal to|none,more
 IX,Science,Matters in Our Surroundings,<p>The temperature at which any solid melts to become a liquid at the atmospheric pressure is called</p>,|Boiling point |melting point |freezing point |none of these. ,melting point 
+IX,Science,Matters in Our Surroundings,<p>question1</p>,|ans1|ans2|ans3|ans3,ans1
+IX,Science,Matters in Our Surroundings,<p>questio2</p>,|ans1|ans2|ans3|ans4,ans1
 IX,Science,Matters in Our Surroundings,<p>The temperature at which the vapour pressure of the liquid becomes equal to the atmospheric pressure is called</p>,|Boiling point |melting point |freezing point |none of these,none of these
 IX,Science,Matters in Our Surroundings,<p>Which is not the characteristic of matter</p>,|particles of a matter are continuously moving|particles of matter move faster on increasing temperature|particles of matter intermix with each other on their own|Particles of all maters have same kin,Particles of all maters have same kin
 IX,Science,Matters in Our Surroundings,<p>The compressibility of which state of matter is high</p>,|solid|gas|liquid|all of these,gas

@@ -83,11 +83,11 @@ $res=mysql_query("select * from `student_class`");
   <!--------------content bar end-------->
 	
 <!--------------footer---------> 
- <div id="footer-bar">
- 		<div id="footer">
-				<?php include_once('footermenu.php');?>
-		</div>
- </div>
+<div id="footer-bar">
+	<div id="footer">
+		<?php include_once('footermenu.php');?>
+	</div>
+</div>
   <!--------------footer end--------->                
 </body>
 </html>
