@@ -56,7 +56,6 @@
 									<tr class="gradeA even">
 									<?php
 										$fet3=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
-										//die("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['topic']."' AND ebook!=''");
 										if(mysql_num_rows($fet3)>0){
 											$res3 = mysql_fetch_assoc($fet3);
 									?>
