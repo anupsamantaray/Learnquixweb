@@ -296,8 +296,8 @@ $(function(){
 					</li>
 					<!--li><a href="blogs.php">Blog</a></li-->
 					<li><a href="hall_of_fame.php" class="insidecontact">Hall Of Fame</a></li>
-					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
 					<li><a href="games.php">Videos & Fun Games</a></li>
+					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
 
 				  </ul>
 				</div><!-- /.navbar-collapse -->
