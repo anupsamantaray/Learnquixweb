@@ -119,6 +119,9 @@ $(function(){
 	$(".coursecls").hover(function(){
 		$(".remsucrse").toggle();
 	});
+	$(".premsuquize").hover(function(){
+		$(".remsuquize").toggle();
+	});
 }); 
 </script>
 </head>
@@ -280,7 +283,12 @@ $(function(){
 					<? }else{ ?>
 					<!--li class="quizecls"><a href="quize.php">Quizes</a></li-->
 					<? } ?>
-					<li class="quizecls"><a href="quize.php">Quizes</a></li>
+					<li class="premsuquize quizecls"><a href="quize.php">Quizzes</a>
+					<ul style="display:none;" class="remsuquize dropdown-menu mydrop">
+						<li><a href="quize.php">Basic Quiz</a></li>
+						<li><a href="quize_competitive.php">Competitive Quiz</a></li>
+					</ul>
+				</li>
 				  </ul>
 				</div>
 			</nav>

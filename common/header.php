@@ -128,6 +128,10 @@ $(function() {
 		$(".remsubmnu").toggle();
 		$(".remsubmnu").css({'z-index':'9999'});
 	});
+	$(".premsuquize").hover(function(){
+		$(".remsuquize").toggle();
+		$(".remsuquize").css({'z-index':'9999'});
+	});
 });
 </script>
 <!----font-Awesome----->
@@ -274,6 +278,7 @@ $(function() {
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li><a href="index.php">Home</a></li>
+		        <li><a href="about_us.php">About</a></li>
 				<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
 				   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
 						<li><a href="pagetest.php">Memory Cards</a></li>
@@ -292,16 +297,17 @@ $(function() {
 					?>
 					</ul>
 				</li>
-		        <li><a href="courses/quize.php">Quizes</a></li>
+		        <li class="premsuquize"><a href="courses/quize.php">Quizzes</a>
+					<ul style="display:none;" class="remsuquize dropdown-menu mydrop">
+						<li><a href="courses/quize.php">Basic Quiz</a></li>
+						<li><a href="courses/quize_competitive.php">Competitive Quiz</a></li>
+					</ul>
+				</li>
 		        <!--li><a href="technology.php">Technologies</a></li-->
-		        <li><a href="about_us.php">About</a></li>
 		        <!--li><a href="blogs.php">Blog</a></li-->
-		        <li><a href="contact_us.php" class="insidecontact">Contact</a></li>
-
 		        <li><a href="hall_of_fame.php" class="insidecontact">Hall Of Fame</a></li>
-
 				<li><a href="games.php">Videos & Fun Games</a></li>
-
+		        <li><a href="contact_us.php" class="insidecontact">Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		    <!-- start soc_icons -->
