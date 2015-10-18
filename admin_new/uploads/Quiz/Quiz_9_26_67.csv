@@ -1,0 +1,7 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>The side faces of a prism are</p>,|polygons|rectangle|square|triangle,rectangle
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>The side faces of a pyramid are</p>,|polygon|circle|square|traingle,traingle
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>Three steps from solid to points are</p>,|solids - lines - points - surface|solids- points  - lines - surface|solids - surface- lines - points |none of these,solids - surface- lines - points 
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>A pyramid is a solid figure , the base of which is a</p>,|square|traingle|polygon|circle,polygon
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>The number of dimensions a solid has</p>,|1|3|2|0,3
+IX,Maths,Introduction to Elucid&#039;s Geometry,<p>Euclid devided his famous treatise "The Elements" into no of chapters as</p>,|11|12|9|13,13

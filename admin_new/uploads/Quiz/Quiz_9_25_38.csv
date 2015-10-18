@@ -1,0 +1,15 @@
+class_name,subject,topic,question,answer,correct
+IX,Science,Motion,<p>When&nbsp;the passenger m oving in a bus , the road side trees appear to b e moving</p>,|Back ward |For ward|at an angle |None of the above,Back ward 
+IX,Science,Motion,<p>In uniform motion the object covers..</p>,|equal distance |un equal distance |cannot be determined|varies from case to case,equal distance 
+IX,Science,Motion,<p>Where objects cover un equal distances in equal interval of time then the motion is called</p>,|uniform motion |non-uniform motion |acceleration|haphazard motion,non-uniform motion 
+IX,Science,Motion,<p>The average speed if a car is accelerating is given by</p>,|Total time taken /total distance traveled |Total distance traveled/total time taken |None of the above |Total distance/final velocity,Total distance traveled/total time taken 
+IX,Science,Motion,<p>Velocity is denoted by &lsquo;v&rsquo; equals</p>,|t/s |s/t |sXt |none of the above,s/t 
+IX,Science,Motion,<p>An object travels 16m in 4sec and another 16 m in 2 sec. what is the average speed of the object</p>,|5.33 m/s|5.34 m/s|4.53 m/s |5.3m/s,5.34 m/s
+IX,Science,Motion,<p>If we specify , its direction of motion along with its speed , the quantity that specifies with the aspects is called</p>,|velocity |motion |speed |acceleration,velocity 
+IX,Science,Motion,<p>The velocity of an object can be</p>,|non uniform or variable |uniform or variable|haphazard|indterminate,non uniform or variable 
+IX,Science,Motion,<p>Average velocity equals</p>,|(initial velocity + final velocity)/ 2|(initial velocity - final velocity)/ 2|(initial velocity) + (final velocity/ 2)|none of the above,none of the above
+IX,Science,Motion,<p>Average velocity is calculated as</p>,|placement/ total time taken |Displacement/ total time taken |Distance/total time taken|Average of initial and final velocity,Displacement/ total time taken 
+IX,Science,Motion,<p>Acceleration is calculated as</p>,|change in velocity/ time taken |change in motion / time |Change in speed/time |None of the above,change in velocity/ time taken 
+IX,Science,Motion,<p>displacement S is found as</p>,|ut + 1/2(at*t)|vt + 1/2a(t*t)|vt + 1 at*t|ut + 2 a(t*t),ut + 1/2(at*t)
+IX,Science,Motion,<p>A car accelerate uniformly from 18 km/h&nbsp;to 36 km/h&nbsp;in 5 sec . calculate the acceleration</p>,|1m/s/s|1 m/s/s/s|0.5 m/s/s|none of the above,1m/s/s
+IX,Science,Motion,<p>A train starting from rest attaind a velocity of 72 km/h&nbsp;in 5 minutes . Assuming that the acceleration is uniform. Find the distance traveled by the train for attaing this velocity&nbsp;</p>,|2km|5km|4km|none of the above,none of the above

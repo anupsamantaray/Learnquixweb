@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Class IX Probability,<p>Ram thrown a dice once. The priobabaility that it shows a number less than 5 is</p>,|5/6|1/3|2/3|1/6,2/3
+IX,Maths,Class IX Probability,<p>The probabaility of an event on trial is</p>,|between 0,1|0|1|more than 1,between 0,1
+IX,Maths,Class IX Probability,<p>The probability of a sure event is</p>,|less than 1|more than 1|1|between 0 and 1,1
+IX,Maths,Class IX Probability,<p>The sum of the probabilities of all events of a trial is</p>,|less than 1|more than  1|1|between 0,1,1
+IX,Maths,Class IX Probability,<p>The probability of a n imposible event is</p>,|1|more than 1|less than 1|0,0
+IX,Maths,Class IX Probability,<p>Two coins are tossed simultaneously&nbsp; 300 times. Either 1 or 2 heads are obtained 198 times. The probability of getting no head is</p>,|0.36|0.34|0.45|0.21,0.34
+IX,Maths,Class IX Probability,<p>Weather&nbsp; forecast from a nes channel was correct 128 imes out of 365 days. the probability that one given dayit was not correct is</p>,|5/73|16/73|25/73|48/73,48/73
+IX,Maths,Class IX Probability,<p>A fair die is tossed. The probability of not rolling a nunber less than 5</p>,|1/5|1/3|2/5|2/3,1/3
+IX,Maths,Class IX Probability,<p>In a cricket match, a batswoman hits the boundary 8 times out of 50 balls played by her. The probbility that&nbsp; she did not hit a boundary is</p>,|4/25|7/25|21/25|18/25,21/25
+IX,Maths,Class IX Probability,<p>A bag contains 5 red ball, some blue balls. Probability of drawing a blue ball is double that of a red ball. The number of blue ball in the bag is</p>,|5|10|20|30,10

@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Polynomials,<p>If x and y are the zeros of the polynomial ax<sup>2</sup>+bx+c , then xy=</p>,|b/a|-b/a|c/a|-c/a,c/a
+X,Maths,Polynomials,<p>A polynomial of degree ----- is called a linear polynomial</p>,|1|3|2|0,1
+X,Maths,Polynomials,<p>A polynomial of degree n has</p>,|at least n zeros|atmost n zeros|one zero|n zeros,n zeros
+X,Maths,Polynomials,<p>The sum of two zeros of th epolynomial f(x)=2x<sup>2</sup>+(p+3)x+5 is zero. Then the value of p is</p>,|3|4|-3|-4,-3
+X,Maths,Polynomials,<p>If the graph of a polynomial intersects the x axisat three points, then the number of zeros</p>,|at least 3|0|at most 3|3,3
+X,Maths,Polynomials,<p>The zeros of the polynomial x<sup>2</sup>-7x+12 are</p>,|both negative|one positive and one negative|both equal|both positive,both positive
+X,Maths,Polynomials,<p>If one of the zeros of the polynomial x<sup>2</sup>+3x+k is 2, then the value of k is</p>,|5|10|-5|-10,-10
+X,Maths,Polynomials,<p>If two zeros of a cubic polynomial ax<sup>3</sup>+bx<sup>2</sup>+cx+d are zero, then the third zero is</p>,|c/a|b/a|d/a|-b/a,-b/a
+X,Maths,Polynomials,<p>The zero of the polynomial p(x)=ax+b is</p>,|a/b|b/a|-a/b|-b/a,-b/a
+X,Maths,Polynomials,<p>If a and b are the zeros of the quadratic polynomial x<sup>2</sup>+5x-5, then</p>,|a-b = ab|a+b>ab|a+b<ab|a+b=ab,a+b=ab

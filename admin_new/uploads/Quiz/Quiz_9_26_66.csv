@@ -1,0 +1,12 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Class IX Coordinate Geometry,<p>If x&lt;0 and y&gt;0 , then point (x,y) lies in qudrant</p>,|I|II|III|IV,II
+IX,Maths,Class IX Coordinate Geometry,<p>The point C (-5,-2)&nbsp; lies in qudrant</p>,|I|II|III|IV,III
+IX,Maths,Class IX Coordinate Geometry,<p>The points other than the origin&nbsp; for which the abscissa is equal to ordinate lies in quadrant</p>,|I only|II and IV|I and III|III only,I and III
+IX,Maths,Class IX Coordinate Geometry,<p>The points in which the abscissa and ordinate will have different sign will be in quadrant</p>,|II|I, III|II, IV|IV,II, IV
+IX,Maths,Class IX Coordinate Geometry,<p>The point p(3,0) lies in quadrant</p>,|IV|II|III|on x axis,on x axis
+IX,Maths,Class IX Coordinate Geometry,<p>If x&lt;0, y&lt;0 , then the point lies in quadrant</p>,|I|II|III|IV,III
+IX,Maths,Class IX Coordinate Geometry,<p>The point&nbsp; (0, -3) lies in</p>,|I quadrant|II quadrant|III quadrant|y axis,y axis
+IX,Maths,Class IX Coordinate Geometry,<p>If x&gt;0, y&lt;0, then the point (x,y) lies in quadrant</p>,|I|II|III|IV,IV
+IX,Maths,Class IX Coordinate Geometry,<p>If x&gt;0, y&gt;0 , then the point lies in quadrant</p>,|I|II|III|IV,I
+IX,Maths,Class IX Coordinate Geometry,<p>The point B(-3,4) lies in quadrant</p>,|I|II|III|IV,II
+IX,Maths,Class IX Coordinate Geometry,<p>The side faces of a prism are</p>,|polygons|rectangles|square|triangle,rectangles

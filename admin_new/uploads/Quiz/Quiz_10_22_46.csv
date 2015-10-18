@@ -1,0 +1,6 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Triangles,<p>In &Delta; ABC, &Delta; PQR, angle B = angle Q, angle R= angle C and AB = 2QR. Then the traigles are</p>,|neither congruent nor similar| congruent and similar| similar but not congruent|congruent but not similar, similar but not congruent
+X,Maths,Triangles,<p>If in triangle ABC, DEF, AB/DE = BC/FD, then they will be similar, when angle</p>,|B=E|A=F|A=D|B=D,B=D
+X,Maths,Triangles,<p>If in two triangle ABC and DEF, AB/DE=BC/FE=CA/FD, then which traingles are similar</p>,|FDE, ABC|CBA,FDE|BCA,FDE|FDE,CAB,FDE,CAB
+X,Maths,Triangles,<p>It i sgiven that &Delta; ABC similar to &Delta; DEF, angle A= 30<sup>0</sup>, C = 40<sup>0</sup>, AB = 5 cm, AC= 8 cm, DF=7.5 cm, then following is true</p>,|angle D = 30 , EF =12 cm|angle F = 110 , DE =12 cm|angle D = 110 , EF =12 cm|angle F = 30 , DE =12 cm,angle F = 110 , DE =12 cm
+X,Maths,Triangles,<p>&Delta; ABC is&nbsp; similar to &Delta; EDF , &Delta; ABC is&nbsp; not similar to &Delta; DEF , then which of the following is true</p>,|BC.EF=AC.FD|AB.EF=AC.DE|BC.DE=AB.FD|BC.DE=AB.EF,BC.DE=AB.EF

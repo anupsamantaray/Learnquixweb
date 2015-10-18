@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Areas related to circles,<p>The circumference of a circle whose diameter is 4.2 cm is</p>,|13.2 cm|22 cm|11 cm|4.2 cm,13.2 cm
+X,Maths,Areas related to circles,<p>If the sum of the area of two circle with radii r1 and r2 is equal to the area of the circle with radius R, then</p>,|R2+r12= r22|R2=r12-r22|R2=r12+r22|R2-r12=r22,R2=r12+r22
+X,Maths,Areas related to circles,<p>The circumference&nbsp; of a circle&nbsp; exceeds&nbsp; its diameter by 120 cm , the its radius is</p>,|14|42|28|56,28
+X,Maths,Areas related to circles,<p>The perimeter of a sector of a circle with radius 5.7 cm is 27.4 cm . The length of the arc is</p>,|15 cm|14 cm|11 cm|16 cm,16 cm
+X,Maths,Areas related to circles,<p>The perimeter of a semicircular protractor whose radius is 7 cm is</p>,|18 cm|72 cm|27 cm|36 cm,36 cm
+X,Maths,Areas related to circles,<p>The area of a circle is 37.85 sq cm. Its circumference is</p>,|44 cm|11 cm|22 cm|33 cm,22 cm
+X,Maths,Areas related to circles,<p>The radius of a circle whose circumference is equal to sum of the circumference of the two circles of radii&nbsp; 24 cm and 7 cm is</p>,|25 cm|7 cm|24 cm|31 cm,31 cm
+X,Maths,Areas related to circles,<p>If the radius of a circle is 7/&radic;&Pi; cm, then the area is (sq&nbsp; cm)</p>,|22 |98|49|45,49
+X,Maths,Areas related to circles,<p>If the area of the sector with sector angle 60<sup>0</sup> is 132/7 cm<sup>2</sup>, then its radius is</p>,|14 cm|6 cm|7 cm|12 cm,6 cm
+X,Maths,Areas related to circles,<p>The length of a wire is 66 m. The no of circle of circumference 13.2 cm can be made from the wire is</p>,|1|500|50|5000,50

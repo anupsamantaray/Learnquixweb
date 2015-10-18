@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Science,The Human Eye and Colourful World,<p>The far point of a myopic person is 80 cm in front of the eye. Which type of lens is required to correct the problem?</p>,|bifocal|convex|concave|plane lens,concave
+X,Science,The Human Eye and Colourful World,<p>The refractive indices og three media P Q R are 1.73, 1.33 and 2.24 respectively. Arrange the media by increasing order of their optical density?</p>,|QPR|QRP|RQP|PQR,QRP
+X,Science,The Human Eye and Colourful World,<p>When do we say a person is colour blind?</p>,|When a person can not see  in the dark|when a person cannot differntiate between colours|when a person cannot see in the light|All of these,when a person cannot differntiate between colours
+X,Science,The Human Eye and Colourful World,<p>The value of f and ufor a concave lens are always</p>,|Negative|sometimes negative sometimes positive|positive|none of these,positive
+X,Science,The Human Eye and Colourful World,<p>The angle through which a ray of light turns on passing through a prism is called</p>,|angle of incidence|angle of emergence|angle of reflection|angle of deviation,angle of deviation
+X,Science,The Human Eye and Colourful World,<p>The inability among the elderly to see nearby objects clearly because of the weaking of the ciliary muscles is called</p>,|presbyopia|near sightedness|myopia|far sightedness,presbyopia
+X,Science,The Human Eye and Colourful World,<p>At what rate the event should be projected to have the clear image?</p>,|25 frames per second|24 frames per second|20 frames per second|22 frames per second,24 frames per second
+X,Science,The Human Eye and Colourful World,<p>A ray of light travelling in air fall obliquely on surface of calm pond. It will</p>,|deviate away from normal|go into water without deviating from its path|turns back on its original path|deviate towards the normal,go into water without deviating from its path
+X,Science,The Human Eye and Colourful World,<p>What colour we obtain by mixing red green and blue</p>,|black |cyan|white|magneta,white
+X,Science,The Human Eye and Colourful World,<p>The muscle of the iris controls the</p>,|opening of the pupil|shape of crystalline lens|optic nerve|focal length of the eye lens,opening of the pupil

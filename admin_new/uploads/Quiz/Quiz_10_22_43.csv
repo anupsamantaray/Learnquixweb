@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Pair of Linear Equations in Two Vriables,<p>A system of two linear equations with two variables is consistent, if their graph</p>,|coincide|interesect at only at a point|do not intersect at any point|cut the axis,coincide
+X,Maths,Pair of Linear Equations in Two Vriables,<p>A system of two linear equations in two variables&nbsp; is dependent (consistent), if their graphs</p>,|do not intersect at any point|intersect only at a point|coincide|cut the x-axis,do not intersect at any point
+X,Maths,Pair of Linear Equations in Two Vriables,<p>If the system 6x-2y=3 , kx-y=2 has a unique solution, then</p>,|k=4|k=3|k is not equal to 4|k is not equal to 3,k=4
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The system of equations x-4y=8 , 3x-12y=24</p>,|may or may not have a solution|has a unique solution|has infinitely many solution|has no solution,may or may not have a solution
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The solution of 3x-5y=-16 and 2x+5y=31</p>,|x=-3, y=-5|x=3, y=-5|x=3, y=5|x=-3, y=5,x=-3, y=-5
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The value of k so that the system of equations 3x-y-5=0 and 6x-2y-k=0 have infinitely many solution is</p>,|k=8|k=-10|k=-8|k=10,k=8
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The number of solutions do two linear equations representing coincident lines are</p>,|infinite|0|2|1,infinite
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The pair of equations x=a and y=b graphically represents lines which are</p>,|parallel|intersecting at (b,a)|intersecting at (a,b)|coincident,parallel
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The area of the triangle formed by x+3y=6, 2x-3y=12 and the y axis is (units)</p>,|15|18|12 |16,15
+X,Maths,Pair of Linear Equations in Two Vriables,<p>The systems of equations 6x+3y=6xy and 2x+4y=5xy has</p>,|many solution|no solution|two solutions|one solution,many solution

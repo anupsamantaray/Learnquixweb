@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Science,Electricity,<p>How is ammeter connected in an electricity circuit?</p>,|in series|some times in parallel  some times in seroes|in parallel  |none of these,in parallel  
+X,Science,Electricity,<p>The melting point of Tunsten is</p>,|3380 degree|3333 degree|4000 degree|3500 degree,3380 degree
+X,Science,Electricity,<p>when a steady current flows throgh a conductor, the electron in it moves with certain average speed as</p>,|draft speed|average velocity|root mean square velocity|accelarated speed,draft speed
+X,Science,Electricity,<p>which is a good conductor of electricity?</p>,|metals, rubber|metals, quartz|metals, mica|mica, quartz,metals, quartz
+X,Science,Electricity,<p>Electrons are consumed in an electric circuit. The above statement is</p>,|partially true|partially false|false|true,false
+X,Science,Electricity,<p>In an electric circuit, the direction of electric current is</p>,|from negative to negative|from positive to negative|from positive to negative terminal|from positive to positive,from positive to negative
+X,Science,Electricity,<p>Which of the following is incorrect about the heat produced in a resistor?</p>,|Directly proportional to the resistance for a given current|Directly proportional to the square of the current|directly proportional to the time for which current flows through the resistors |none of,none of
+X,Science,Electricity,<p>Why tungsten is usedexclusively for the filament of an incandescent lamp?</p>,|Tungsten can be drawn into thin wire which in turn offer high resistance|melting point of tungsten is very high|tungsten has a very high resitivity|all of these,all of these
+X,Science,Electricity,<p>The function of rheostat in an electric circuit is to</p>,|decrease the resistance in the circuit|increase the resistance in the circuit|change the resistance in the circuit|none of these,change the resistance in the circuit
+X,Science,Electricity,<p>Which of the following fuse should be used for an electric ironof 1 kw when operated at</p>,|1 A|3 A|7 A|5 A,5 A

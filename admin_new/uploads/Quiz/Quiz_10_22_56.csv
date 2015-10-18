@@ -1,0 +1,10 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Probability,<p>Two dice are thrown simultaneously. The probability of getting a doublet is</p>,|1/36|2/3|1/6|1/2,1/6
+X,Maths,Probability,<p>When a dice is thrown, the probability of getting odd numbers below 3 is</p>,|1/3|1/2|1/6|0,0
+X,Maths,Probability,<p>If S is the sample space of a random experiment, then p(S) is</p>,|1/4|1|1/8|0,1
+X,Maths,Probability,<p>One card is drawn from a well shuffled pack of 52 cards. The probability of getting an ace is</p>,|1/52|1/13|4/13|2/13,1/13
+X,Maths,Probability,<p>A number is selected in random from a set of numbers 7,3, 9,7,9,5,7,9,9,5. The probability that the selected number would be their average is</p>,|1/10|3/10|7/10|5/10,3/10
+X,Maths,Probability,<p>A bag contains 5 black balls, 4 white balls, 3 red balls. If a ball is selected in random, the probability that it is not red is</p>,|5/12|1/2|3/12|3/4,3/4
+X,Maths,Probability,<p>An unbiased dice is thrown once. The proabability of getting a prime number is</p>,|1/3|1/4|1/5|1/2,1/2
+X,Maths,Probability,<p>The probability that a student will scorecentum in mathemetics is 3/100. The probability that she will not score a centum is</p>,|6/10|1/3|1/2|7/10,7/10
+X,Maths,Probability,<p>A dice is thrown once. The probability of getting an even number and a multiple of 3 is</p>,|1/2|1/3|1/5|1/6,1/6

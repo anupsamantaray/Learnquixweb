@@ -1,0 +1,8 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Circles,<p>AB is a chord of a circle with radius r. If p is any point on the circle such that angle APB is right angle, then AB =</p>,|3r|r|2r|4r,2r
+IX,Maths,Circles,<p>No of circles that can be drawn through thre non collinear point is</p>,|1|0|2|3,1
+IX,Maths,Circles,<p>Greatest chord of a circle is called</p>,|secant|chord|radius |diameter,diameter
+IX,Maths,Circles,<p>No of circles that can be drawn through three non colinear points is</p>,|0|1|2|3,1
+IX,Maths,Circles,<p>Angle formed in minor segment of a circle is</p>,|acute angle|obtuse angle|right angle|straight angle,acute angle
+IX,Maths,Circles,<p>If&nbsp; chord of a circle is equal to its radius, then the angle extended by this chord in major segment is</p>,|60|45|30|90,30
+IX,Maths,Circles,<p>ABCD is a cyclic quadrilateral such that AB is the diameter of the circle circumscribing it and&nbsp; angle ADC =140<sup>0</sup>&nbsp; and angle BAC&nbsp; is (degree)</p>,|30|75|40|50,50
