@@ -49,9 +49,9 @@
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
 				<span class="bg"><i class="fa fa-shield"></i> </span>
-				<h4><a href="javascript:void(0)">Mind Map</a></h4>
+				<h4><a href="courses/concept_map.php">Mind Map</a></h4>
 				<p class="para">A mind-map puts all ideas into a frame that fits into your memory for a fast recall. Research shows you can retain things through a “visual memory”.  Use mindmaps for quick revision before the exams and see your scores improving !.</p>
-				<a href="javascript:void(0)" class="fa-btn btn-1 btn-1e">read more</a>
+				<a href="courses/concept_map.php" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>	
 		</div>
 	</div>

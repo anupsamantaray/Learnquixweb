@@ -276,6 +276,7 @@ $(function(){
 					</li>
 					<li class="ebookcls"><a href="ebook.php">Ebook</a></li>
 					<li class="videocls"><a href="video.php">Video</a></li>
+					<li class="concept_mapcls"><a href="concept_map.php">Concept Map</a></li>
 					<li class="sample_questionscls"><a href="sample_questions.php">Sample Question</a></li>
 					<? if(isset($_SESSION["usrname"]) && ($_SESSION["usrname"] != '')){ ?>
 						<li class="promotioncls"><a href="promotion.php">Promotion</a></li>
