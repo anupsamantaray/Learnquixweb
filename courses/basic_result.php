@@ -77,14 +77,7 @@ $id=$_GET['id'];
 							<!--h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4-->
 							<center><h4 class="forme_Qus_new">Your score is <span><?php echo $tot; ?> </span>out of <span>5</span> </h4></center>
 							<div class="questionDiv questionDiv_3">
-								<h5>1. A person throws a ball vertically upward with an initial velocity of 15 m/s.How high it goes?</h5>
-							
-								<div class="radio block"><label><input type="radio" name="1" value="1">11.5m</div>
-								<div class="radio block"><label><input type="radio" name="1" value="2">12.5m</label></div>
-								<div class="radio block"><label><input type="radio" name="1" value="3">8m</label></div>
-								<div class="radio block"><label><input type="radio" name="1" value="4">6m</label></div>
-								<input type="hidden" name="h1" value="1">
-								<h5 class="right_ans">Correct  Answer : 11.5m
+								<h5 class="right_ans">1. A person throws a ball vertically upward with an initial velocity of 15 m/s.How high it goes?
 								<?php 
 									if(!empty($_POST['1'])){
 										if($_POST['1']=='1'){ ?>
@@ -95,16 +88,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="1" value="1">11.5m</div>
+								<div class="radio block"><label><input type="radio" name="1" value="2">12.5m</label></div>
+								<div class="radio block"><label><input type="radio" name="1" value="3">8m</label></div>
+								<div class="radio block"><label><input type="radio" name="1" value="4">6m</label></div>
+								<input type="hidden" name="h1" value="1">
+								<h5 class="">Correct  Answer : 11.5m
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>2. A body, whose momentum is constant, must have constant-</h5>
-							
-								<div class="radio block"><label><input type="radio" name="2" value="1">Force</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="2">Velocity</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="3">Acceleration</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="4">All of these</label></div>
-								<input type="hidden" name="h2" value="2">
-								<h5 class="right_ans">Correct  Answer : Velocity
+								<h5 class="right_ans">2. A body, whose momentum is constant, must have constant-
 								<?php 
 									if(!empty($_POST['2'])){
 										if($_POST['2']=='2'){ ?>
@@ -115,16 +110,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="2" value="1">Force</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="2">Velocity</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="3">Acceleration</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="4">All of these</label></div>
+								<input type="hidden" name="h2" value="2">
+								<h5 class="">Correct  Answer : Velocity
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>3. A man getting down a running bus, falls forward because-</h5>
-							
-								<div class="radio block"><label><input type="radio" name="3" value="1">due to inertia of rest, road is left behind and man reaches forward</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="2">due to inertia of motion upper part of body continues to be in motion in forward direction while feet come to rest as soon as they touch the road</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="3">he leans forward as a matter of habit</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="4">of the combined effect of all the three factors stated in (1), (2) and (3)</label></div>
-								<input type="hidden" name="h3" value="3">
-								<h5 class="right_ans">Correct  Answer : he leans forward as a matter of habit
+								<h5 class="right_ans">3. A man getting down a running bus, falls forward because-
 								<?php 
 									if(!empty($_POST['3'])){
 										if($_POST['3']=='3'){ ?>
@@ -135,16 +132,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="3" value="1">due to inertia of rest, road is left behind and man reaches forward</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="2">due to inertia of motion upper part of body continues to be in motion in forward direction while feet come to rest as soon as they touch the road</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="3">he leans forward as a matter of habit</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="4">of the combined effect of all the three factors stated in (1), (2) and (3)</label></div>
+								<input type="hidden" name="h3" value="3">
+								<h5 class="">Correct  Answer : he leans forward as a matter of habit
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>4. Which of the following class of forces is different from others -</h5>
-							
-								<div class="radio block"><label><input type="radio" name="4" value="1">Pulling of a cart</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="2">Stretching of a coiled spring</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="3">Kicking of a football</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="4">Electrical force</label></div>
-								<input type="hidden" name="h4" value="4">
-								<h5 class="right_ans">Correct  Answer : Kicking of a football
+								<h5 class="right_ans">4. Which of the following class of forces is different from others -
 								<?php 
 									if(!empty($_POST['4'])){
 										if($_POST['4']=='4'){ ?>
@@ -155,16 +154,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="4" value="1">Pulling of a cart</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="2">Stretching of a coiled spring</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="3">Kicking of a football</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="4">Electrical force</label></div>
+								<input type="hidden" name="h4" value="4">
+								<h5 class="">Correct  Answer : Kicking of a football
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>5. The speed of a falling body increases continuously, this is because -</h5>
-							
-								<div class="radio block"><label><input type="radio" name="5" value="1">No force acts on it</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="2">It is very light</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="3">The air exert the frictional force</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="4">The earth attract it</label></div>
-								<input type="hidden" name="h5" value="4">
-								<h5 class="right_ans">Correct  Answer : The earth attract it
+								<h5 class="right_ans">5. The speed of a falling body increases continuously, this is because -
 								<?php 
 									if(!empty($_POST['5'])){
 										if($_POST['5']=='4'){ ?>
@@ -174,6 +175,15 @@ $id=$_GET['id'];
 								<?		}
 									}
 								?>
+								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="5" value="1">No force acts on it</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="2">It is very light</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="3">The air exert the frictional force</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="4">The earth attract it</label></div>
+								<input type="hidden" name="h5" value="4">
+								<h5 class="">Correct  Answer : The earth attract it
+								
 								</h5>
 							</div>
 					</div>

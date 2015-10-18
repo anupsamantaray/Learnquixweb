@@ -92,14 +92,7 @@ $id=$_GET['id'];
 					<div class="science_Div">
 						<center><h4 class="forme_Qus_new">Your score is <span><?php echo $tot; ?> </span>out of <span>7</span> </h4></center>
 							<div class="questionDiv questionDiv_3">
-								<h5>1. Directions A person throws a ball vertically upward with an initial velocity of 15 m/s.How long the ball is in air before it comes to his hand?</h5>
-							
-								<div class="radio block"><label><input type="radio" name="1" value="1">2.0 s</div>
-								<div class="radio block"><label><input type="radio" name="1" value="2">1.0 s</label></div>
-								<div class="radio block"><label><input type="radio" name="1" value="3">3.06 s</label></div>
-								<div class="radio block"><label><input type="radio" name="1" value="4">5.01 s</label></div>
-								<input type="hidden" name="h1" value="1">
-								<h5 class="right_ans">Correct  Answer : 2.0 s
+								<h5 class="right_ans">1. Directions A person throws a ball vertically upward with an initial velocity of 15 m/s.How long the ball is in air before it comes to his hand?
 								<?php 
 									if(!empty($_POST['1'])){
 										if($_POST['1']=='1'){ ?>
@@ -110,16 +103,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="1" value="1">2.0 s</div>
+								<div class="radio block"><label><input type="radio" name="1" value="2">1.0 s</label></div>
+								<div class="radio block"><label><input type="radio" name="1" value="3">3.06 s</label></div>
+								<div class="radio block"><label><input type="radio" name="1" value="4">5.01 s</label></div>
+								<input type="hidden" name="h1" value="1">
+								<h5>Correct  Answer : 2.0 s
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>2. A body, whose momentum is constant, must have constant-</h5>
-							
-								<div class="radio block"><label><input type="radio" name="2" value="1">There is no force acting on it</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="2">The force acting on it not in contact with it</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="3">The combination of forces acting on it balances each other</label></div>
-								<div class="radio block"><label><input type="radio" name="2" value="4">The body is in vacuum</label></div>
-								<input type="hidden" name="h2" value="2">
-								<h5 class="right_ans">Correct  Answer : The force acting on it not in contact with it
+								<h5 class="right_ans">2. A body, whose momentum is constant, must have constant-
 								<?php 
 									if(!empty($_POST['2'])){
 										if($_POST['2']=='2'){ ?>
@@ -130,16 +125,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="2" value="1">There is no force acting on it</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="2">The force acting on it not in contact with it</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="3">The combination of forces acting on it balances each other</label></div>
+								<div class="radio block"><label><input type="radio" name="2" value="4">The body is in vacuum</label></div>
+								<input type="hidden" name="h2" value="2">
+								<h5>Correct  Answer : The force acting on it not in contact with it
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>3. A fish is swimming upward at an angle of 30 deg with the horizontal. The direction of the force of gravity acting on it is -</h5>
-							
-								<div class="radio block"><label><input type="radio" name="3" value="1">upward</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="2">downward</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="3">horizontal</label></div>
-								<div class="radio block"><label><input type="radio" name="3" value="4">at an angle upward</label></div>
-								<input type="hidden" name="h3" value="3">
-								<h5 class="right_ans">Correct  Answer : horizontal
+								<h5 class="right_ans">3. A fish is swimming upward at an angle of 30 deg with the horizontal. The direction of the force of gravity acting on it is -
 								<?php 
 									if(!empty($_POST['3'])){
 										if($_POST['3']=='3'){ ?>
@@ -150,16 +147,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="3" value="1">upward</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="2">downward</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="3">horizontal</label></div>
+								<div class="radio block"><label><input type="radio" name="3" value="4">at an angle upward</label></div>
+								<input type="hidden" name="h3" value="3">
+								<h5>Correct  Answer : horizontal
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>4. Condensation and evaporation are:</h5>
-							
-								<div class="radio block"><label><input type="radio" name="4" value="1">Irreversible change</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="2">Reversible change</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="3">Desirable change</label></div>
-								<div class="radio block"><label><input type="radio" name="4" value="4">None of these</label></div>
-								<input type="hidden" name="h4" value="4">
-								<h5 class="right_ans">Correct  Answer : Desirable change
+								<h5 class="right_ans">4. Condensation and evaporation are:
 								<?php 
 									if(!empty($_POST['4'])){
 										if($_POST['4']=='4'){ ?>
@@ -170,16 +169,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="4" value="1">Irreversible change</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="2">Reversible change</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="3">Desirable change</label></div>
+								<div class="radio block"><label><input type="radio" name="4" value="4">None of these</label></div>
+								<input type="hidden" name="h4" value="4">
+								<h5>Correct  Answer : Desirable change
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>5. Solubility is affected by:</h5>
-							
-								<div class="radio block"><label><input type="radio" name="5" value="1">Temperature</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="2">Pressure</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="3">Both</label></div>
-								<div class="radio block"><label><input type="radio" name="5" value="4">None of these</label></div>
-								<input type="hidden" name="h5" value="4">
-								<h5 class="right_ans">Correct  Answer : None of these
+								<h5 class="right_ans">5. Solubility is affected by:
 								<?php 
 									if(!empty($_POST['5'])){
 										if($_POST['5']=='4'){ ?>
@@ -190,16 +191,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="5" value="1">Temperature</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="2">Pressure</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="3">Both</label></div>
+								<div class="radio block"><label><input type="radio" name="5" value="4">None of these</label></div>
+								<input type="hidden" name="h5" value="4">
+								<h5>Correct  Answer : None of these
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>6. Schiff's reagent gives pink colour with:</h5>
-							
-								<div class="radio block"><label><input type="radio" name="6" value="1">Acetaldehyde</label></div>
-								<div class="radio block"><label><input type="radio" name="6" value="2">Formaldehyde</label></div>
-								<div class="radio block"><label><input type="radio" name="6" value="3">Acetone</label></div>
-								<div class="radio block"><label><input type="radio" name="6" value="4">None of these</label></div>
-								<input type="hidden" name="h6" value="3">
-								<h5 class="right_ans">Correct  Answer : Acetone
+								<h5 class="right_ans">6. Schiff's reagent gives pink colour with:
 								<?php 
 									if(!empty($_POST['6'])){
 										if($_POST['6']=='3'){ ?>
@@ -210,16 +213,18 @@ $id=$_GET['id'];
 									}
 								?>
 								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="6" value="1">Acetaldehyde</label></div>
+								<div class="radio block"><label><input type="radio" name="6" value="2">Formaldehyde</label></div>
+								<div class="radio block"><label><input type="radio" name="6" value="3">Acetone</label></div>
+								<div class="radio block"><label><input type="radio" name="6" value="4">None of these</label></div>
+								<input type="hidden" name="h6" value="3">
+								<h5>Correct  Answer : Acetone
+								
+								</h5>
 							</div>
 							<div class="questionDiv questionDiv_3">
-								<h5>7. Why the dam of water reservoir is thick at the bottom -</h5>
-							
-								<div class="radio block"><label><input type="radio" name="7" value="1">Quantity of water increases with depth </label></div>
-								<div class="radio block"><label><input type="radio" name="7" value="2">Density of water increases with depth</label></div>
-								<div class="radio block"><label><input type="radio" name="7" value="3">Pressure of water increases with depth</label></div>
-								<div class="radio block"><label><input type="radio" name="7" value="4">Temperature of water increases with depth</label></div>
-								<input type="hidden" name="h7" value="2">
-								<h5 class="right_ans">Correct  Answer : Density of water increases with depth
+								<h5 class="right_ans">7. Why the dam of water reservoir is thick at the bottom -
 								<?php 
 									if(!empty($_POST['7'])){
 										if($_POST['7']=='2'){ ?>
@@ -229,6 +234,15 @@ $id=$_GET['id'];
 								<?		}
 									}
 								?>
+								</h5>
+							
+								<div class="radio block"><label><input type="radio" name="7" value="1">Quantity of water increases with depth </label></div>
+								<div class="radio block"><label><input type="radio" name="7" value="2">Density of water increases with depth</label></div>
+								<div class="radio block"><label><input type="radio" name="7" value="3">Pressure of water increases with depth</label></div>
+								<div class="radio block"><label><input type="radio" name="7" value="4">Temperature of water increases with depth</label></div>
+								<input type="hidden" name="h7" value="2">
+								<h5>Correct  Answer : Density of water increases with depth
+								
 								</h5>
 							</div>
 						<div class="clearfix"></div>
