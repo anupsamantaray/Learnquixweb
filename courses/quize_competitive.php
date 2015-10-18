@@ -26,8 +26,8 @@
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
 					<p class="para" style="text-align:center;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </p>
 					<div class="science_Div">
-						<h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4>
-						<form name="f" action="will_index1_action.php" method="post">
+						<!--h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4-->
+						<form name="f" action="competitive_result.php" method="post">
 							<div class="questionDiv">
 								<h5>1. Directions A person throws a ball vertically upward with an initial velocity of 15 m/s.How long the ball is in air before it comes to his hand?</h5>
 							

@@ -1,13 +1,58 @@
-<?php 
-	include "header.php";
-	$clid = $_REQUEST['clid'];
+<?php
+include "header.php";
+if($_GET['id']){
+$id=$_GET['id'];
+ }else
+ {
+ $id=7;
+ }
+?>
+<body>
+<?php
+	$tot=0;
+	if(isset($_POST['submit'])){
+		if(!empty($_POST['1'])){
+			$n1=$_POST['1'];
+           	$nh1=$_POST['h1'];
+           	if($n1==$nh1){
+				$tot=$tot+1;
+			}
+		}
+		if(!empty($_POST['2'])){
+			$n2=$_POST['2'];
+			$nh2=$_POST['h2'];
+			if($n2==$nh2){
+				$tot=$tot+1;
+			}
+		}
+	   if(!empty($_POST['3'])){
+			$n3=$_POST['3'];
+			$nh3=$_POST['h3'];
+			if($n3==$nh3){
+				$tot=$tot+1;
+			}
+		}
+		if(!empty($_POST['4'])){
+			$n4=$_POST['4'];
+			$nh4=$_POST['h4'];
+			if($n4==$nh4){
+				$tot=$tot+1;
+			}
+		}
+		if(!empty($_POST['5']))
+		{
+			$n5=$_POST['5'];
+			$nh5=$_POST['h5'];
+			if($n5==$nh5){
+				$tot=$tot+1;
+			}
+		}
+	}
 ?>
 <script type="text/javascript">
-	/*$(document).ready(function(){
-		$(".sub_quiz").click(function(){
-			$(document).form.submit();
-		});
-	});*/
+	$(document).ready(function(){
+		$(".quizecls").addClass('active');
+	});
 </script>
 <div class="container">
 		<div class="abou aboutNew details row">
@@ -29,10 +74,9 @@
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
 					<p class="para" style="text-align:center;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </p>
 					<div class="science_Div">
-						<form name="quiz_form" action="basic_result.php" method="POST" enctype="multipart/form-data">
-					
 							<!--h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4-->
-							<div class="questionDiv">
+							<center><h4 class="forme_Qus_new">Your score is <span><?php echo $tot; ?> </span>out of <span>5</span> </h4></center>
+							<div class="questionDiv questionDiv_3">
 								<h5>1. A person throws a ball vertically upward with an initial velocity of 15 m/s.How high it goes?</h5>
 							
 								<div class="radio block"><label><input type="radio" name="1" value="1">11.5m</div>
@@ -40,8 +84,19 @@
 								<div class="radio block"><label><input type="radio" name="1" value="3">8m</label></div>
 								<div class="radio block"><label><input type="radio" name="1" value="4">6m</label></div>
 								<input type="hidden" name="h1" value="1">
+								<h5 class="right_ans">Correct  Answer : 11.5m
+								<?php 
+									if(!empty($_POST['1'])){
+										if($_POST['1']=='1'){ ?>
+											<img src="../correct.jpg">
+									<?	}else{ ?>
+										<img src="../wrong.jpg">
+								<?		}
+									}
+								?>
+								</h5>
 							</div>
-							<div class="questionDiv">
+							<div class="questionDiv questionDiv_3">
 								<h5>2. A body, whose momentum is constant, must have constant-</h5>
 							
 								<div class="radio block"><label><input type="radio" name="2" value="1">Force</label></div>
@@ -49,8 +104,19 @@
 								<div class="radio block"><label><input type="radio" name="2" value="3">Acceleration</label></div>
 								<div class="radio block"><label><input type="radio" name="2" value="4">All of these</label></div>
 								<input type="hidden" name="h2" value="2">
+								<h5 class="right_ans">Correct  Answer : Velocity
+								<?php 
+									if(!empty($_POST['2'])){
+										if($_POST['2']=='2'){ ?>
+											<img src="../correct.jpg">
+									<?	}else{ ?>
+										<img src="../wrong.jpg">
+								<?		}
+									}
+								?>
+								</h5>
 							</div>
-							<div class="questionDiv">
+							<div class="questionDiv questionDiv_3">
 								<h5>3. A man getting down a running bus, falls forward because-</h5>
 							
 								<div class="radio block"><label><input type="radio" name="3" value="1">due to inertia of rest, road is left behind and man reaches forward</label></div>
@@ -58,8 +124,19 @@
 								<div class="radio block"><label><input type="radio" name="3" value="3">he leans forward as a matter of habit</label></div>
 								<div class="radio block"><label><input type="radio" name="3" value="4">of the combined effect of all the three factors stated in (1), (2) and (3)</label></div>
 								<input type="hidden" name="h3" value="3">
+								<h5 class="right_ans">Correct  Answer : he leans forward as a matter of habit
+								<?php 
+									if(!empty($_POST['3'])){
+										if($_POST['3']=='3'){ ?>
+											<img src="../correct.jpg">
+									<?	}else{ ?>
+										<img src="../wrong.jpg">
+								<?		}
+									}
+								?>
+								</h5>
 							</div>
-							<div class="questionDiv">
+							<div class="questionDiv questionDiv_3">
 								<h5>4. Which of the following class of forces is different from others -</h5>
 							
 								<div class="radio block"><label><input type="radio" name="4" value="1">Pulling of a cart</label></div>
@@ -67,8 +144,19 @@
 								<div class="radio block"><label><input type="radio" name="4" value="3">Kicking of a football</label></div>
 								<div class="radio block"><label><input type="radio" name="4" value="4">Electrical force</label></div>
 								<input type="hidden" name="h4" value="4">
+								<h5 class="right_ans">Correct  Answer : Kicking of a football
+								<?php 
+									if(!empty($_POST['4'])){
+										if($_POST['4']=='4'){ ?>
+											<img src="../correct.jpg">
+									<?	}else{ ?>
+										<img src="../wrong.jpg">
+								<?		}
+									}
+								?>
+								</h5>
 							</div>
-							<div class="questionDiv">
+							<div class="questionDiv questionDiv_3">
 								<h5>5. The speed of a falling body increases continuously, this is because -</h5>
 							
 								<div class="radio block"><label><input type="radio" name="5" value="1">No force acts on it</label></div>
@@ -76,14 +164,19 @@
 								<div class="radio block"><label><input type="radio" name="5" value="3">The air exert the frictional force</label></div>
 								<div class="radio block"><label><input type="radio" name="5" value="4">The earth attract it</label></div>
 								<input type="hidden" name="h5" value="4">
-							
+								<h5 class="right_ans">Correct  Answer : The earth attract it
+								<?php 
+									if(!empty($_POST['5'])){
+										if($_POST['5']=='4'){ ?>
+											<img src="../correct.jpg">
+									<?	}else{ ?>
+										<img src="../wrong.jpg">
+								<?		}
+									}
+								?>
+								</h5>
 							</div>
-							
-							<input type="submit" class="fa-btn btn-1 btn-1e" name="submit" value="Submit">
-						
-					</form>
 					</div>
-					
 				</div>
 			</div>
 		</div>
