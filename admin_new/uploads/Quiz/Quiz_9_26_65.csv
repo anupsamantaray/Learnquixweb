@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Class IX Polynomials,<p>One of the zeros of the polynomial2x<sup>2</sup>+7x-4 is</p>,|-2|2|1/2|-1/2,2
+IX,Maths,Class IX Polynomials,<p>If y/x + x/y = 1, then the value of x<sup>3</sup> - y<sup>3</sup> is</p>,|0|1|2|4,0
+IX,Maths,Class IX Polynomials,<p>The degree of the polynomial 4x<sup>4</sup>+0 x<sup>3</sup>+0x<sup>2</sup>+5x +7 is</p>,|5|4|6|7,4
+IX,Maths,Class IX Polynomials,<p>The zero of the polynomia p(x)=5x-2 is</p>,|-2/5|2/5|-5/2|5/2,2/5
+IX,Maths,Class IX Polynomials,<p>If x+1 is a factor of the polynomial&nbsp; 2x<sup>2</sup>+kx+1 then the value of k is</p>,|-3|-2|2|3,3
+IX,Maths,Class IX Polynomials,<p>The factorisation of 9x<sup>2</sup>-3x-9 is</p>,|(3x+4)(3x+5)|(3x+4)(3x-5)|(3x-4)(3x+5)|(3x-4)(3x-5),(3x+4)(3x-5)
+IX,Maths,Class IX Polynomials,<p>If p(x)=x+3, then p(x) +p(-x) is</p>,|3|2|0|6,6
+IX,Maths,Class IX Polynomials,<p>The value of 249<sup>2</sup>-248<sup>2 </sup>is</p>,|248|249|497|1,497
+IX,Maths,Class IX Polynomials,<p>The coeeficient of x<sup>2</sup> in (x+3)<sup>4</sup></p>,|9|1|27|3,9
+IX,Maths,Class IX Polynomials,<p>The value of the polynomial 5x-4x<sup>2</sup>+3 when x = -1 is</p>,|1|6|-6|-1,-6

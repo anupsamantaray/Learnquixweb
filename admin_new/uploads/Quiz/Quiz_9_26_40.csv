@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Quadrilaterals,<p>Angles of a quadrilateral are in ratio 3:6:8:13. The largest angle is:</p>,|178°|90°|156°|36°,156°
+IX,Maths,Quadrilaterals,<p>Three angles of a quadrilateral are 75&deg;, 90&deg; and 85&deg;. The forth angle is</p>,|90°|85°|105°|110°,110°
+IX,Maths,Quadrilaterals,<p>All the angles of a convex quadrilateral are congruent. However, not all its sides are congruent. What type of quadrilateral is it?</p>,|Parallelogram|Square|Rectangle|Trapezium,Rectangle
+IX,Maths,Quadrilaterals,<p><span>In a Parallelogram:</span></p>,|opposite sides are equal|opposite angles are equal|diagonals bisect each other|none of these,opposite angles are equal
+IX,Maths,Quadrilaterals,<p>If area of a parallelogram with side a and b is A and that of a rectangle with side a and b is B, then</p>,|None of these|A>B|A<B|A=B,A=B
+IX,Maths,Quadrilaterals,<p>The quadrilateral formed by joining the mid point of sides of a quadrilateral PQRS, taken in order is a Rhombus if</p>,|PQRS is a Rhombus|PQRS is a parallelogram|Diagonals of PQRS are equal|None of this,PQRS is a Rhombus
+IX,Maths,Quadrilaterals,<p>The length of each side of a Rhombus is 10 cm and one of diagonals is of length 16 cm. The length of the other diagonal is</p>,|5 cm|13 cm|6 cm |12 cm,5 cm
+IX,Maths,Quadrilaterals,<p>Given four points&nbsp; A, B,C,D such that 3 points A,B,C are colliniear. By joining these points in order, we get</p>,|a rhombus|a stratight line|a triangle|a rectangle,a stratight line
+IX,Maths,Quadrilaterals,<p>Two parallelogram stands on two equal bases and between the same parallels. The ratio of their area is</p>,|3:1|1:2|2:1|1:1,1:1
+IX,Maths,Quadrilaterals,<p>In a triangle, P, Q, R are the mid points of sides BC, CA, AB . If ac = 21 cm, BC =29 cm and AB = 30 cm, find the perimeters of quadrilateral ARPQ?</p>,|52 cm|80 cm|51 cm|20 cm,52 cm

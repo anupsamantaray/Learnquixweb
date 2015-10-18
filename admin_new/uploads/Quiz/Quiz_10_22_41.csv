@@ -1,0 +1,12 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Real Numbers,,||||,
+X,Maths,Real Numbers,<p>Which of the following number has non terminating repeating decimal expression?</p>,|77/210|21/280|6/15|none of the above,77/210
+X,Maths,Real Numbers,<p>The decimal expression of pi</p>,|does not exists|is non terminating and recurring|is non terminating and non recurring|is terminating,is non terminating and non recurring
+X,Maths,Real Numbers,<p>which of the following is a rational number</p>,|sq root of 10|sq root of 9|sq root of 12|sq root of 15,sq root of 9
+X,Maths,Real Numbers,<p>The multiplicative inverse of zero is</p>,|0|1|does not exist|5,does not exist
+X,Maths,Real Numbers,<p>&prod; is</p>,|an irrational number|an integer|a natural number|a rational number,an irrational number
+X,Maths,Real Numbers,<p>which one of the following is not a rational number?</p>,|sq root of 9|sq root of 16|sq root of 25|sq root of 8,sq root of 8
+X,Maths,Real Numbers,<p>All non recurring non terminating numbers are</p>,|integers|natural number|irrational number|rational number,irrational number
+X,Maths,Real Numbers,<p>If a and b are both positiverational number, (&radic;a+&radic;b) (&radic;a- (&radic;b) is</p>,|a rational number|neither rational number nor irrational number|an irrational number|none of these,a rational number
+X,Maths,Real Numbers,<p>The number (&radic;3 +&radic;5)<sup>2</sup> is</p>,|a rational number|an integer|an irrational number|not a real number,an irrational number
+X,Maths,Real Numbers,<p>if HCF(72,120) =24, then LCM of (72,120) is</p>,|240|360|1728|2880,360

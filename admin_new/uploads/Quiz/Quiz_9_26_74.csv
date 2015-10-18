@@ -1,0 +1,16 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Class IX Statistics,<p>The range of data 20,8, 20, 18, 16,15,30, 12,22,6, 11, 17,25, 32, 10, 19 is</p>,|18|15|16|26,26
+IX,Maths,Class IX Statistics,<p>In an examination,&nbsp; ten students&nbsp; scored the following marks : 60, 58, 90, 51, 47, 81, 70, 95, 87, 99</p>,|51|81|52|60,52
+IX,Maths,Class IX Statistics,<p>The class mark of the class interval 2.4 -6.6 is</p>,|6.6|2.4|4.2|4.5,4.5
+IX,Maths,Class IX Statistics,<p>Which of the following variables are dicrete?</p>
+<p>1. The size of shoes</p>
+<p>2. The number of page in book</p>
+<p>3. Distance tarvelled by a train</p>
+<p>4. Time</p>,|2,4|1,4|1,2|1,3,1,2
+IX,Maths,Class IX Statistics,<p>The minimum value of datais 82 and range is 38 , then the maximum value</p>,|60|76|82|120,120
+IX,Maths,Class IX Statistics,<p>In a grouped frequency distribution, the class interval are 1-20, 21-40, 41-60 .., then the class width is</p>,|10|20|30|10.5,20
+IX,Maths,Class IX Statistics,<p>Given the class interval 1-10, 11-20, 21-30, then 20 is considered in class</p>,|11-20|21-30|11-30|15-25,11-20
+IX,Maths,Class IX Statistics,<p>The class marks of a frequency distribution are given below: 38,43 ,48 , 53, 58. The class corrosponding to the class mark 43 is</p>,|40.5 -45.5|38-48|38.5 - 48.5|,40.5 -45.5
+IX,Maths,Class IX Statistics,<p>For a given data, the difference between maximum and minimum&nbsp; observation is known as</p>,|class|range|class size|class mark,range
+IX,Maths,Class IX Statistics,<p>Class size of a distribution having 28,34, 40,46 and 52&nbsp; as its class marks are</p>,|4|5|6|3,6
+IX,Maths,Class IX Statistics,<p>Two coinas are tossed simultaneously.Then the probabaility of getting at most one head is</p>,|1/3|2/3|1/4|3/4,3/4

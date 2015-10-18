@@ -1,0 +1,59 @@
+class_name,subject,topic,question,answer,correct
+X,Science,Acid Base Salt,<p>Which of the following statements is true concerning acids and bases</p>,|Acids and bases do not react with each other|Acids mixed with bases neutralize each other|Acids mixed with based make stronger bases|Acids mixed with bases make stronger acids,Acids mixed with bases neutralize each other
+X,Science,Acid Base Salt,<p>Which of the correct set of acid properties, as described by Boyle</p>,|Sour taste, corrosive, change litmus from red to blue|Sour taste, corrosive, change litmus from blue to red|Sweet taste, slippery, change litmus from blue to red|Sour taste, slippery, change litmus f,Sour taste, corrosive, change litmus from blue to red
+X,Science,Acid Base Salt,<p>Neutral solutions have a pH of</p>,|0|7|14|18,7
+X,Science,Acid Base Salt,<p>A chemical species having one ionizable hydrogen ion is</p>,|Monoprotic|Diprotic|Triprotic|Polyprotic,Monoprotic
+X,Science,Acid Base Salt,<p>Vinegar, fruit juice, and cola are examples of</p>,|Strong acids|Weak acids|Strong bases|Weak bases,Weak acids
+X,Science,Acid Base Salt,<p>An aqueous solution turns red litmus solution blue. Excess addition of which of the following solution would reverse the change</p>,|Baking powder|Lime|Ammonium hydroxide solution|Hydrochloric acid,Hydrochloric acid
+X,Science,Acid Base Salt,<p>Which of the following gives the correct increasing order of acidic strength</p>,|Water < Acetic acid < Hydrochloric acid|Water < Hydrochloric acid < Acetic acid|Acetic acid < Water < Hydrochloric acid|Hydrochloric acid < Water < Acetic acid,Water < Acetic acid < Hydrochloric acid
+X,Science,Acid Base Salt,<p>One of the constituents of baking powder is sodium hydrogencarbonate, the other constituent is</p>,|Hydrochloric acid|Tartaric acid|Acetic acid|Sulphuric acid,Tartaric acid
+X,Science,Acid Base Salt,<p>In any neutralization reaction, an acid plus a base will produce a salt plus</p>,|Hydrogen gas|Oxygen gas|Another salt|Water,Water
+X,Science,Acid Base Salt,<p>As the strength of an acid increases, the strength of its conjugate base</p>,|increase|Decreases|Remains the same|None of these,Decreases
+X,Science,Acid Base Salt,<p>An unknown substance dissolves easily in water, and turns litmus paper pink. The substance is most likely</p>,|Base|Ester|Salt|Acid,Acid
+X,Science,Acid Base Salt,<p>A weak acid in solution is</p>,|mostly molecules|mostly ions|both molecules and ions|less water,both molecules and ions
+X,Science,Acid Base Salt,<p>A solution of which of these substances could be used to titrate an acetic acid solution</p>,|Ammonia|Potassium nitrate|Citric acid|Hydrogen bromide,Ammonia
+X,Science,Acid Base Salt,<p>If I react magnesium with hydrochloric acid, what gas is produced</p>,|Hydrogen|Oxygen|Carbon dioxide|No gas is produced,Hydrogen
+X,Science,Acid Base Salt,<p>Which of the following is the most accurate way of showing neutralisation</p>,|Acid + base ---->Neutral solution|Acid + base ---->salt + water|Acid + base ----> sodium chloride + hydrogen|There is no reaction between acids and bases,Acid + base ---->salt + water
+X,Science,Acid Base Salt,<p>What are the products, if a reaction occurs between nitric acid and sodium hydroxide</p>,|No reaction|Sodium hydrogenate + water|Sodium nitrate + water|Sodium nitrate + hydrogen,Sodium nitrate + water
+X,Science,Acid Base Salt,<p>Aluminium will react with Hydrochloric acid. What are the products of this reaction</p>,|No reaction|Aluminium chloride + hydrogen|Hydrogen chloride + aluminium|Aluminium + hydrogen,Aluminium chloride + hydrogen
+X,Science,Acid Base Salt,<p>Which of the following is not acidic in nature</p>,|Acetic Acid|Sodium Hydroxide|Sulphuric Acid|Hydrochloric Acid,Sodium Hydroxide
+X,Science,Acid Base Salt,<p>Slow eating away if iron articles in the presence of moist air is called</p>,|Galvanisation|Crystallisation|Rusting|Neutralisation,Rusting
+X,Science,Acid Base Salt,<p>Which of the following is not an indicator</p>,|Methyl Orange|Litmus|China Rose|Sunflower,Sunflower
+X,Science,Acid Base Salt,<p>The acid present in lemons is</p>,|Citric Acid|Oxalic Acid|Acetic Acid|Hydrochloric Acid,Citric Acid
+X,Science,Acid Base Salt,<p>is a basic gas which is used in the manufacture of fertilizers such as Urea</p>,|Chlorine|Ammonia|Nitrogen|Oxygen,Ammonia
+X,Science,Acid Base Salt,<p>Which of the following acids is found in acid rain? 1. Sulphur dioxide 2. Hydrocarbons 3.&nbsp;&nbsp; Smoke 4. Nitrogen oxides</p>,|1 and 4|2 and 3|1 and 3|None of these,1 and 4
+X,Science,Acid Base Salt,<p>acid is also known as Oil of Vitriol</p>,|Nitric|Hydrochloric|Sulfuric|Hydroiodic,Sulfuric
+X,Science,Acid Base Salt,<p>Choose the correct statement(s): (i) Most of the acids are water soluble (ii) Acids react with metallic oxides and hydroxides to form metallic salt and water only. (iii) Acids react with metallic c,|(i) & (ii) only|(iii) & (iv) only|(i), (ii) & (iv)|All of the above,(i), (ii) & (iv)
+X,Science,Acid Base Salt,<p>Indole acetic acid is</p>,|A chemical fertilizer|A type of vinegar|A pesticide|A natural phytohormone,A natural phytohormone
+X,Science,Acid Base Salt,<p>When phthalic acid is heated with soda lime, we get</p>,|Benzoic acid|Benzene|Toluene|None of the above,Benzene
+X,Science,Acid Base Salt,<p>Nitric acid oxidizes cane sugar to</p>,|Oxalic acid|Citric acid|Formic acid|None of these,Oxalic acid
+X,Science,Acid Base Salt,<p>Acetic acid is used</p>,|As soda water|For decaling pipes|In flavoring food items|To manufacture detergents,In flavoring food items
+X,Science,Acid Base Salt,<p>Tartar emetic is a derivative of tartaric acid which contains</p>,|K only|Sb only|Both (a) and (b)|None of the above,Both (a) and (b)
+X,Science,Acid Base Salt,<p>Rain water is</p>,|Acidic|Neutral|Basic|None of the above,Neutral
+X,Science,Acid Base Salt,<p>When copper sulphate reacts with iron, green coloured ... solution and brown colour ... deposition is formed</p>,|Iron oxide, copper sulphide|Iron sulphate, copper|Iron sulphate, copper oxide|Iron sulphide, copper oxide,Iron sulphate, copper
+X,Science,Acid Base Salt,<p>While repairing copper sulphate crystals from copper sulphate solution, dilute sulphuric acid is used instead of concentrate sulphuric acid, because</p>,|Concentrated sulphuric acid is corrosive in nature|Dilute sulphuric acid makes large crystals|Concentrated acid is infective|Both (1) and (2),Concentrated sulphuric acid is corrosive in nature
+X,Science,Acid Base Salt,<p>Bases are</p>,|Salty in taste|Sour in taste|Bitter in taste|Sweet in taste,Bitter in taste
+X,Science,Acid Base Salt,<p>Blue Vitriol is the common name of</p>,|Copper Sulphate|Copper Oxide|Copper Hydroxide|Magnesium Sulphate,Copper Sulphate
+X,Science,Acid Base Salt,<p>When vinegar reacts with baking soda the gas evolved is</p>,|Hydrogen|Oxygen|Carbon dioxide|Nitrogen dioxide,Carbon dioxide
+X,Science,Acid Base Salt,<p>What happens when a solution of an acid is mixed with a solution of a base in a test tube? (i)The temperature of the solution increases (ii)The temperature of the solution decreases (iv)The tempera,|(i) only |(i) and (iii)|(i) and (iii)|(i), (iii) and (iv),(i), (iii) and (iv)
+X,Science,Acid Base Salt,<p>To prevent iron from rusting a coating of this metal is deposited</p>,|Calcium|Chromium|Sodium|Potassium,Chromium
+X,Science,Acid Base Salt,<p>An indicator that turns reddish brown when dissolved in soap solution is</p>,|Litmus|China Rose|Turmeric Powder|None of these,Turmeric Powder
+X,Science,Acid Base Salt,<p>Sour taste of some fruits is due to the presence of</p>,|Citric Acid|Tartaric Acid|Acetic Acid|Formic Acid,Citric Acid
+X,Science,Acid Base Salt,<p>The gas you use in kitchen is called liquefied petroleum gas (L.P.G.). In the cylinder, it exists as a liquid. When it comes out of the cylinder, it&nbsp; becomes as gas (process A), then it burns ,|Process A is a chemical change|Process B is a chemical change|Both processed A and B are chemical changes|None of these processes is a chemical change.,Process B is a chemical change
+X,Science,Acid Base Salt,<p>An oxidation reaction involves</p>,|Addition of hydrogen or removal of oxygen|Addition of Oxygen or removal of hydrogen|Addition of Oxygen only|Addition of hydrogen Only,Addition of Oxygen or removal of hydrogen
+X,Science,Acid Base Salt,<p>In a combination reaction, how many products are formed</p>,|Only one|Only two|One or two only|Many,Only one
+X,Science,Acid Base Salt,<p>Which of the following is a strong acid</p>,|Acetic Acid|Citric Acid|Nitric Acid|Tartaric Acid,Nitric Acid
+X,Science,Acid Base Salt,<p>A small plant is planted outside your house, after a few years it i. Grows into a big tree ii. Bears fruit iii. Dies iv. Remains same<br />Which of the above statements is/are correct?</p>,|(ii) only|(iii) & (iv)|(i) & (ii)|(i) only,(i) & (ii)
+X,Science,Acid Base Salt,<p>Industrial waste is ... in nature</p>,|Acidic|Basic|Natural|Both (1) and (2),Natural
+X,Science,Acid Base Salt,<p>Pick out physical changes from the following: (i) Rusting of iron (ii) Dissolving salt in water (iii) Change of water to ice (iv) Cooking of food</p>,|(i) & (ii) |(ii) & (iii)|(i), (ii) & (iii)|(iii) & (iv),(ii) & (iii)
+X,Science,Acid Base Salt,<p>The reaction of acid and a base to form salt and water only is called</p>,|Neutralization|Addition|Substitution|Oxidation,Neutralization
+X,Science,Acid Base Salt,<p>Natural indicator litmus is extracted from</p>,|Lichens|Earthworms|Ants|Algae,Lichens
+X,Science,Acid Base Salt,<p>Acid contained in the sting of an ant is</p>,|Acetic Acid|Formic Acid|Lactic Acid|Ascorbic Acid,Formic Acid
+X,Science,Acid Base Salt,<p>Sun rises in the east and sets in the&nbsp; west, this repeated change is called</p>,|Irreversible change|Periodic change|Physical change|Chemical change,Periodic change
+X,Science,Acid Base Salt,<p>Match the following and choose the answer from the code given below:<br />(A)Metals on heating&nbsp;&nbsp; (i) Reversible change&nbsp; (B)Souring of milk&nbsp; (ii) Expand (C) Making clay toys&nbsp,|(A)-(iv), (B)-(i), (C)-(ii), (D)-(iii)|(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)|(A)-(iii), (B)-(iv), (C)-(i), (D)-(ii)|(A)-(ii), (B)-(iv), (C)-(i), (D)-(iii),(A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)
+X,Science,Acid Base Salt,<p>Select the reversible changes from the following and choose the answer from the options given below. (i) Melting of wax (ii) Freezing of water (iii) Formation of curd from milk (iv) Expansion of me,|(i) & (ii)|(i), (ii) & (iv)|(iii) only|All the above,(i), (ii) & (iv)
+X,Science,Acid Base Salt,<p>Acids turn methyl orange solution</p>,|Blue|Pink|Red |Colourless,Pink
+X,Science,Acid Base Salt,<p>When a drop of phenolphthalein is introduced in lime water, the solution turns</p>,|Blue|Red|Milky|Pink,Pink
+X,Science,Acid Base Salt,<p>A base which dissolves in water is called</p>,|Soluble base|Alkali|Acid|Oxide,Alkali
+X,Science,Acid Base Salt,<p>Acids are ... in taste while bases are .. in taste</p>,|Sweet, Salty|Sweet, Sour|Sour, Salty|Sour, Bitter,Sour, Bitter
+X,Science,Acid Base Salt,<p>A salt derived from a strong base and a weak acid will give a salt that is</p>,|acidic|basic|neutral|volatile,basic

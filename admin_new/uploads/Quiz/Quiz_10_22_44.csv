@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Quadratic Equations,<p>one of the roots of the quadratic equation a<sup>2</sup>x<sup>2</sup>-3abx+2b<sup>2</sup>=0 is</p>,|-2b/a|2a/b|-2a/b|2b/a,2b/a
+X,Maths,Quadratic Equations,<p>A quadratic equation ax2+bx+c=0 has real and distinct roots if (b<sup>2</sup>-4ac)</p>,|>0|=0|<0|none of these,>0
+X,Maths,Quadratic Equations,<p>Let b=a+c. Then ax<sup>2</sup>+bx+c=0 has equal roots if</p>,|a=2c|a=-c|a=c|a=-2c,a=c
+X,Maths,Quadratic Equations,<p>The roots of the quadratic equation x<sup>2</sup>-11x -10=0 is</p>,|real and distinct|real and equal|no real roots|none of these,real and distinct
+X,Maths,Quadratic Equations,<p>The discriminant of 4x<sup>2</sup>+3x-2=0 is</p>,|-31|-23|41|39,41
+X,Maths,Quadratic Equations,<p>(x<sup>2</sup>+1)<sup>2</sup>-x<sup>2</sup>=0 has</p>,|2 real roots|4 real roots|1 real roots|no  real roots,no  real roots
+X,Maths,Quadratic Equations,<p>5x<sup>2</sup>+8x+4=2x<sup>2</sup>+4x+6 is a</p>,|constant|linear equation|quadratic equation|cubic equation,quadratic equation
+X,Maths,Quadratic Equations,<p>If p=-7, q=12, and x<sup>2</sup>+px+q=0, then the value of x is</p>,|-3, -4|3, -4|-3, 4|3, 4,3, 4
+X,Maths,Quadratic Equations,<p>The roots of the quadratic equation x<sup>2</sup>-4px+4p<sup>2</sup>-q<sup>2</sup>=0 are</p>,|2p-q, 2p-q|2p+q, 2p+q|2p+q, 2p-q|p+2q, p-2q,2p+q, 2p-q
+X,Maths,Quadratic Equations,<p>(x+2)<sup>3</sup>=2x(x<sup>2</sup>-1) is a</p>,|quadratic equation|bi-quadratic equation|linear equation|cubic equation,cubic equation

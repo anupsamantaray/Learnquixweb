@@ -1,0 +1,12 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Class IX Triangles,<p>Which is true?</p>,|A triangle can have two right angle|A triangle can have two acute angle|A triangle can have two obtuse angle|all of these,A triangle can have two acute angle
+IX,Maths,Class IX Triangles,<p>In a triangle ABC, angle A = 35<sup>0</sup> and angle B = 65<sup>0</sup>, the longest side of the traingle is</p>,|AC|AB|BC|none of the above,AB
+IX,Maths,Class IX Triangles,<p>In triangle ABC,&nbsp; AB =0.5 BC= 6cm, . Then length of AC&nbsp; cannot be</p>,|3.4 cm|3.8 cm|4 cm|3.6 cm,3.4 cm
+IX,Maths,Class IX Triangles,<p>Which one of the following is not a criteria for congruence triangle?</p>,|SAS|ASA|SSS|SSA,SSA
+IX,Maths,Class IX Triangles,<p>If in a triangle, ABC and PQR, AB=PR and angle A = angle P. The two traingle would be congruent by SAS axiom if</p>,|BC=QR|AC=PQ|AC=QR|BC=PQ,AC=PQ
+IX,Maths,Class IX Triangles,<p>If &Delta; ABC is congruent to &Delta; PQR, and &Delta; ABC is not congruent to &Delta; RPQ, then which of the following is not true?</p>,|AC=PR|AB=PQ|BC=PQ|BC=QR,BC=PQ
+IX,Maths,Class IX Triangles,<p>If &Delta; ABC is congruent to &Delta; FDE in which AB= 5 cm, angle B = 40<sup>0</sup>, angle A =80<sup>0</sup> and FD = 5 cm, then which of the following is not true</p>,|angle F = 60|angle E = 60|angle D = 60|angle D = 80,angle D = 60
+IX,Maths,Class IX Triangles,<p>In a &Delta; ABC and &Delta; DEF, AB=DE, Angle A= Angle D, then two traingle would be congruent by Sa Axiom if</p>,|BC=DE|BC=EF|AC=DE|AC=EF,AC=DE
+IX,Maths,Class IX Triangles,<p>O is any point inside &Delta; ABC. then which of the following is true</p>,|(OA+OB+OC)<1/2(AB+BC+CA)|(OA+OB+OC)>(AB+BC+CA)|(OA+OB+OC)>1/2(AB+BC+CA)|none of these,(OA+OB+OC)>1/2(AB+BC+CA)
+IX,Maths,Class IX Triangles,<p>In &Delta; ABC is congruent to &Delta; PQR. If AB =5 cm, then which of the following is true?</p>,|QR = 5 cm, angle R = 60|QP = 5 cm, angle P = 60|QR = 5 cm, angle Q = 60|QP = 5 cm, angle R = 60,QP = 5 cm, angle R = 60
+IX,Maths,Class IX Triangles,<p>In &Delta; ABC and &Delta; PQR, AB= PR, Angle A = Angle P, then two traingle would be&nbsp; congruent by SAS&nbsp; axiom if</p>,|BC=PQ|AC=QR|BC=QR|AC=PQ,AC=PQ

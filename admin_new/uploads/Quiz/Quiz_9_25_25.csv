@@ -1,0 +1,15 @@
+class_name,subject,topic,question,answer,correct
+IX,Science,Structure Of The Atom,<p>The electronic configuration of an atom is 2,8,3. The number of valence electrons in the atom is</p>,|13|10|3|8,3
+IX,Science,Structure Of The Atom,<p><strong>Proton was discovered by</strong></p>,|Rutherford|Chadwick|J.J. Thomson|Goldstein,Goldstein
+IX,Science,Structure Of The Atom,<p><strong>Canal rays are ___________</strong></p>,|negative charged particles|positive charged particles|beam of neutrons|none  of these,positive charged particles
+IX,Science,Structure Of The Atom,<p><strong>&alpha;-particles are ___________</strong></p>,|positive charged particles|negative charged particles|beam of neutrons|gamma radiation,negative charged particles
+IX,Science,Structure Of The Atom,<p><strong>An &alpha;-particle is _____________</strong></p>,|a Hydrogen nucleus|a Helium nucleus|a proton|an electron,a Helium nucleus
+IX,Science,Structure Of The Atom,<p>Two elements X and Y have the same atomic mass but their atomic numbers are 20 and 21 respectively. X and Y are</p>,|isobars|isotones|isomers|isotopes,isotopes
+IX,Science,Structure Of The Atom,<p>In an atom, the mass number of an atom is equal to the number of _________________.</p>,|nucleons|protons|electrons|neutrons,nucleons
+IX,Science,Structure Of The Atom,<p>Number of neutrons present in Hydrogen atom is _______.</p>,|0|1|2|3,0
+IX,Science,Structure Of The Atom,<p>Protium, Deutrium and Tritium are isotopes of ____________.</p>,|Rhodium|Sodium|Hydrogen|Helium,Hydrogen
+IX,Science,Structure Of The Atom,<p>If Z represents the atomic number and A represents mass number, then the number of neutrons in an atom can be computed as<br /> </p>,|A + Z|A - Z|Z-A|A ,A - Z
+IX,Science,Structure Of The Atom,<p><strong>I</strong>f Z represents the atomic number and A represents mass number, then the number of electrons in an atom can be computed as</p>,|A + Z|A - Z|Z-A|A,A
+IX,Science,Structure Of The Atom,<p>The number of electrons in the outermost shell in the atom of an inert element is</p>,|0|1|2|8,8
+IX,Science,Structure Of The Atom,<p>Which one of the following will have the maximum charge/mass ratio</p>,|electron|proton|neutron|α-particle,electron
+IX,Science,Structure Of The Atom,<p>The maximum number of electrons that can be accommodated in M shell is:</p>,|2|8|18|32,18

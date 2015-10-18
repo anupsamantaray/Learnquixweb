@@ -1,0 +1,7 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Circles,<p>If O is the centre of a circle , PQ is a chord and tangent PR at P makes an angle of 60<sup>0</sup> with PQ, then the angle POQ is equal to (degree)</p>,|100|120|90|110,120
+X,Maths,Circles,<p>If PA and PB are tangents of a circle with centre O such that APB =40<sup>0</sup>, then angle OAB&nbsp; is equal to</p>,|30|40|25|20,20
+X,Maths,Circles,<p>The distance between two parallel tangents of a circle radius 3 cm is</p>,|4.5|3|12|6,6
+X,Maths,Circles,<p>PQ is a tangent drawn frpm point P to a&nbsp; circle&nbsp; with centre O&nbsp; and QPR&nbsp; is a diameter&nbsp; of the circle&nbsp; such PQR&nbsp; = 120<sup>0</sup>, then angle OPQ</p>,|45|30|35|60,30
+X,Maths,Circles,<p>The length of a tangent PQ from an external point&nbsp; P is 24 cm. If the distance of the point&nbsp; P from&nbsp; the centre&nbsp; is 25 cm , then the diameter of the circle</p>,|15|7|14|12,14
+X,Maths,Circles,<p>A tangent PQ&nbsp; at a point&nbsp; P of a circle&nbsp; of radius of 5 cm meets a line through centre&nbsp; O at a point Q so that&nbsp; OQ=12 cm . Find length&nbsp; PQ</p>,|26|13|√113|√119,√119

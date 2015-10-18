@@ -1,0 +1,12 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Introduction to Trignometry,<p>if tan&theta;= 20/21, then (1-sin&theta;+cos&theta;)/(1+sin&theta;+cos&theta;) =</p>,|4/7|5/7|6/7|3/7,3/7
+X,Maths,Introduction to Trignometry,<p>If in a triangle ABC, if L B=90<sup>0</sup> and Cot A =1, then the value of&nbsp; cos C sin A - Cos A Sin C =</p>,|2|1|-1|0,0
+X,Maths,Introduction to Trignometry,<p>if tan&theta; =20/21, then (cos&theta;-sin&theta;)/(cos&theta;+sin&theta;) =</p>,|21/20|1/41|1/21|1/20,1/41
+X,Maths,Introduction to Trignometry,<p>The maximum value of 1/sec&theta; is</p>,|0|1|2|3,1
+X,Maths,Introduction to Trignometry,<p>In right triangle ABC, right angle at C, if tan A = 1, then the value of 2 Sin A Cos A is</p>,|-1|1|0|2,1
+X,Maths,Introduction to Trignometry,<p>If cot&theta; = 7/8, then (1+sin&theta;)(1-sin&theta;)/(a+cos&theta;)(1-cos&theta;)</p>,|49/64|7/8|8/7|2/3,49/64
+X,Maths,Introduction to Trignometry,<p>if CotA + 1/Cot A =2,&nbsp; then Cot<sup>2</sup> A + 1/Cot<sup>2</sup> A =</p>,|0|1|2|-1,2
+X,Maths,Introduction to Trignometry,<p>If 4 tan&theta; = 3, (4 sin&theta;-cos&theta;)/(4 sin&theta;+cos&theta;) is</p>,|1/2|2/3|3/4|4/3,1/2
+X,Maths,Introduction to Trignometry,<p>If sin&theta; =5/13, then cos&theta; =5/13</p>,|12/13|5/12|5/13|13/12,12/13
+X,Maths,Introduction to Trignometry,<p>If Sin A =12/13, then tan A=</p>,|12/13`|13/5|12/5|5/13,12/5
+X,Maths,Introduction to Trignometry,<p>If &theta; is a acute angle and tan&theta;+cot&theta;=2, then the value of tan<sup>25</sup> &theta; +&nbsp;Cot<sup>25</sup> &theta; =</p>,|0|1|2|4,1

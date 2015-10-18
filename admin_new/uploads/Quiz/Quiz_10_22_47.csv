@@ -1,0 +1,11 @@
+class_name,subject,topic,question,answer,correct
+X,Maths,Coordinate Geometry,<p>The distance between the points (a,b) and (-a, b) is</p>,|2a|3a|3b|2b,2a
+X,Maths,Coordinate Geometry,<p>The abscissa of any point on x-axis is</p>,|0|-1|1|x,0
+X,Maths,Coordinate Geometry,<p>The abscissa of any point on y axis is</p>,|0|1|-1|2,0
+X,Maths,Coordinate Geometry,<p>The distance of a point from y axis is called</p>,|origin|abscissa|ordinate|none of these,abscissa
+X,Maths,Coordinate Geometry,<p>The point of intersection of x axis and y axis is called</p>,|ordinate|origin|abscissa|none of these,origin
+X,Maths,Coordinate Geometry,<p>The distance of apoint from x- axis is called</p>,|abscissa|ordinate|origin|none of these,ordinate
+X,Maths,Coordinate Geometry,<p>The distance between points (-1,-5) and (-6, 7) is</p>,|169|12|13|14,13
+X,Maths,Coordinate Geometry,<p>The distance between points (p, -5) and (2,7) is 13, then the value of p is</p>,|-3, 7|3, -7|3,7|-3,-7,-3, 7
+X,Maths,Coordinate Geometry,<p>The point (-3, 5) lies in which quadrant?</p>,|I|II|III|IV,II
+X,Maths,Coordinate Geometry,<p>The coordinates of a point are (3, -7). The ordinate is</p>,|3|-7|7|-3,-7

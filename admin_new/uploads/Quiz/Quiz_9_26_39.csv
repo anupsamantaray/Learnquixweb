@@ -1,0 +1,22 @@
+class_name,subject,topic,question,answer,correct
+IX,Maths,Linear Equations in Two Variables,<p>Determine the point on the graph of the linear equation x + y=6, whose ordinate is twice its <br />abscissa</p>,|2,3|2,4|3,1|4,2,2,4
+IX,Maths,Linear Equations in Two Variables,<p>The point of the form (a, -a) where a is not equal to 0 lies on</p>,|the line x=y|the line x+y=0|the x axis|the y axis,the line x=y
+IX,Maths,Linear Equations in Two Variables,<p>The linear equation 2x+3y=6 has</p>,|three solutions|two solutions|infinite solutions |unique solution,three solutions
+IX,Maths,Linear Equations in Two Variables,<p>x-4 is the equation of</p>,|a line parallel to x - axis|x- axis|a line parallel to y - axis|y - axis,a line parallel to x - axis
+IX,Maths,Linear Equations in Two Variables,<p>y=0 is the equation of</p>,|a ine parallel to x - axis| x - axis|a ine parallel to y - axis| y - axis,a ine parallel to x - axis
+IX,Maths,Linear Equations in Two Variables,<p>which of the following is not a solution 3x+4y=12 ?</p>,|(8,-3)|(2,3)|(0,3)|(4,0),(8,-3)
+IX,Maths,Linear Equations in Two Variables,<p>How many linear equation in x any can be satisfied by x=2, y=3 ?</p>,|two|none of these|only one|many,none of these
+IX,Maths,Linear Equations in Two Variables,<p>The equaion x=7 in two variables can be written as</p>,|0 x+ 1,  Y=7|1 x +1 y=7|ox +oy =7|1x +0y = 7,0 x+ 1,  Y=7
+IX,Maths,Linear Equations in Two Variables,<p>If we divide both sides of a linearequation with a non zero number, then the solution of the linear equation</p>,|gets divided by the number|changes|none of these|remains th same,remains th same
+IX,Maths,Linear Equations in Two Variables,<p>The area of the triangle formed by the line 3x+4y=12 and the co ordinate axis is</p>,|3 sq units|12 sq units|6 sq units|4 sq units,6 sq units
+IX,Maths,Linear Equations in Two Variables,<p>y= 0 is the equation of</p>,|y axis|x axis|a line parallel to x axis |a line parallel to y axis ,x axis
+IX,Maths,Linear Equations in Two Variables,<p>The point of the form (-a,a) where a is not equal to 0 lioes on</p>,|the line y=x|the x axis|the line x+y=0|the y axis,the line x+y=0
+IX,Maths,Linear Equations in Two Variables,<p>y+7 is the equation of</p>,|a line parallel to x axis|y axis|x axis|a line parallel to y axis,a line parallel to x axis
+IX,Maths,Linear Equations in Two Variables,<p>Which of the following&nbsp;&nbsp; is not a solution of 3x+4y=12</p>,|4,0|2,3|0,3|8,-3,2,3
+IX,Maths,Linear Equations in Two Variables,<p>The graph of the linear equation 3x-2y=6, cuts the x axis at</p>,|2,0|-2,0|0,-2|0,2,2,0
+IX,Maths,Linear Equations in Two Variables,<p>The graph of line x=4 passes through</p>,|0,4|-1,4|4,3|3,4,4,3
+IX,Maths,Linear Equations in Two Variables,<p>x-4 is the equation of</p>,|y axis|x axis|a lone parallel to x axis |a lone parallel to y axis ,a lone parallel to y axis 
+IX,Maths,Linear Equations in Two Variables,<p>The graph of the line y=3 passes through</p>,|3,4|0,4|-1,4|4,3,4,3
+IX,Maths,Linear Equations in Two Variables,<p>The linear equation 2x+3y=6 has</p>,|unique solution|infinite many solution|two solutions|three solutions,infinite many solution
+IX,Maths,Linear Equations in Two Variables,<p>&radic;2 is a polynomial of degree</p>,|2|1|3|0,0
+IX,Maths,Linear Equations in Two Variables,<p>The zero of the ploynomial p(x) = 5x-2</p>,|-2/5 , |5/2|5/2|2/5 ,-2/5 , 
