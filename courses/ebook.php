@@ -68,7 +68,7 @@
 											$res33 = mysql_fetch_assoc($fet33);
 										?>
 											<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>">
-												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Concept map</button>
+												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
 											</a>
 										<? }else{ ?>
 										<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
