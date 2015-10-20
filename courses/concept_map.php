@@ -60,7 +60,7 @@
 											$res3 = mysql_fetch_assoc($fet3);
 									?>
 										<td class=""><?=$reslt['topic']?></td>
-										<td style ="width: 228px;" class="center">
+										<td style ="width: 118px;" class="center">
 											<a href="view_concept_map_details.php?map_id=<?php echo $res3['id'];?>">
 												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Concept map</button>
 											</a>

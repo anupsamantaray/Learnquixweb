@@ -79,7 +79,7 @@
 							
 							</div>
 							
-							<input type="submit" class="fa-btn btn-1 btn-1e" name="submit" value="Submit">
+							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="Submit">
 						
 					</form>
 					</div>
