@@ -357,7 +357,7 @@ for($i=0;$i<$j;$i++)
 //$l++;
 
 			?>
-              <div align="center" style="padding-bottom:20px;padding-right:50px;"> <!--a href="publish.php?m=<?php echo $irand; ?>" style="color:rgb(0,112,176);" >Click Here To Publish Your Result</a--><a class="big-link" data-reveal-id="openModal" data-animation="fade" href="#"  style="color:blue;" id="clickid"></a>
+              <div class="" align="center" style="padding-bottom:20px;padding-right:50px;"> <!--a href="publish.php?m=<?php echo $irand; ?>" style="color:rgb(0,112,176);" >Click Here To Publish Your Result</a--><a class="big-link" data-reveal-id="openModal" data-animation="fade" href="#"  style="color:blue;" id="clickid"></a>
               	<?php
 					$x=0;
 					for($z=0;$z<count($concept1);$z++)
