@@ -1436,3 +1436,20 @@ body {
 		padding:4px;
 		text-align: center;
 	}
+	.questionDiv{
+		padding:0 0 15px 0;
+	}
+	.questionDiv h5{
+		padding:0 0 10px 0;
+		font-size:16px;
+		font-weight:300;
+		margin:0;
+		color:2a2a2a;
+		line-height:22px;
+	}
+	.radio label, .checkbox label{
+		font-size:14px !important;
+		padding-bottom:10px !important;
+		color:#868686 !important;
+		/*display: block;*/
+	}
