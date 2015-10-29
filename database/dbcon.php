@@ -1,6 +1,7 @@
 <?php 
 date_default_timezone_set('asia/kolkata');
-$BASE_PDF_URL = "http://localhost/Learnscience/courses/";
+$BASE_PDF_URL = "http://localhost/Learnquixweb/courses/";
+$BASE_PDF_URL_VIDEO= "http://localhost/Learnquixweb/admin/";
 $host="localhost";
 $user="root";
 $pass="";

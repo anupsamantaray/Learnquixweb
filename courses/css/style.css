@@ -1549,3 +1549,23 @@ body {
 		border-bottom:1px solid #ECECEC;
 		margin-bottom:15px;
 	}
+	.loginbutton_new{
+			padding: 6px 25px;
+			text-align: center;
+			margin: 0px;
+			font-size: 16px;
+			font-weight: 300;
+			color: #000;
+			background: transparent none repeat scroll 0% 0%;
+			border: 2px solid #FF5454;
+			border-radius:4px;
+			float: left;
+			transition: all 0.4s ease 0s;
+			text-decoration:none;
+			text-transform:none !important;
+		}
+		.loginbutton_new:hover{
+				background:#FF5454;
+				color:#fff !important;
+				text-decoration:none;
+		}
