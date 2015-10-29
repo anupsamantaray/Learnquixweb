@@ -287,11 +287,22 @@ $(function(){
 					<? }else{ ?>
 					<!--li class="quizecls"><a href="quize.php">Quizes</a></li-->
 					<? } ?>
-					<li class="premsuquize quizecls"><a href="quize.php">Quizzes</a>
-					<ul style="display:none;" class="remsuquize dropdown-menu mydrop">
-						<li><a href="quize.php">Basic Quiz</a></li>
-						<li><a href="quize_competitive.php">Competitive Quiz</a></li>
-					</ul>
+					
+					<?php 
+					if(isset($_SESSION['usrname']) && ($_SESSION['usrname'] != '')){ ?>
+						<li>
+							<a href="show_quizzes_part_one.php">Quizzes</a>
+						</li>
+					<?
+					}else{
+					?>
+					<li class="premsuquize"><a href="quize.php">Quizzes</a>
+						<ul style="display:none;" class="remsuquize dropdown-menu mydrop">
+							<li><a href="quize.php">Basic Quiz</a></li>
+							<li><a href="quize_competitive.php">Competitive Quiz</a></li>
+						</ul>
+					</li>
+					<? } ?>
 				</li>
 				  </ul>
 				</div>

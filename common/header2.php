@@ -288,12 +288,21 @@ $(function(){
 						</ul>
 					</li>
 					<!--li><a href="technology.php">Technologies</a></li-->
+					<?php 
+					if(isset($_SESSION['usrname']) && ($_SESSION['usrname'] != '')){ ?>
+						<li>
+							<a href="courses/show_quizzes_part_one.php">Quizzes</a>
+						</li>
+					<?
+					}else{
+					?>
 					<li class="premsuquize"><a href="courses/quize.php">Quizzes</a>
 						<ul style="display:none;" class="remsuquize dropdown-menu mydrop">
 							<li><a href="courses/quize.php">Basic Quiz</a></li>
 							<li><a href="courses/quize_competitive.php">Competitive Quiz</a></li>
 						</ul>
 					</li>
+					<? } ?>
 					<!--li><a href="blogs.php">Blog</a></li-->
 					<li><a href="hall_of_fame.php" class="insidecontact">Hall Of Fame</a></li>
 					<li><a href="games.php">Videos & Fun Games</a></li>
