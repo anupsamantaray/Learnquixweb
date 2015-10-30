@@ -34,14 +34,15 @@ for($i=0;$i<$j;$i++)
 		
 	//}
 	try{
-	echo("<h2> Question ".($i+1)."</h2>");
+	echo("<div class='questionDiv'>");
+	echo("<h5> Question ".($i+1)."</h5>");
 	echo($arrquestion[$i]);	
 	echo("<br>");
-	echo("<input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."<br>");
-	echo("<input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."<br>");
-	echo("<input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."<br>");
-	echo("<input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."<br>");
-	echo("<input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'><br>");
+	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."<br></lable></div>");
+	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."<br></lable></div>");
+	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."<br></lable></div>");
+	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."<br></lable></div>");
+	echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'><br></lable></div>");
 	}
 	catch(Exception $e)
 	{}
