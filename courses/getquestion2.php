@@ -26,42 +26,28 @@ if(mysql_num_rows($result_question)>0){
 $j=$i;
 $k=1;
 $l=1;
- 
-for($i=0;$i<$j;$i++)
-{
-	//if($i % 10==0)
-	//{
-		
-	//}
+for($i=0;$i<$j;$i++){
 	try{
-	echo("<div class='questionDiv'>");
-	echo("<h5> Question ".($i+1)."</h5>");
-	echo($arrquestion[$i]);	
-	echo("<br>");
-	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."<br></lable></div>");
-	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."<br></lable></div>");
-	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."<br></lable></div>");
-	echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."<br></lable></div>");
-	echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'><br></lable></div>");
+		echo("<div class='questionDiv'>");
+		echo("<h5> Question ".($i+1)."</h5>");
+		echo($arrquestion[$i]);
+		echo("<br>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."<br></lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."<br></lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."<br></lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."<br></lable></div>");
+		echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'><br></lable></div>");
 	}
-	catch(Exception $e)
-	{}
+	catch(Exception $e){
+		
+	}
 	
 }
-
-//$l++;
-
-/*
-echo($low);
-echo("<br>");
-echo($up);
-echo("<br>");*/
 echo'<input type="text" name="txtlevel" value="'.$d.'" style="display:none;">';
 echo("<input type='button' value='submit' name='result' onclick='callsubmit1();'>");
 echo("</div>");
 }
-else
-{
+else{
 	echo("<h1 id='level' style='color:#e05f03;'>&nbsp;&nbsp;Questions for this level are not yet uploaded.</h1>");
 }
 echo("<input type='text' name='count' value='".$j."' style='display:none;'>

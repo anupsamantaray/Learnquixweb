@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "database/dbcon.php";
+include "common/thumbnail.class.php";
 if(isset($_REQUEST['Register'])){
 	$usrname = (isset($_REQUEST['usrname'])&&($_REQUEST['usrname']!=''))?$_REQUEST['usrname']:'';
 	$usremail = (isset($_REQUEST['usremail'])&&($_REQUEST['usremail']!=''))?$_REQUEST['usremail']:'';
@@ -19,7 +20,17 @@ if(isset($_REQUEST['Register'])){
 		$image=rand(0,999).time().$img_name;
 		$path="upload/student_images/".$image;
 		$tmp_name=$_FILES['usrphoto']['tmp_name'];
-		move_uploaded_file($tmp_name,$path);
+		if(move_uploaded_file($tmp_name,$path)){
+			 $pic=new Thumbnail();
+			 $pic->filename="upload/student_images/".$image;
+			 $pic->filename2="upload/student_images/thumb_".$image;
+			 $pic->maxW=90;
+			 $pic->maxH=90;
+			 $pic->SetNewWH();
+			 $pic->makeNew();
+			 $pic->FinirPImage();
+			 $image = "thumb_".$image;
+		}
 	}
 	mysql_query("INSERT INTO `login` (`name` , `class`, `phone` ,`email` ,`password` ,`school` ,`city`, `pro_pic`) VALUES ('".$usrname."', '".$usrclass."', '".$usrcontact."', '".$usremail."', '".$usrpass."', '".$usrschool."', '".$usrcity."', '".$image."')");
 	$user_id = mysql_insert_id();
