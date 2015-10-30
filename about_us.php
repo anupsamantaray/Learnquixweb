@@ -13,7 +13,7 @@
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-6 content_left">
-				<img src="images/pic1.jpg" alt="" class="img-responsive">
+				<img src="images/pic1.jpg" alt="Lazy Owl Image" class="img-responsive">
 			</div>
 			<div class="col-md-6 content_right">
 				<h4>Lorem Ipsum is simply <span>dummy text of the ornare  </span> vulputate printing and  There are many variations of passages.</h4>

@@ -4,15 +4,15 @@
 		<div id="da-slider" class="da-slider text-center">
 			<div class="da-slide">
 				<h2>education portal</h2>
-				<p>The Education Portal is a featured portal, <span class="hide_text">which means it has been identified as one of the best portals on Wikipedia. If you see a way this portal can be updated or improved without compromising previous work, please feel free to contribute.</span></p>
+				<p>Smart content for faster learning. <span class="hide_text"> Our panel of teachers have prepared animated content for easy memory and better performance in exams. Get best teacher support for your queries</span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
 				<h2>online educations</h2>
-				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award.</span></p>
+				<p>Our software enables you prepare for exams and improve weak areas.<span class="hide_text"> Download our App and get the whole course in your pocket. Score better to see yourself in Hall of Fame ! Win prizes in the Monthly Online Scholarship exam.</span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
-			<div class="da-slide">
+			<!--div class="da-slide">
 				<h2>education portal</h2>
 				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award. </span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
@@ -21,7 +21,7 @@
 				<h2>online educations</h2>
 				<p>Online learning is a method of delivering educational information via the internet instead of in a physical classroom.<span class="hide_text">There are many different applications for online learning in scope from simple downloadable content through to structured programmes that include assessment and award. </span></p>
 				<h3 class="da-link"><a href="single-page.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
-			</div>
+			</div-->
 	   </div>
 	</div>
 </div><!-- end slider -->
@@ -75,9 +75,9 @@
 					<img class="lazyOwl" data-src="images/c1.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">vehicula diam</a></h4>
+					<h4><a href="#">Teacher</a></h4>
 					<p>
-						Lorem ipsum dolor amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt dolore magna aliqua.
+						The content is designed in such a way that it complements school learning. Students can learn at their own pace and revise from thousands of Multiple Choice Questions.
 					</p>
 				</div>
 			</div>
@@ -86,9 +86,9 @@
 					<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Morbi nunc</a></h4>
+					<h4><a href="#">Student</a></h4>
 					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+						We get to improve our concepts using Interactive Animation and Concept maps. LearnQuix App is very useful in preparation before exams.
 					</p>
 				</div>
 			</div>
@@ -97,20 +97,21 @@
 					<img class="lazyOwl" data-src="images/c3.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Lorem ipsum</a></h4>
+					<h4><a href="#">Student</a></h4>
 					<p>
-						On the other hand, we denounce with righteous indignation and dislike men who are so beguiled  pleasure of the moment,
+						Score better than previous tests and you get to see yourself in the Hall of Fame !
 					</p>
 				</div>
 			</div>
 			<div class="item">
 				<div class="cau_left">
-					<img class="lazyOwl" data-src="images/c4.jpg" alt="Lazy Owl Image">
+					<!--img class="lazyOwl" data-src="images/c4.jpg" alt="Lazy Owl Image"-->
+					<img class="lazyOwl" data-src="images/c7.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Sed faucibus</a></h4>
+					<h4><a href="#">Teacher</a></h4>
 					<p>
-						Lorem ipsum dolor amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt dolore magna aliqua.
+						 Our students use contents here to augment learning and focus on self paced learning.
 					</p>
 				</div>
 			</div>
@@ -119,9 +120,9 @@
 					<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Lorem ipsum</a></h4>
+					<h4><a href="#">parent</a></h4>
 					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+						 Our kids enjoy animated learning as its fun and easy to remember ! It was nice to see my Son on the Hall of Fame ,
 					</p>
 				</div>
 			</div>
@@ -130,20 +131,20 @@
 					<img class="lazyOwl" data-src="images/c3.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Lorem ipsum</a></h4>
+					<h4><a href="#">parent</a></h4>
 					<p>
-						On the other hand, we denounce with righteous indignation and dislike men who are so beguiled  pleasure of the moment,
+						Students can discover their weak areas & get customized content to improvise upon it. EduTrackerTM helps in knowing the pace of learning.
 					</p>
 				</div>
 			</div>
-			<div class="item">
+			<!--div class="item">
 				<div class="cau_left">
 					<img class="lazyOwl" data-src="images/c4.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
 					<h4><a href="#">vehicula diam</a></h4>
 					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+						The content is designed in such a way that it complements school learning. Students can learn at their own pace and revise from thousands of Multiple Choice Questions.
 					</p>
 				</div>
 			</div>
@@ -154,7 +155,7 @@
 				<div class="cau_left">
 					<h4><a href="#">Lorem ipsum</a></h4>
 					<p>
-						On the other hand, we denounce with righteous indignation and dislike men who are so beguiled  pleasure of the moment,
+						We get to improve our concepts using Interactive Animation and Concept maps. LearnQuix App is very useful in preparation before exams
 					</p>
 				</div>
 			</div>
@@ -165,7 +166,7 @@
 				<div class="cau_left">
 					<h4><a href="#">Lorem ipsum</a></h4>
 					<p>
-						Lorem ipsum dolor amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt dolore magna aliqua.
+						Score better than previous tests and you get to see yourself in the Hall of Fame !
 					</p>
 				</div>
 			</div>
@@ -176,7 +177,7 @@
 				<div class="cau_left">
 					<h4><a href="#">vehicula diam</a></h4>
 					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+						Our students use contents here to augment learning and focus on self paced learning.
 					</p>
 				</div>
 			</div>
@@ -187,7 +188,7 @@
 				<div class="cau_left">
 					<h4><a href="#">Lorem ipsum</a></h4>
 					<p>
-						On the other hand, we denounce with righteous indignation and dislike men who are so beguiled  pleasure of the moment,
+						Our kids enjoy animated learning as its fun and easy to remember ! It was nice to see my Son on the Hall of Fame.
 					</p>
 				</div>
 			</div>
@@ -198,10 +199,10 @@
 				<div class="cau_left">
 					<h4><a href="#">Morbi nunc</a></h4>
 					<p>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+						Students can discover their weak areas & get customized content to improvise upon it. EduTrackerTM helps in knowing the pace of learning.
 					</p>
 				</div>
-			</div>
+			</div-->
 		</div>
 		<!----//End-img-cursual---->
 	</div>
