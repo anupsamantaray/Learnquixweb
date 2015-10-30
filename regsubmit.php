@@ -21,7 +21,7 @@ if(isset($_REQUEST['Register'])){
 		$tmp_name=$_FILES['usrphoto']['tmp_name'];
 		move_uploaded_file($tmp_name,$path);
 	}
-	mysql_query("INSERT INTO `login` (`name` , `class`, `phone` ,`email` ,`password` ,`school` ,`city`, `pro_pic`) VALUES ('".$usrname."', '".$usrclass."', '".$usrcontact."', '".$usremail."', '".md5($usrpass)."', '".$usrschool."', '".$usrcity."', '".$image."')");
+	mysql_query("INSERT INTO `login` (`name` , `class`, `phone` ,`email` ,`password` ,`school` ,`city`, `pro_pic`) VALUES ('".$usrname."', '".$usrclass."', '".$usrcontact."', '".$usremail."', '".$usrpass."', '".$usrschool."', '".$usrcity."', '".$image."')");
 	$user_id = mysql_insert_id();
 	$_SESSION["user_id"] = $user_id;
 	$_SESSION["usrname"] = ucfirst($usrname);
