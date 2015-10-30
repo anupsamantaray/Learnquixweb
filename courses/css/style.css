@@ -1442,9 +1442,9 @@ body {
 		line-height:22px;
 	}
 	.radio label, .checkbox label{
-		font-size:14px;
+		font-size:14px !important;
 		padding-bottom:10px !important;
-		color:#868686;
+		color:#868686 !important;
 		/*display: block;*/
 	}
 	.forme_Qus{
