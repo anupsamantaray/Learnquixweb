@@ -75,7 +75,7 @@
 					<img class="lazyOwl" data-src="images/c1.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Teacher</a></h4>
+					<h4><a href="javascript:void(0)">Teacher</a></h4>
 					<p>
 						The content is designed in such a way that it complements school learning. Students can learn at their own pace and revise from thousands of Multiple Choice Questions.
 					</p>
@@ -86,7 +86,7 @@
 					<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Student</a></h4>
+					<h4><a href="javascript:void(0)">Student</a></h4>
 					<p>
 						We get to improve our concepts using Interactive Animation and Concept maps. LearnQuix App is very useful in preparation before exams.
 					</p>
@@ -97,7 +97,7 @@
 					<img class="lazyOwl" data-src="images/c3.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Student</a></h4>
+					<h4><a href="javascript:void(0)">Student</a></h4>
 					<p>
 						Score better than previous tests and you get to see yourself in the Hall of Fame !
 					</p>
@@ -109,7 +109,7 @@
 					<img class="lazyOwl" data-src="images/c7.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">Teacher</a></h4>
+					<h4><a href="javascript:void(0)">Teacher</a></h4>
 					<p>
 						 Our students use contents here to augment learning and focus on self paced learning.
 					</p>
@@ -117,10 +117,10 @@
 			</div>
 			<div class="item">
 				<div class="cau_left">
-					<img class="lazyOwl" data-src="images/c2.jpg" alt="Lazy Owl Image">
+					<img class="lazyOwl" data-src="images/c20.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">parent</a></h4>
+					<h4><a href="javascript:void(0)">parent</a></h4>
 					<p>
 						 Our kids enjoy animated learning as its fun and easy to remember ! It was nice to see my Son on the Hall of Fame ,
 					</p>
@@ -128,10 +128,10 @@
 			</div>
 			<div class="item">
 				<div class="cau_left">
-					<img class="lazyOwl" data-src="images/c3.jpg" alt="Lazy Owl Image">
+					<img class="lazyOwl" data-src="images/c21.jpg" alt="Lazy Owl Image">
 				</div>
 				<div class="cau_left">
-					<h4><a href="#">parent</a></h4>
+					<h4><a href="javascript:void(0)">parent</a></h4>
 					<p>
 						Students can discover their weak areas & get customized content to improvise upon it. EduTrackerTM helps in knowing the pace of learning.
 					</p>
