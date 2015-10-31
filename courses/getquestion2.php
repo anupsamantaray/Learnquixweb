@@ -31,12 +31,12 @@ for($i=0;$i<$j;$i++){
 		echo("<div class='questionDiv'>");
 		echo("<h5> Question ".($i+1)."</h5>");
 		echo($arrquestion[$i]);
-		echo("<br>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."<br></lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."<br></lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."<br></lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."<br></lable></div>");
-		echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'><br></lable></div>");
+		//echo("<br>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."</lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."</lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."</lable></div>");
+		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."</lable></div>");
+		echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'></lable></div>");
 	}
 	catch(Exception $e){
 		
@@ -44,7 +44,7 @@ for($i=0;$i<$j;$i++){
 	
 }
 echo'<input type="text" name="txtlevel" value="'.$d.'" style="display:none;">';
-echo("<input type='button' value='submit' name='result' onclick='callsubmit1();'>");
+echo("<input type='button' class='fa-btn btn-1 btn-1e loginbutton_new' value='submit' name='result' onclick='callsubmit1();'>");
 echo("</div>");
 }
 else{
