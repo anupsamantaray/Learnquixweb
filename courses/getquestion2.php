@@ -29,14 +29,16 @@ $l=1;
 for($i=0;$i<$j;$i++){
 	try{
 		echo("<div class='questionDiv'>");
-		echo("<h5> Question ".($i+1)."</h5>");
-		echo($arrquestion[$i]);
+		echo("<h5 class='right_ans'>".$arrquestion[$i]."</h5>");
+		//echo("<h5 class='right_ans'> Question ".($i+1)." <br />".$arrquestion[$i]."</h5>");
+		//echo($arrquestion[$i]);
 		//echo("<br>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."</lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."</lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."</lable></div>");
-		echo("<div class='radio block'><lable><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."</lable></div>");
-		echo("<div class='radio block'><lable><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'></lable></div>");
+		echo("<div class='radio block'><label><input type='radio' value='".$arranswer2[$i][1]."' name='radio".$i."'>".$arranswer2[$i][1]."</label></div>");
+		echo("<div class='radio block'><label><input type='radio' value='".$arranswer2[$i][2]."' name='radio".$i."'>".$arranswer2[$i][2]."</label></div>");
+		echo("<div class='radio block'><label><input type='radio' value='".$arranswer2[$i][3]."' name='radio".$i."'>".$arranswer2[$i][3]."</label></div>");
+		echo("<div class='radio block'><label><input type='radio' value='".$arranswer2[$i][4]."' name='radio".$i."'>".$arranswer2[$i][4]."</label></div>");
+		echo("<div class='radio block'><label><input type='text' value='".$correct[$i]."' name='txtc".$i."' style='display:none;'></label></div>");
+		echo("</div>");
 	}
 	catch(Exception $e){
 		
@@ -45,7 +47,7 @@ for($i=0;$i<$j;$i++){
 }
 echo'<input type="text" name="txtlevel" value="'.$d.'" style="display:none;">';
 echo("<input type='button' class='fa-btn btn-1 btn-1e loginbutton_new' value='submit' name='result' onclick='callsubmit1();'>");
-echo("</div>");
+//echo("</div>");
 }
 else{
 	echo("<h1 id='level' style='color:#e05f03;'>&nbsp;&nbsp;Questions for this level are not yet uploaded.</h1>");
