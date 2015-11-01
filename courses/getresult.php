@@ -60,17 +60,17 @@ function popup(){
 					<!--li class="list active"-->
 					<li>
 						<a href="javascript:void(0)">
-							Class <u><?php echo $rescl['class'];?></u>
+							Class<?php echo $rescl['class'];?>
 						</a>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							Subject <u><?php echo $_POST['txtsubject'];?></u>
+							Subject<?php echo $_POST['txtsubject'];?>
 						</a>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							Topic <u><?php echo $_POST['txttopic'];?></u>
+							Topic<?php echo $_POST['txttopic'];?>
 						</a>
 					</li>
 					<!--li>
@@ -80,7 +80,7 @@ function popup(){
 			</div>
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
-					<div class="science_Div">
+					<div class="science_Div" style="border-top:none;">
 <?php
 	$cnt=0;
 	for($i=0;$i<(int)($_POST['count']);$i++){
@@ -147,7 +147,7 @@ for($i=0;$i<$j;$i++){
 	if($arranswer2[$i][1]==$correct[$i]){
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label><img class='rifhtwrng' src='images/correct.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label></div>");
 			}
@@ -157,7 +157,7 @@ for($i=0;$i<$j;$i++){
 	}else{
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$arranswer2[$i][1]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label><img class='rifhtwrng' src='images/wrong.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label><img class='rifhtwrng' src='images/cross2.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label></div>");
 			}
@@ -168,7 +168,7 @@ for($i=0;$i<$j;$i++){
 	if($arranswer2[$i][2]==$correct[$i]){
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/correct.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/right_icon.pmg'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label></div>");
 			}
@@ -178,7 +178,7 @@ for($i=0;$i<$j;$i++){
 	}else{
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$arranswer2[$i][2]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/wrong.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/cross2.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label></div>");
 			}
@@ -189,7 +189,7 @@ for($i=0;$i<$j;$i++){
 	if($arranswer2[$i][3]==$correct[$i]){
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label><img class='rifhtwrng' src='images/correct.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label></div>");
 			}
@@ -199,7 +199,7 @@ for($i=0;$i<$j;$i++){
 	}else{
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$arranswer2[$i][3]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label><img class='rifhtwrng' src='images/wrong.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label><img class='rifhtwrng' src='images/cross2.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label></div>");
 			}
@@ -210,7 +210,7 @@ for($i=0;$i<$j;$i++){
 	if($arranswer2[$i][4]==$correct[$i]){
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label><img class='rifhtwrng' src='images/correct.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label></div>");
 			}
@@ -220,7 +220,7 @@ for($i=0;$i<$j;$i++){
 	}else{
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$arranswer2[$i][4]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label><img class='rifhtwrng' src='images/wrong.jpg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label><img class='rifhtwrng' src='images/cross2.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label></div>");
 			}
