@@ -139,7 +139,7 @@ for($i=0;$i<$j;$i++){
 	try{ 
 	?>
 	<div class="questionDiv">
-		<h5 class="right_ans"><?=$arrquestion[$i]?></h5>
+		<h5 class="right_ans right_ansnew"><?=$arrquestion[$i]?></h5>
 	<?php
 	/*echo("<h2 class='quentnclass'> Question ".($i+1)."</h2>");
 	echo("<b>".$arrquestion[$i]."</b>");	

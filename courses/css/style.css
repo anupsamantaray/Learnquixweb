@@ -1574,3 +1574,6 @@ body {
 		.rifhtwrng{
 			margin: -2px 0px 0px 15px !important;
 		}
+		.right_ansnew p{
+			margin:0 !important;
+		}
