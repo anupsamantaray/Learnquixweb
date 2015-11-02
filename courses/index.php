@@ -50,13 +50,46 @@
 										$slctqrry = mysql_query("SELECT * FROM student_topic WHERE class_id = '".$clid."' AND subject_id = '".$rrslt['id']."'");
 										if(mysql_num_rows($slctqrry)>0){
 											while($reslt = mysql_fetch_assoc($slctqrry)){
+												
 									?>
 									<tr class="gradeA even">
 										<td class=" "><a href="#"><?=$reslt['topic']?></a></td>
-										<!--td style ="width: 228px;" class="center">
-										<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
-										<button class="btn btn-success btn-label"><i class="fa fa-question" style="margin-right:8px;"></i> Difficult qusetion</button>
-										</td-->
+										<td style ="width: 228px;" class="center">
+											<?
+												$fet3=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND ebook!=''");
+												if(mysql_num_rows($fet3)>0){
+													$res3 = mysql_fetch_assoc($fet3);
+											?>
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank">
+												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
+											</a>
+											<?
+												}else{ ?>
+											<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
+											<? } ?>
+											<?php
+											$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
+											if(mysql_num_rows($fet33)>0){
+												$res33 = mysql_fetch_assoc($fet33);
+											?>
+												<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>" style="float:left; margin-right:4px; padding:0 !important;">
+													<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+												</a>
+											<? }else{ ?>
+											<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+											<? } 
+												$fet31=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
+												if(mysql_num_rows($fet31)>0){
+													$res31 = mysql_fetch_assoc($fet31);
+											?>
+											<div class="videoDiv">
+												<div class="col-md-4 " style="padding:0 10px 0 0; position: relative;">
+													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo"><i class="fa fa-caret-right vediosPlay"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<? } ?>
+										</td>
 									</tr>
 									<?
 											}
