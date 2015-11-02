@@ -2,10 +2,19 @@
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="about details row">
-			<h2>Lorem  use a passage of Lorem Ipsum</h2>
+			<h2>Brief  description about LearnQuix</h2>
 			<img src="images/det_pic.jpg" alt="" class="img-responsive"/>
-			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words. </p>
+			
+			<p class="para">We are a dedicated team of professionals who want to make learning easy, simple and fun for students. Based out of Kolkata with Offices in Bangalore & Bhubaneswar we leverage technology to develop superior products & services that benefit students in an enlightening way. 
+			Our ScoreMore TM software runs on AI engine, and can identify weak areas of a student along. It then sends customised content to each student for better results well before the exams.</p>
+			
+			
+			<p class="para">Our Hall of Fame recognises students who not only top, but also show improvement in their scores. Students can  participate in online quiz and be winners.</p>
+			
+			<p class="para"> We have conducted such quizzes at many schools at Kolkata, Bhubaneswar and Raipur. Download our new App LearnQuix and carry the entire smart content with you. Students across India are already using our App for better performance.We also support GyanTarang, an organisation that supports a scholarship program for students.</p>
+			
+			
+			
 			<a href="javascript:void(0)" class="fa-btn btn-1 btn-1e">read more</a>
 		</div>
 	</div>

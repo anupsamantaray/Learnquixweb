@@ -269,13 +269,7 @@ $(function(){
 				  <ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about_us.php">About</a></li>
-					<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
-					   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
-							<li><a href="pagetest.php">Memory Cards</a></li>
-							<li><a href="concept.php">Concept Map</a></li>
-							<li><a href="picture.php">Picture Game</a></li>
-					  </ul>
-					</li>
+					
 					<li class="coursecls"><a href="javascript:void(0)">Courses</a>
 						<ul style="display:none;" class="remsucrse dropdown-menu mydrop">
 						<?
@@ -306,6 +300,13 @@ $(function(){
 					<!--li><a href="blogs.php">Blog</a></li-->
 					<li><a href="hall_of_fame.php" class="insidecontact">Hall Of Fame</a></li>
 					<li><a href="games.php">Videos & Fun Games</a></li>
+					<li class="remmnmnu"><a href="javascript:void(0)" class="dropdown-toggle">Remember Cards</a>
+					   <ul style="display:none;" class="remsubmnu dropdown-menu mydrop">
+							<li><a href="pagetest.php">Memory Cards</a></li>
+							<li><a href="concept.php">Concept Map</a></li>
+							<li><a href="picture.php">Picture Game</a></li>
+					  </ul>
+					</li>
 					<li><a href="http://gyantarang.org/" target="_blank">Scholarship</a></li>
 					<li class="contctusact"><a href="contact_us.php">Contact</a></li>
 

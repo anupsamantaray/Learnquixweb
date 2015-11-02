@@ -18,9 +18,9 @@ $mess=$_GET['err'];
 				<div class="col-md-7 rightNew2">
 					<p class="para">Memory cards are unique way of memorising learning items. Capturing keywords/main formulae on a Card template; the Memory Card is a handy tool while revising Chapters and preparing for exams. It also enables the transfer of subject content to long term memory for better retention by looking at it time and again. We create memory cards for students built in a way that his/her gap in memory is filled with least effort.</p>
 					<div class="memory_option effect5">
-						<h4>1. Force = Mass X Acceleration</h4>
-						<h4>2. S = ut + 1/2 at2</h4>
-						<h4>3. v2 - u2 = 2as</h4>
+						<h4>1. Force = Mass x  Acceleration</h4>
+						<h4>2. S = ut + 1/2 at<sup>2</sup></h4>
+						<h4>3. v<sup>2</sup> - u<sup>2</sup> = 2as</h4>
 						
 					</div>
 					<!--button class="annibutton">Awesome Button</button-->
