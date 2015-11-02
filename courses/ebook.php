@@ -60,7 +60,12 @@
 										if(mysql_num_rows($fet3)>0){
 											$res3 = mysql_fetch_assoc($fet3);
 									?>
-										<td class=" "><a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank"><?=$reslt['topic']?></a></td>
+										<td class=" ">
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank"><?=$reslt['topic']?></a>
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank">
+												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
+											</a>
+										</td>
 										<td style ="width: 228px;" class="center">
 										<?php
 										$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");

@@ -38,7 +38,7 @@ if(isset($_REQUEST['Register'])){
 	$_SESSION["usrname"] = ucfirst($usrname);
 	$_SESSION["user_pic"] = $image;
 	$_SESSION["class"] = $usrclass;
-	echo "<script>location.href='index.php';</script>";
+	echo "<script>location.href='courses/profile.php';</script>";
 }
 if(isset($_REQUEST['op']) && ($_REQUEST['op']=='lgt')){
 	session_destroy();
@@ -54,7 +54,7 @@ if(isset($_REQUEST['action']) && ($_REQUEST['action']=='login')){
 		$_SESSION["usrname"] = ucfirst($reslt['name']);
 		$_SESSION["user_pic"] = $reslt['pro_pic'];
 		$_SESSION["class"] = $reslt['class'];
-		echo "<script>location.href='index.php';</script>";
+		echo "<script>location.href='courses/profile.php';</script>";
 	}else{
 		echo "<script>alert('Incorrect email or password! Please try again.');</script>";
 		echo "<script>location.href='index.php';</script>";
