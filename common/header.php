@@ -316,6 +316,7 @@ $(function() {
 		        <!--li><a href="blogs.php">Blog</a></li-->
 		        <li><a href="hall_of_fame.php" class="insidecontact">Hall Of Fame</a></li>
 				<li><a href="games.php">Videos & Fun Games</a></li>
+				<li><a href="http://gyantarang.org/" target="_blank">Scholarship</a></li>
 		        <li><a href="contact_us.php" class="insidecontact">Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
@@ -323,11 +324,11 @@ $(function() {
 		</nav>
 		<div class="soc_icons navbar-right">
 			<ul class="list-unstyled text-center">
-				<li><a href="https://www.youtube.com/watch?v=bwWI-mW7KsI" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="https://www.youtube.com/watch?v=ct7ahMwgC-s" target="_blank"><i class="fa fa-youtube"></i></a></li>
 				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 				<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<!--li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li-->
 			</ul>	
 		</div>
 	</div>

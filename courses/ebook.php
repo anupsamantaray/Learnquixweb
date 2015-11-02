@@ -36,7 +36,7 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">This section contains the Ebook and Revision notes. Revision notes are very helpful in quick preparation for exam. </p>
+					<p class="para" style="text-align:center;">This section contains the Ebook. Additionally there is mind map and difficult questions available for references. </p>
 					
 					<? 
 						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id = '".$clid."'");
