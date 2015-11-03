@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="about details row">
 			<h2>Brief  description about LearnQuix</h2>
-			<img src="images/det_pic.jpg" alt="" class="img-responsive"/>
+			<img src="images/det_pic.jpg" alt="Lazy Owl Image" class="img-responsive"/>
 			
 			<p class="para">We are a dedicated team of professionals who want to make learning easy, simple and fun for students. Based out of Kolkata with Offices in Bangalore & Bhubaneswar we leverage technology to develop superior products & services that benefit students in an enlightening way. 
 			Our ScoreMore TM software runs on AI engine, and can identify weak areas of a student along. It then sends customised content to each student for better results well before the exams.</p>
