@@ -63,7 +63,7 @@
 										<td class=" ">
 											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank"><?=$reslt['topic']?></a>
 											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank">
-												<a href="javascript:void(0)" class="btn-label">
+												<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank" class="btn-label">
 													<img src="images/pdf_icon.png" alt="Lazy Owl Image" class="pdf_icon">
 												</a>
 												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
