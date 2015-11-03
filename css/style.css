@@ -336,6 +336,18 @@ body {
 	position: relative;
 	z-index: 1;
 }
+.mapborder{
+	border:1px dashed #E9E9E9;
+	padding:15px;
+	border-radius:5px;
+}
+.aboutText{
+	padding:0 0 0 30px !important;
+}
+.para span{
+	font-weight:400px;
+	color:#FF5454;
+}
 /* start  technology */
 .technology{
 	padding: 4% 0;
