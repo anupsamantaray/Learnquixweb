@@ -83,8 +83,8 @@
 													$res31 = mysql_fetch_assoc($fet31);
 											?>
 											<div class="videoDiv">
-												<div class="col-md-4 " style="padding:0 10px 0 0; position: relative;">
-													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo"><i class="fa fa-caret-right vediosPlay"></i></a>
+												<div class="col-md-9 " style="padding:8px; position: relative;">
+													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo" style="height: 56px !important; width: 49%;"><i class="fa fa-caret-right vediosPlay" style="top: 18px; left: 25px; background: #756F6F;"></i></a>
 												</div>
 												<div class="clearfix"></div>
 											</div>
