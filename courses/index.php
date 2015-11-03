@@ -84,7 +84,7 @@
 											?>
 											<div class="videoDiv">
 												<div class="col-md-9 " style="padding:8px; position: relative;">
-													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo"><i class="fa fa-caret-right vediosPlay" style="top: 44px; left: 60px;"></i></a>
+													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo" style="height: 56px !important; width: 49%;"><i class="fa fa-caret-right vediosPlay" style="top: 18px; left: 25px; background: #756F6F;"></i></a>
 												</div>
 												<div class="clearfix"></div>
 											</div>
