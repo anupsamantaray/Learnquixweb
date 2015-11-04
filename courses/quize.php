@@ -79,12 +79,12 @@
 							
 							</div>
 							<div>
-							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="Submit" style="float:left;">
-							<div class="winprize">
-								<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+								<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="Submit" style="float:left;">
+								<div class="winprize">
+									<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+								</div>
+								<div class="clr"></div>
 							</div>
-							<div class="clr"></div>
-							<div>
 					</form>
 					</div>
 				</div>
