@@ -36,7 +36,7 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">This section contains the Ebook. Additionally there is mind map and difficult questions available for references. </p>
+					<h6>This section contains the Ebook. Additionally there is mind map and difficult questions available for references. </h6>
 					
 					<? 
 						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id = '".$clid."'");

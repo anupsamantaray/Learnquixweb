@@ -34,7 +34,7 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">This section contains the Ebook and Revision notes. Revision notes are very helpful in quick preparation for exam. </p>
+					<h6 style="text-align:center;">This section contains the Ebook and Revision notes. Revision notes are very helpful in quick preparation for exam. </h6>
 					
 					<? 
 						$slctwrry = mysql_query("SELECT * FROM student_subject WHERE class_id = '".$clid."'");
@@ -54,7 +54,7 @@
 									?>
 									<tr class="gradeA even">
 										<td class=" "><a href="#"><?=$reslt['topic']?></a></td>
-										<td style ="width: 228px;" class="center">
+										<td style ="width: 225px;" class="center">
 											<?
 												$fet3=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND ebook!=''");
 												if(mysql_num_rows($fet3)>0){
@@ -82,12 +82,8 @@
 												if(mysql_num_rows($fet31)>0){
 													$res31 = mysql_fetch_assoc($fet31);
 											?>
-											<div class="videoDiv">
-												<div class="col-md-9 " style="padding:8px; position: relative;">
-													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><img src="images/vid-placeholder.jpg" alt="..." class="img-thumbnail myvideo" style="height: 56px !important; width: 49%;"><i class="fa fa-caret-right vediosPlay" style="top: 18px; left: 25px; background: #756F6F;"></i></a>
-												</div>
+													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;"><i class="fa  fa-video-camera brows_video"></i></a>
 												<div class="clearfix"></div>
-											</div>
 											<? } ?>
 										</td>
 									</tr>

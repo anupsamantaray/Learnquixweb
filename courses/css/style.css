@@ -1585,3 +1585,37 @@ body {
 			box-shadow:0px 0px 3px rgba(0, 0, 0 ,0.3);
 			border-radius:0 5px 0 0;
 		}
+		.brows_video{
+			font-size: 18px !important;
+			line-height: 0;
+			margin-left: 8px !important;
+			color: #2a2a2a;
+		}
+		.child_right h6{
+			font-size:20px;
+			padding:10px;
+			margin:0;
+			font-weight:500;
+			text-align:center;
+			color:#FF5454;
+			text-shadow: 0px 0px 2px rgba(255, 205, 84, 0.62);
+		}
+		.winprize{
+			float:right;
+		}
+		.winprize a{
+			/*display:block;*/
+			color:#FF5454;
+			text-decoration:none;
+			font-size:16px;
+			padding:8px;
+			margin:0;
+			text-align:left;
+			border:1px solid #FF5454;
+			transition: all 0.4s ease 0s;
+		}
+		.winprize a:hover{
+			color:#2a2a2a;
+			border:1px solid #2a2a2a;
+			text-decoration:none;
+		}

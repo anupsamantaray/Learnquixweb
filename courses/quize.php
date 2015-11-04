@@ -27,7 +27,7 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </p>
+					<h6 style="text-align:center; font-size:16px;line-height: 22px;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </h6>
 					<div class="science_Div">
 						<form name="quiz_form" action="basic_result.php" method="POST" enctype="multipart/form-data">
 					
@@ -78,12 +78,15 @@
 								<input type="hidden" name="h5" value="4">
 							
 							</div>
-							
-							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="Submit">
-						
+							<div>
+							<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="Submit" style="float:left;">
+							<div class="winprize">
+								<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+							</div>
+							<div class="clr"></div>
+							<div>
 					</form>
 					</div>
-					
 				</div>
 			</div>
 		</div>

@@ -97,6 +97,9 @@
 						</div>
 					</div-->
 				</div>
+				<div class="winprize">
+					<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+				</div>
 			</div>
 		</div>
 	</div>
