@@ -66,8 +66,7 @@
 											<?
 												}else{ ?>
 											<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
-											<? } ?>
-											<?php
+											<? }
 											$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
 											if(mysql_num_rows($fet33)>0){
 												$res33 = mysql_fetch_assoc($fet33);
@@ -76,7 +75,9 @@
 													<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
 												</a>
 											<? }else{ ?>
-											<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+											<a href="javascript:void(0)" style="float:left; margin-right:4px; padding:0 !important;">
+												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+											</a>
 											<? } 
 												$fet31=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
 												if(mysql_num_rows($fet31)>0){
