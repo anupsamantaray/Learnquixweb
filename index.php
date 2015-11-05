@@ -29,26 +29,26 @@
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
-				<a href="courses/sample_questions.php"><span class="bg"><i class="fa fa-globe"></i></span></a>
+				<a href="courses/sample_questions.php"><span class="newtwo_bg"><img src="images/smp_ques.jpg" alt="Lazy Owl Image" class="smp_ques"></span></a>
 
 				<h4><a href="courses/sample_questions.php" >Sample Question</a></h4>
 				<p class="para">Receive a huge collection of Sample Question papers.. We have designed this based on our expert teachers’ inputs with years of experience. Get a good idea of how the coming exam papers would look like.</p>
 				<a href="courses/sample_questions.php" class="fa-btn btn-1 btn-1e" >Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<a href="courses/ebook.php"><span class="bg"><i class="fa fa-book"></i></span></a>
+				<a href="courses/ebook.php"><span class="newtwo_bg"><img src="images/ebook.jpg" alt="Lazy Owl Image" class="smp_ques"></span></a>
 				<h4><a href="courses/ebook.php">e-Books</a></h4>
 				<p class="para">Go through an array of electronic text with comments and highlights for a quick and easy understanding of the chapters. The Ebooks can be used for online reference and also keeping a tab on what and when you have studied.</p>
 				<a href="courses/ebook.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<a href="courses/video.php"><span class="bg"><i class="fa fa-video-camera"></i></span></a>
+				<a href="courses/video.php"><span class="newtwo_bg"><img src="images/video.jpg" alt="Lazy Owl Image" class="smp_ques"></span></a>
 				<h4><a href="courses/video.php">Videos</a></h4>
 				<p class="para">Pictures speak a thousand words and visuals help understand much faster. Understand even the most difficult portions from your syllabus and improve your retention using an array of rich animated content.</p>
 				<a href="courses/video.php" class="fa-btn btn-1 btn-1e">Read More</a>
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<a href="courses/concept_map.php"><span class="bg"><i class="fa fa-shield"></i></span></a>
+				<a href="courses/concept_map.php"><span class="newtwo_bg"><img src="images/mindmap.jpg" alt="Lazy Owl Image" class="smp_ques"></span></a>
 				<h4><a href="courses/concept_map.php">Mind Map</a></h4>
 				<p class="para">A mind-map puts all ideas into a frame that fits into your memory for a fast recall. Research shows you can retain things through a “visual memory”.  Use mindmaps for quick revision before the exams and see your scores improving !.</p>
 				<a href="courses/concept_map.php" class="fa-btn btn-1 btn-1e">read more</a>
