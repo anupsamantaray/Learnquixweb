@@ -11,8 +11,7 @@ if(isset($_POST['submit'])){
 		$_SESSION['pass']=$pwd;
 		$_SESSION['admin_type']=$rs['admin_type'];
 		header("location:question_add.php");
-	}
-	else{
+	}else{
 		header("location:adminlogin.php");
 	}
 }
