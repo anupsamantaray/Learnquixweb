@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 		$_SESSION['id']=$user;
 		$_SESSION['pass']=$pwd;
 		$_SESSION['admin_type']=$rs['admin_type'];
-		header("location:class_add.php");
+		header("location:question_add.php");
 	}else{
 		header("location:adminlogin.php");
 	}
