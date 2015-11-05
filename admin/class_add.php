@@ -14,7 +14,7 @@ else{
 				function delete_data(vals){
 					var con=confirm("Do you want to delete class?");
 					if(con){
-					window.location="class_delete.php?id1="+vals;
+						window.location="class_delete.php?id1="+vals;
 					}
 				}
 			</script>
@@ -28,7 +28,13 @@ else{
 			<div id="main_bar">
 				<div id="main_box">
 					<div id="left_box">
-						<?php include_once("conleft_bar.php"); ?>
+						<?php
+							if($_SESSION['admin_type'] == 0){
+								include_once("conleft_bar.php");
+							}else{
+								include_once("conleft_bar_sub.php");
+							}
+						 ?>
 					</div>
 					<div id="right_box" style="margin-left:40px;">
 						<div class="headline">
