@@ -24,7 +24,7 @@
 			<div class="col-md-10 rightNew">
 				<div class="child_right">
 					<!--h2 class="userIDnew"><span>Welcome</span> Arindam  </h2-->
-					<p class="para" style="text-align:center;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </p>
+					<H6  style="text-align:center; font-size:16px;">Our quiz enables students to learn at different levels of difficulty and adjust their pace of learning. Our Software Quisy would be launched soon...this software understands a students responses in the quiz and tells a student what exactly he needs to learn  </h6>
 					<div class="science_Div">
 						<!--h4 class="forme_Qus">For more quizzes <a href="#a">Click Here</a></h4-->
 						<form name="f" action="competitive_result.php" method="post">
