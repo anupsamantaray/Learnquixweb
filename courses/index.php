@@ -61,22 +61,26 @@
 													$res3 = mysql_fetch_assoc($fet3);
 											?>
 											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank" style="float:left; padding:0 !important;">
-												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
+												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
+												<img src="images/view_pdf.png">
 											</a>
 											<?
 												}else{ ?>
-											<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
+											<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
+											<img src="images/view_pdf.png">
 											<? }
 											$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
 											if(mysql_num_rows($fet33)>0){
 												$res33 = mysql_fetch_assoc($fet33);
 											?>
-												<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>" style="float:left; margin:0 4px; padding:0 !important;">
-													<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+												<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>" style="margin:0 4px; padding:0 !important;">
+													<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button-->
+													<img src="images/mind_map.png">
 												</a>
 											<? }else{ ?>
-											<a href="javascript:void(0)" style="float:left; margin:0 4px; padding:0 !important;">
-												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
+											<a href="javascript:void(0)" style="margin:0 4px; padding:0 !important;">
+												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button-->
+												<img src="images/mind_map.png">
 											</a>
 											<? } 
 												$fet31=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
