@@ -60,7 +60,7 @@
 												if(mysql_num_rows($fet3)>0){
 													$res3 = mysql_fetch_assoc($fet3);
 											?>
-											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank">
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank" style="float:left; padding:0 !important;">
 												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button>
 											</a>
 											<?
@@ -71,11 +71,11 @@
 											if(mysql_num_rows($fet33)>0){
 												$res33 = mysql_fetch_assoc($fet33);
 											?>
-												<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>" style="float:left; margin-right:4px; padding:0 !important;">
+												<a href="view_concept_map_details.php?map_id=<?php echo $res33['id'];?>" style="float:left; margin:0 4px; padding:0 !important;">
 													<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
 												</a>
 											<? }else{ ?>
-											<a href="javascript:void(0)" style="float:left; margin-right:4px; padding:0 !important;">
+											<a href="javascript:void(0)" style="float:left; margin:0 4px; padding:0 !important;">
 												<button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button>
 											</a>
 											<? } 
