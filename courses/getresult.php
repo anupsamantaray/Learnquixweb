@@ -60,17 +60,17 @@ function popup(){
 					<!--li class="list active"-->
 					<li>
 						<a href="javascript:void(0)">
-							Class<?php echo $rescl['class'];?>
+							Class : <?php echo $rescl['class'];?>
 						</a>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							Subject<?php echo $_POST['txtsubject'];?>
+							Subject : <?php echo $_POST['txtsubject'];?>
 						</a>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							Topic<?php echo $_POST['txttopic'];?>
+							Topic : <?php echo $_POST['txttopic'];?>
 						</a>
 					</li>
 					<!--li>
@@ -231,13 +231,13 @@ for($i=0;$i<$j;$i++){
 	if(!empty($_POST['radio'.$i])){
 		if($_POST['radio'.$i]!=$correct[$i]){
 			echo("<h5 class=''>Correct Answer : ".$correct[$i]."</h5>");
-			echo("<h5 class=''>Concepts Included : ".$concept[$i]."</h5>");
+			//echo("<h5 class=''>Concepts Included : ".$concept[$i]."</h5>");
 			$concept1[$jkl]=explode(",",$concept[$i]);
 			$jkl++;
 		}
 	}else if(empty($_POST['radio'.$i])){
 		echo("<h5 class=''>Correct Answer : ".$correct[$i]."</h5>");
-		echo("<h5 class=''>Concepts Included : ".$concept[$i]."</h5>");
+		//echo("<h5 class=''>Concepts Included : ".$concept[$i]."</h5>");
 		$concept1[$jkl]=explode(",",$concept[$i]);
 		$jkl++;
 	}
