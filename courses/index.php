@@ -67,12 +67,12 @@
 											?>
 											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank" style="padding:0 !important;">
 												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
-												<img src="images/view_pdf.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="View Pdf!">
+												<img src="images/view_pdf.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="View PDF">
 											</a>
 											<?
 												}else{ ?>
 											<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
-											<img src="images/view_pdf.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="View Pdf!">
+											<img src="images/view_pdf.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="View PDF">
 											<? }
 											$fet33=mysql_query("select * from `student_concept_maps` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."'");
 											if(mysql_num_rows($fet33)>0){
@@ -85,14 +85,14 @@
 											<? }else{ ?>
 											<a href="javascript:void(0)" style="margin:0 4px; padding:0 !important;">
 												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> Mind map</button-->
-												<img src="images/mind_map.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="Mind Map!">
+												<img src="images/mind_map.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="Mind Map">
 											</a>
 											<? } 
 												$fet31=mysql_query("select * from `extra_detail` where `class_id` = '".$clid."' and `subject_id` = '".$rrslt['id']."' and `topic_id` = '".$reslt['id']."' AND video!=''");
 												if(mysql_num_rows($fet31)>0){
 													$res31 = mysql_fetch_assoc($fet31);
 											?>
-													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;" style="padding:8px 0 0 0 !important;"><i class="fa  fa-video-camera brows_video" data-toggle="tooltip" title="Videos!"></i></a>
+													<a href="<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>" onclick="window.open('<?=$BASE_PDF_URL_VIDEO?><?php echo $res31['video'];?>', 'newwindow', 'width=1200, height=600'); return false;" style="padding:8px 0 0 0 !important;"><i class="fa  fa-video-camera brows_video" data-toggle="tooltip" title="Videos"></i></a>
 												<div class="clearfix"></div>
 											<? } ?>
 										</td>
