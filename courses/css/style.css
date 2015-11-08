@@ -1587,9 +1587,10 @@ body {
 		}
 		.brows_video{
 			font-size: 18px !important;
-			line-height: 28px !important;
-			margin-left: 8px !important;
+			line-height: 19px !important;
+			margin-left:0px !important;
 			color: #2a2a2a;
+			padding-top:5px;
 		}
 		.child_right h6{
 			font-size:20px;
