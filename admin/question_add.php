@@ -121,7 +121,8 @@ margin-bottom:5px;
 								<td>
 									<textarea  class="tinymce" name="quesname[]" id="question" style="width:50px;"></textarea>
 								</td >
-								<td><span>Answers</span><br/><input type="text" name="ans1[]" class="form btm"/><br/>
+								<td><span>Answers</span><br/>
+									<input type="text" name="ans1[]" class="form btm"/><br/>
 									<input type="text" name="ans1[]" class="form btm"/><br/>
 									<input type="text" name="ans1[]" class="form btm"/><br/>
 									<input type="text" name="ans1[]" class="form btm"/>
