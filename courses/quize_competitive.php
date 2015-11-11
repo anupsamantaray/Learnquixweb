@@ -4,6 +4,9 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$(".quizecls").addClass('active');
+		$(".sub_flipreg").click(function(){
+			$(document).find("#flipreg").trigger('click');
+		});
 	});
 </script>
 <div class="container">
@@ -94,7 +97,7 @@
 							<div>
 								<input type="submit" class="fa-btn btn-1 btn-1e loginbutton_new" name="submit" value="submit" style="float:left;">
 								<div class="winprize">
-									<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+									<a href="javascript:void(0)" class="sub_flipreg"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
 								</div>
 								<div class="clr"></div>
 							</div>

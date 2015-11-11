@@ -248,6 +248,58 @@ for($i=0;$i<$j;$i++){
 	}
 }
 ?>
+				<!--div align="center" style="padding-bottom:20px;padding-right:50px;"> <a href="publish.php?m=<?php echo $irand; ?>" style="color:rgb(0,112,176);" >Click Here To Publish Your Result</a><a class="big-link" data-reveal-id="openModal" data-animation="fade" href="#"  style="color:blue;" id="clickid"></a-->
+              	<?php
+					$x=0;
+					for($z=0;$z<count($concept1);$z++)
+					{
+						for($y=0;$y<count($concept1[$z]);$y++)
+						{
+							if(!empty($concept1[$z][$y]))
+							{
+								$concept2[$x]=$concept1[$z][$y];
+								$x++;
+								
+							}
+						}	
+					}
+					for($w=0;$w<count($concept2);$w++)
+					{
+						//echo($concept2[$w].",");	
+					}
+					$t=0;
+					for($v=0;$v<count($concept2);$v++)
+					{
+						$cntconcept=0;
+						for($u=$v;$u>=0;$u--)
+						{
+							if($concept2[$u]==$concept2[$v])
+							{
+								$cntconcept++;	
+							}	
+							
+						}
+						if($cntconcept<=1)
+						{
+							$concept3[$t]=$concept2[$v];
+							$t++;	
+						}
+						
+					}
+					$str="";
+					//echo(count($concept3));
+					for($s=0;$s<count($concept3);$s++)
+					{
+						//echo($concept3[$s].",");
+						$str=$str.",".$concept3[$s];	
+					}
+					
+					$str2=str_replace(" ,"," ",$str);
+					//echo($str2);
+					$concept4=explode(",",$str2);
+					$str=implode(",",$concept4);
+					// a b c d e f g h i j k l m n o p q r s t u v w x y z
+				?>
 								</div>
 							</div>
 						</div>
@@ -268,7 +320,7 @@ $resultResult1=mysql_query($sqlresult1);
 if(mysql_num_rows($resultResult1)>0){
 
 }else{
-	$sqlresult="INSERT INTO `learnsci_kriti`.`student_result` 
+	$sqlresult="INSERT INTO `student_result` 
 	(`propic`, `Student_name`, 
 	`Subject_class`, 
 	`Subject`, 
@@ -283,8 +335,8 @@ if(mysql_num_rows($resultResult1)>0){
 	 `Publish`, 
  	`Date`, 
 	 `index`) 
-	 VALUES ('".$img_val."', '".$_SESSION['name']."', 
-	 '".$_POST['txtclass']."',
+	 VALUES ('".$_SESSION['user_pic']."', '".$_SESSION['usrname']."', 
+	 '".$rescl['class']."',
  	'".$_POST['txtsubject']."', 
  	'".$_POST['txttopic']."', 
  	'".$cnt."', '".$_POST['count']."', 
@@ -292,7 +344,7 @@ if(mysql_num_rows($resultResult1)>0){
  	$result_sqlresult=mysql_query($sqlresult);
 	
 	
-	 $sqlconcept="insert into tblweakcconcept(name,img,eid,class,subject,topic,date,weak_concept) values('".$_SESSION['name']."','".$img_val."','".$_SESSION['email']."','".$_POST['txtclass']."','".$_POST['txtsubject']."','".$_POST['txttopic']."','".$mydate."','".$str."')";
+	 $sqlconcept="insert into tblweakcconcept(name,img,eid,class,subject,topic,date,weak_concept) values('".$_SESSION['usrname']."','".$_SESSION['user_pic']."','".$_SESSION['user_email']."','".$rescl['class']."','".$_POST['txtsubject']."','".$_POST['txttopic']."','".$mydate."','".$str."')";
   	 $resultconcept=mysql_query($sqlconcept);
 	 
 	 $body="You need to practice following concepts : ".$str;
@@ -301,7 +353,7 @@ if(mysql_num_rows($resultResult1)>0){
 $mailheader .= "Reply-To:  help@learnscience.co.in\r\n"; 
 $mailheader .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
-	 //mail($_SESSION['email'],$heading,$body,$mailheader);
+	 mail($_SESSION['email'],$heading,$body,$mailheader);
   
 }
  //} ?>

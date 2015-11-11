@@ -37,6 +37,7 @@ if(isset($_REQUEST['Register'])){
 	$_SESSION["user_id"] = $user_id;
 	$_SESSION["usrname"] = ucfirst($usrname);
 	$_SESSION["user_pic"] = $image;
+	$_SESSION["user_email"] = $usremail;
 	$_SESSION["class"] = $usrclass;
 	echo "<script>location.href='courses/profile.php';</script>";
 }
@@ -53,6 +54,7 @@ if(isset($_REQUEST['action']) && ($_REQUEST['action']=='login')){
 		$_SESSION["slno"] = $reslt['slno'];
 		$_SESSION["usrname"] = ucfirst($reslt['name']);
 		$_SESSION["user_pic"] = $reslt['pro_pic'];
+		$_SESSION["user_email"] = $reslt['email'];
 		$_SESSION["class"] = $reslt['class'];
 		echo "<script>location.href='courses/profile.php';</script>";
 	}else{
