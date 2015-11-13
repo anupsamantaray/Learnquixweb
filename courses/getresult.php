@@ -73,9 +73,9 @@ function popup(){
 							Topic : <?php echo $_POST['txttopic'];?>
 						</a>
 					</li>
-					<!--li>
-						<a href="publish.php?m=<?php //echo $irand; ?>" style="color:rgb(0,112,176);" > Publish Result</a>
-					</li-->
+					<li>
+						<a href="publish.php?m=<?php echo $irand; ?>" > Publish Result</a>
+					</li>
 				</ul>
 			</div>
 			<div class="col-md-10 rightNew">
@@ -105,7 +105,7 @@ function popup(){
 	//header("location:ShowQuizes2.php?c=".$cnt);
 ?>
 				 
-             <!--div align="right"> <a href="publish.php?m=<?php echo $irand; ?>" style="color:rgb(0,112,176);" >Click Here To Publish Your Result</a></div-->     
+             <div align="right"> <a href="publish.php?m=<?php echo $irand; ?>" >Click Here To Publish Your Result</a></div>     
 
                 </div>
               <div>
@@ -127,6 +127,9 @@ if(mysql_num_rows($result_question)>0){
 		$arranswer2[$i][3]=$arranswer[3];
 		$arranswer2[$i][4]=$arranswer[4];
 		$correct[$i]=$arranswer2[$i][$rows_question['correct']];
+		$question_id[$i]=$rows_question['id'];
+		/*print_r($arranswer2[$i]);
+		die();*/
 		$concept[$i]=$rows_question['concepts'];
 		$i++;		
 	}
@@ -145,6 +148,7 @@ for($i=0;$i<$j;$i++){
 	echo("<b>".$arrquestion[$i]."</b>");	
 	echo("<br>");*/
 	if($arranswer2[$i][1]==$correct[$i]){
+		$answer_optn = 1;
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
 				echo("<div class='radio block'><label>".$arranswer2[$i][1]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
@@ -166,9 +170,10 @@ for($i=0;$i<$j;$i++){
 		}
 	}
 	if($arranswer2[$i][2]==$correct[$i]){
+		$answer_optn = 2;
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
-				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/right_icon.pmg'></div>");
+				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
 			}else{
 				echo("<div class='radio block'><label>".$arranswer2[$i][2]."</label></div>");
 			}
@@ -187,6 +192,7 @@ for($i=0;$i<$j;$i++){
 		}
 	}
 	if($arranswer2[$i][3]==$correct[$i]){
+		$answer_optn = 3;
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
 				echo("<div class='radio block'><label>".$arranswer2[$i][3]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
@@ -208,6 +214,7 @@ for($i=0;$i<$j;$i++){
 		}
 	}
 	if($arranswer2[$i][4]==$correct[$i]){
+		$answer_optn = 4;
 		if(!empty($_POST['radio'.$i])){
 			if($_POST['radio'.$i]==$correct[$i]){
 				echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label><img class='rifhtwrng' src='images/right_icon.png'></div>");
@@ -228,12 +235,15 @@ for($i=0;$i<$j;$i++){
 			echo("<div class='radio block'><label>".$arranswer2[$i][4]."</label></div>");
 		}
 	}	
+	$mrks = 0;
 	if(!empty($_POST['radio'.$i])){
 		if($_POST['radio'.$i]!=$correct[$i]){
 			echo("<h5 class=''>Correct Answer : ".$correct[$i]."</h5>");
 			//echo("<h5 class=''>Concepts Included : ".$concept[$i]."</h5>");
 			$concept1[$jkl]=explode(",",$concept[$i]);
 			$jkl++;
+		}else{
+			$mrks = 1;
 		}
 	}else if(empty($_POST['radio'.$i])){
 		echo("<h5 class=''>Correct Answer : ".$correct[$i]."</h5>");
@@ -241,6 +251,7 @@ for($i=0;$i<$j;$i++){
 		$concept1[$jkl]=explode(",",$concept[$i]);
 		$jkl++;
 	}
+	mysql_query("insert into `select_answer` set `name`='".$_SESSION['usrname']."',`userid`='".$_SESSION['slno']."',`class`='".$class."',`subject`='".$_POST['txtsubjectid']."',`topic`='".$_POST['txttopicid']."',`question`='".$question_id[$i]."',`answer`='".$answer_optn."',`time`='".time()."', `mark`='".$mrks."',`date`='".date('Y-m-d')."'") or die(mysql_error());
 	//echo("<hr><br>");
 	}
 	catch(Exception $e){

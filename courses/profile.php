@@ -154,7 +154,7 @@
                           <thead>
                             <tr>
                               <th style="width:320px;">Topic</th>
-                              <th>Question attent</th>
+                              <th>Question attend</th>
                               <th>Wrong answer</th>
                               <th>Correct answer</th>
 							  <th>Mark</th>
@@ -177,9 +177,9 @@
 								  
 								  $fetchwrong=mysql_query("select * from `select_answer` where `time`='$uid' and `mark`='0'");
 								  $fetchright=mysql_query("select * from `select_answer` where `time`='$uid' and `mark`='1'");
-								  $wrong=mysql_numrows($fetchwrong);
-								  $right=mysql_numrows($fetchright);
-								  $qatten=mysql_numrows($fetchdetail);
+								  $wrong=mysql_num_rows($fetchwrong);
+								  $right=mysql_num_rows($fetchright);
+								  $qatten=mysql_num_rows($fetchdetail);
 								  ?>
 								  <tr>
 									<td>

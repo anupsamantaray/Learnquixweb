@@ -382,7 +382,9 @@ echo("<script>function showtime3()
 							   <input type="text" name="txtname" id="txtname" value="<?php if($_SESSION['name']){echo $_SESSION['name'];} ?>" style="display:none;"/>
 								<input type="text" name="txtclass" id="txtclass" value="<?php echo $rescl['class'];?>" style="display:none;"/>
 								 <input type="text" name="txtsubject" id="txtsubject" value="<?php echo $subject1;?>" style="display:none;"/>
+								 <input type="text" name="txtsubjectid" id="txtsubjectid" value="<?php echo $subject_id;?>" style="display:none;"/>
 								  <input type="text" name="txttopic" id="txttopic" value="<?php echo $topic;?>" style="display:none;"/>
+								  <input type="text" name="txttopicid" id="txttopicid" value="<?php echo $tid;?>" style="display:none;"/>
 							  <!--input type="text" name="txtendtime" id="txtendtime" style="display:none;"/-->
 							  <!--input type="text" name="txtstarttime" id="txtstarttime" style="display:none;" /--> 
 							  <div id='showquestions' height="100%" >
