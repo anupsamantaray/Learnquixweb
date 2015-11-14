@@ -89,8 +89,8 @@ margin-bottom:5px;
 					  $mess=$_GET['msg'];
 					   echo "<span style='font-family:arial; color:red; margin-left:20px;'>".$mess."</span>";
 					  }
-					  ?>
-					<form name="f" method="post" id="formid" action="insert_question.php" enctype="multipart/form-data">
+					?>
+					<form name="f" method="post" id="formid1" action="insert_question.php" enctype="multipart/form-data">
 						<table class="table" style="line-height:2.5;" id="TableMain">
 							<tr>
 							   <td colspan="2">Class Name
@@ -154,12 +154,20 @@ margin-bottom:5px;
 								</td>
 							</tr>
 							<tr><td id="tbb" colspan="2"></td></tr>
-	
+							<tr>
+								<td>
+									<input type="submit" name="submit1" value="Add" class="button">
+								</td>
+								<td></td>
+							</tr>
 							<tr> 
 								 
-								<td><input type="submit" name="submit" value="Add" class="button"></td> 
+								<td>OR 
+									Upload an Excel
+									<input type="file" name="questn_excel" class="questn_excel" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+								</td> 
 								<td>
-								<!--<input type="button" name="button" value="addnew" id="add1">-->
+									<input type="submit" name="submit2" value="Add" class="button">
 								</td>
 							</tr>
 						</table>  
