@@ -84,7 +84,7 @@ function showtime(){
 	var low1=document.getElementById('cbouplimit').value;
 	var up1=document.getElementById('cbollimit').value;
 	if(low1 != '' && up1 != ''){
-		var difftime1 = parseInt(up1-low1);
+		var difftime1 = parseInt((up1-low1)+1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
@@ -142,7 +142,7 @@ function showtime2(){
 	var low1=document.getElementById('cbouplimit').value; 
 	var up1=document.getElementById('cbollimit').value;
 	if(low1!='' && up1!=''){
-		var difftime1 = parseInt(up1-low1);
+		var difftime1 = parseInt((up1-low1)+1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
@@ -203,7 +203,7 @@ function showtime3(){
 	var low1=document.getElementById('cbouplimit').value;
 	var up1=document.getElementById('cbollimit').value;
 	if(low1!='' && up1!=''){
-		var difftime1 = parseInt(up1-low1);
+		var difftime1 = parseInt((up1-low1)+1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
