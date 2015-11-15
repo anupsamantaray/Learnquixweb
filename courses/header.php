@@ -14,10 +14,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css_menu/timeTo.css" type="text/css" rel="stylesheet">
 <!-- start plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.timeTo.js"></script>
+<script type="text/javascript" src="js/jquery.timeTo.min.js"></script>
 <script type="text/javascript" src="js/validation.js"></script>
 <!-- Owl Carousel Assets -->
 <link href="css/owl.carousel.css" rel="stylesheet">
