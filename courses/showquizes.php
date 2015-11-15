@@ -6,37 +6,12 @@
 	$clid = (isset($_SESSION['class']) && ($_SESSION['class'] != ''))?$_SESSION['class']:0;
 ?>
 <script type="text/javascript">
-$(function(){
+/*$(function(){
 	$(".coursecls").addClass("active");
 });
 function callsubmit1(){
-	/*var e11=document.getElementById("countdown-1").firstChild.firstChild.firstChild.innerHTML;
-	e11=parseInt(e11);
-	
-	var e12=document.getElementById("countdown-1").childNodes[1].firstChild.firstChild.innerHTML;
-	e12=parseInt(e12);
-	
-	var colon1=document.getElementById("countdown-1").childNodes[2].innerHTML;
-	var e21=document.getElementById("countdown-1").childNodes[3].firstChild.firstChild.innerHTML;
-	e11=parseInt(e21);
-	//alert(e21);
-	var e22=document.getElementById("countdown-1").childNodes[4].firstChild.firstChild.innerHTML;
-	e12=parseInt(e22);
-	//alert(e22);
-	var colon2=document.getElementById("countdown-1").childNodes[5].innerHTML;
-	//colon1=parseInt(colon1);
-	//alert(colon2);
-	
-	var e31=document.getElementById("countdown-1").childNodes[6].firstChild.firstChild.innerHTML;
-	e31=parseInt(e31);
-	//alert(e31);
-	var e32=document.getElementById("countdown-1").childNodes[7].firstChild.firstChild.innerHTML;
-	e32=parseInt(e32);*/
-	//alert(e32);
-	/*document.getElementById("txtendtime").value=e11+e12+colon1+e21+e22+colon2+e31+e32;*/
 	document.forms["f1"].submit();
-	//var x1= x[0].firstChild.innerHTML;
-}
+}*/
 function ldlimit(){
 	document.getElementById("cbollimit").options.length = 0;
 	var up=document.getElementById("txtuplimit").value;
@@ -73,167 +48,27 @@ if(mysql_num_rows($resultgetsubject)>0){
 		//$subject_id=$rows_gettopic['subject_id'];
 	}
 }
-$sqlgettime="select * from  time where Topic='".$topic."'";
+$sqlgettime="select * from time where Topic='".$topic."'";
 $result_gettime=mysql_query($sqlgettime);
 if(mysql_num_rows($result_gettime)>0){
 	while($rows_gettime=mysql_fetch_assoc($result_gettime)){
 		$time1=$rows_gettime['time'];
 		$time2=$rows_gettime['time1'];
 		$time3=$rows_gettime['time2'];
-		}
-		
 	}
-	if($time1==NULL){
-		$time1=1;
-	}
-	if($time2==NULL){
-		$time2=1;
-	}
-	if($time3==NULL){
-		$time3=1;
-	}
-	
-echo ("<script>function showtime(){
-	var low1=document.getElementById('cbouplimit').value 
-	var up1=document.getElementById('cbollimit').value
-	if(low1!='' && up1!='')
-	{
-	document.getElementById('btnlow').style.display='none'; 
-	document.getElementById('btnmid').style.display='none'; 
-	document.getElementById('btnhigh').style.display='none'; 
-	document.getElementById('level').align='left';
-	document.getElementById('level').innerHTML='Quiz Started...';
-	/*document.getElementById('txtstarttime').value=".$time1.";*/
-		
-		if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
-            }
-        }
-        xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=0&l1='+low1+'&up1='+up1,true);
-        xmlhttp.send();
-		//alert('hello');
-		
-		//set timer countdown in seconds with callback
-		//where 10 define the second left in count.
-		//after 10 second it will show alert.
-		//wait for 10 second to see it.
-	 
-	/*$('#countdown-1').timeTo(".$time1.", function()
-	{
-		var time=".$time1.";
-		if(time==1)
-		{
-			callsubmit1();
-		}
-		else
-		{
-			alert('Countdown finished');
-			callsubmit1();
-		}
-	});*/
+}
+if($time1==NULL){
+	$time1=1;
+}
+if($time2==NULL){
+	$time2=1;
+}
+if($time3==NULL){
+	$time3=1;
+}
 
-	 //Set timer countdown to specified date
-	/*$('#countdown-2').timeTo(
-	{
-		timeTo: new Date('Jul 10 2014 00:00:00'),
-	});*/
-	
-	/*$('#countdown-3').timeTo(
-	{
-		timeTo: new Date('Jul 27 2014 12:00:00'),
-		theme: 'black',
-		displayCaptions: true,
-		fontSize: 48,
-		captionSize: 14
-	});*/
-	}
-	else
-	{
-		alert('Please select The Question to start and the Question to End');
-	}
-}</script>");
-
-
-echo("<script>function showtime2()
-{
-	var low1 = document.getElementById('cbouplimit').value;
-	var up1 = document.getElementById('cbollimit').value;
-	if(low1!='' && up1!='')
-	{
-	document.getElementById('btnlow').style.display='none'; 
-	document.getElementById('btnmid').style.display='none'; 
-	document.getElementById('btnhigh').style.display='none'; 
-	document.getElementById('level').align='left';
-	document.getElementById('level').innerHTML='Quiz Started...';
-	/*document.getElementById('txtstarttime').value=".$time2." ;*/
-	if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
-            }
-        }
-        xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=1&l1='+low1+'&up1='+up1,true);
-        xmlhttp.send();
-
-	
-	/*$('#countdown-1').timeTo(".$time2.", function()
-	{
-		var time=".$time2.";
-		if(time==1)
-		{
-			callsubmit1();
-		}
-		else
-		{
-			alert('Countdown finished');
-			callsubmit1();
-		}
-		
-	});*/
-
-
-	/*$('#countdown-2').timeTo(
-	{
-		timeTo: new Date('Jul 10 2014 00:00:00'),
-	});*/
-	
-
-	/*$('#countdown-3').timeTo(
-	{
-
-		timeTo: new Date('Jul 27 2014 12:00:00'),
-
-		theme: 'black',
-
-		displayCaptions: true,
-
-		fontSize: 48,
-		captionSize: 14
-	});*/
-	}
-	else
-	{
-		alert('Please select The Question to start and the Question to End');
-	}
-}</script>");
-
-
-echo("<script>function showtime3()
-{
+echo("<script>
+function showtime(){
 	var low1=document.getElementById('cbouplimit').value;
 	var up1=document.getElementById('cbollimit').value;
 	if(low1!='' && up1!=''){
@@ -242,62 +77,209 @@ echo("<script>function showtime3()
 		document.getElementById('btnhigh').style.display='none'; 
 		document.getElementById('level').align='left';
 		document.getElementById('level').innerHTML='Quiz Started...';
-		/*document.getElementById('txtstarttime').value=".$time3.";*/
+		document.getElementById('txtstarttime').value=".$time1.";
 		if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
-            }
-        }
-        xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=2&l1='+low1+'&up1='+up1,true);
-        xmlhttp.send();
-
-	/*$('#countdown-1').timeTo(".$time3.", function()
-	{
-		var time=".$time3.";
-		if(time==1)
-		{
-			callsubmit1();
+			// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp = new XMLHttpRequest();
+		} else {
+			// code for IE6, IE5
+			xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 		}
-		else
-		{
-			alert('Countdown finished');
-			callsubmit1()
+		xmlhttp.onreadystatechange = function(){
+			if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
+			}
 		}
+		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=0&l1='+low1+'&up1='+up1,true);
+		xmlhttp.send();
 		
-	});*/
-
-	/*$('#countdown-2').timeTo(
-	{
-		timeTo: new Date('Jul 10 2014 00:00:00'),
-	});*/
-	
-	/*$('#countdown-3').timeTo(
-	{
-
-		timeTo: new Date('Jul 27 2014 12:00:00'),
-
-		theme: 'black',
-		displayCaptions: true,
-		fontSize: 48,
-		captionSize: 14
-	});*/
-	}
-	else
-	{
+		$('#countdown-1').timeTo(".$time1.", function(){
+			var time=".$time1.";
+			if(time==1){
+				callsubmit1();
+			}else{
+				alert('Countdown finished');
+				callsubmit1();
+			}
+		});
+		
+		$('#countdown-2').timeTo(
+		{
+			timeTo: new Date('Jul 10 2014 00:00:00')
+		});
+		
+		/**
+		 * Set theme and captions
+		 */
+		$('#countdown-3').timeTo({
+			timeTo: new Date('Jul 27 2014 12:00:00'),
+			theme: 'black',
+			displayCaptions: true,
+			fontSize: 48,
+			captionSize: 14
+		});
+	}else{
 		alert('Please select The Question to start and the Question to End');
 	}
 }
-
 </script>");
 
+echo("<script>
+function showtime2(){
+	var low1=document.getElementById('cbouplimit').value; 
+	var up1=document.getElementById('cbollimit').value;
+	if(low1!='' && up1!=''){
+		document.getElementById('btnlow').style.display='none'; 
+		document.getElementById('btnmid').style.display='none'; 
+		document.getElementById('btnhigh').style.display='none'; 
+		document.getElementById('level').align='left';
+		document.getElementById('level').innerHTML='Quiz Started...';
+		document.getElementById('txtstarttime').value=".$time2.";
+		if (window.XMLHttpRequest){
+			// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp = new XMLHttpRequest();
+		}else{
+			// code for IE6, IE5
+			xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.onreadystatechange = function() {
+			if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=1&l1='+low1+'&up1='+up1',true);
+		xmlhttp.send();
+		
+		$('#countdown-1').timeTo(".$time2.", function(){
+			var time=".$time2.";
+			if(time==1){
+				callsubmit1();
+			}else{
+				alert('Countdown finished');
+				callsubmit1();
+			}
+			
+		});
+
+		/**
+		 * Set timer countdown to specified date
+		 */
+		$('#countdown-2').timeTo({
+			timeTo: new Date('Jul 10 2014 00:00:00')
+		});
+		
+		/**
+		 * Set theme and captions
+		 */
+		$('#countdown-3').timeTo({
+			timeTo: new Date('Jul 27 2014 12:00:00'),
+			theme: 'black',
+			displayCaptions: true,
+			fontSize: 48,
+			captionSize: 14
+		});
+	}else{
+		alert('Please select The Question to start and the Question to End');
+	}
+}
+</script>");
+
+echo("<script>
+function showtime3(){
+	var low1=document.getElementById('cbouplimit').value 
+	var up1=document.getElementById('cbollimit').value
+	if(low1!='' && up1!=''){
+		document.getElementById('btnlow').style.display='none'; 
+		document.getElementById('btnmid').style.display='none'; 
+		document.getElementById('btnhigh').style.display='none'; 
+		document.getElementById('level').align='left';
+		document.getElementById('level').innerHTML='Quiz Started...';
+		document.getElementById('txtstarttime').value=".$time3."; 
+		if(window.XMLHttpRequest){
+			// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp = new XMLHttpRequest();
+		}else{
+			// code for IE6, IE5
+			xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.onreadystatechange = function(){
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				document.getElementById('showquestions').innerHTML = xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=2&l1='+low1+'&up1='+up1',true);
+		xmlhttp.send();
+			
+		$('#countdown-1').timeTo(".$time3.", function(){
+			var time=".$time3.";
+			if(time==1){
+				callsubmit1();
+			}else{
+				alert('Countdown finished');
+				callsubmit1();
+			}
+			
+		});
+		/**
+		 * Set timer countdown to specified date
+		 */
+		$('#countdown-2').timeTo({
+			timeTo: new Date('Jul 10 2014 00:00:00')
+		});
+		
+		/**
+		 * Set theme and captions
+		 */
+		$('#countdown-3').timeTo({
+			timeTo: new Date('Jul 27 2014 12:00:00'),
+			theme: 'black',
+			displayCaptions: true,
+			fontSize: 48,
+			captionSize: 14
+		});
+	}else{
+		alert('Please select The Question to start and the Question to End');
+	}
+}
+</script>");
 ?>
+<script>
+function blankfun(){
+}
+function callsubmit1(){
+	//alert("hello");
+	var e11=document.getElementById("countdown-1").firstChild.firstChild.firstChild.innerHTML;
+	e11=parseInt(e11);
+	//alert(e11);
+	var e12=document.getElementById("countdown-1").childNodes[1].firstChild.firstChild.innerHTML;
+	e12=parseInt(e12);
+	//alert(e12);
+	var colon1=document.getElementById("countdown-1").childNodes[2].innerHTML;
+	//colon1=parseInt(colon1);
+	//alert(colon1);
+	
+	var e21=document.getElementById("countdown-1").childNodes[3].firstChild.firstChild.innerHTML;
+	e11=parseInt(e21);
+	//alert(e21);
+	var e22=document.getElementById("countdown-1").childNodes[4].firstChild.firstChild.innerHTML;
+	e12=parseInt(e22);
+	//alert(e22);
+	var colon2=document.getElementById("countdown-1").childNodes[5].innerHTML;
+	//colon1=parseInt(colon1);
+	//alert(colon2);
+	
+	var e31=document.getElementById("countdown-1").childNodes[6].firstChild.firstChild.innerHTML;
+	e31=parseInt(e31);
+	//alert(e31);
+	var e32=document.getElementById("countdown-1").childNodes[7].firstChild.firstChild.innerHTML;
+	e32=parseInt(e32);
+	//alert(e32);
+	document.getElementById("txtendtime").value=e11+e12+colon1+e21+e22+colon2+e31+e32;
+	document.forms["f1"].submit();
+	//var x1= x[0].firstChild.innerHTML;
+	
+}
+</script>
 <div class="container">
 		<div class="abou aboutNew details row">
 			<div class="col-md-2 leftNav" style="padding:0;">
@@ -385,8 +367,8 @@ echo("<script>function showtime3()
 								 <input type="text" name="txtsubjectid" id="txtsubjectid" value="<?php echo $subject_id;?>" style="display:none;"/>
 								  <input type="text" name="txttopic" id="txttopic" value="<?php echo $topic;?>" style="display:none;"/>
 								  <input type="text" name="txttopicid" id="txttopicid" value="<?php echo $tid;?>" style="display:none;"/>
-							  <!--input type="text" name="txtendtime" id="txtendtime" style="display:none;"/-->
-							  <!--input type="text" name="txtstarttime" id="txtstarttime" style="display:none;" /--> 
+							  <input type="text" name="txtendtime" id="txtendtime" style="display:none;"/>
+							  <input type="text" name="txtstarttime" id="txtstarttime" style="display:none;" /> 
 							  <div id='showquestions' height="100%" >
 							  </div>
 							 <!--/form-->
