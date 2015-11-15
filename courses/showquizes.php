@@ -42,10 +42,10 @@ if(mysql_num_rows($resultgettopic)>0){
 }
 $sqlgetsubject="Select * from  student_subject where id=".$subject_id;
 $resultgetsubject=mysql_query($sqlgetsubject);
+$subject1 = '';
 if(mysql_num_rows($resultgetsubject)>0){
 	while($rows_getsubject=mysql_fetch_assoc($resultgetsubject)){
 		$subject1=$rows_getsubject['subject'];
-		//$subject_id=$rows_gettopic['subject_id'];
 	}
 }
 $sqlgettime="select * from time where Topic='".$topic."'";
@@ -57,7 +57,7 @@ if(mysql_num_rows($result_gettime)>0){
 		$time3=$rows_gettime['time2'];
 	}
 }
-if($time1==NULL){
+/*if($time1==NULL){
 	$time1=1;
 }
 if($time2==NULL){
@@ -65,23 +65,36 @@ if($time2==NULL){
 }
 if($time3==NULL){
 	$time3=1;
+}*/
+if($subject1 == 'Maths'){
+	$time1=60;
+	$time2=90;
+	$time3=120;
+}else if($subject1 == 'Science'){
+	$time1=30;
+	$time2=45;
+	$time3=60;
+}else{
+	$time1=10;
+	$time2=10;
+	$time3=10;
 }
-
 echo("<script>
 function showtime(){
 	var low1=document.getElementById('cbouplimit').value;
 	var up1=document.getElementById('cbollimit').value;
-	if(low1!='' && up1!=''){
+	if(low1 != '' && up1 != ''){
+		var difftime1 = parseInt(up1-low1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
 		document.getElementById('level').align='left';
 		document.getElementById('level').innerHTML='Quiz Started...';
-		document.getElementById('txtstarttime').value=".$time1.";
-		if (window.XMLHttpRequest) {
+		document.getElementById('txtstarttime').value=difftime1*".$time1.";
+		if(window.XMLHttpRequest){
 			// code for IE7+, Firefox, Chrome, Opera, Safari
 			xmlhttp = new XMLHttpRequest();
-		} else {
+		}else{
 			// code for IE6, IE5
 			xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 		}
@@ -93,8 +106,8 @@ function showtime(){
 		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=0&l1='+low1+'&up1='+up1,true);
 		xmlhttp.send();
 		
-		$('#countdown-1').timeTo(".$time1.", function(){
-			var time=".$time1.";
+		$('#countdown-1').timeTo((difftime1*".$time1."), function(){
+			var time=difftime1*".$time1.";
 			if(time==1){
 				callsubmit1();
 			}else{
@@ -129,12 +142,13 @@ function showtime2(){
 	var low1=document.getElementById('cbouplimit').value; 
 	var up1=document.getElementById('cbollimit').value;
 	if(low1!='' && up1!=''){
+		var difftime1 = parseInt(up1-low1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
 		document.getElementById('level').align='left';
 		document.getElementById('level').innerHTML='Quiz Started...';
-		document.getElementById('txtstarttime').value=".$time2.";
+		document.getElementById('txtstarttime').value=difftime1*".$time2.";
 		if (window.XMLHttpRequest){
 			// code for IE7+, Firefox, Chrome, Opera, Safari
 			xmlhttp = new XMLHttpRequest();
@@ -150,8 +164,8 @@ function showtime2(){
 		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=1&l1='+low1+'&up1='+up1',true);
 		xmlhttp.send();
 		
-		$('#countdown-1').timeTo(".$time2.", function(){
-			var time=".$time2.";
+		$('#countdown-1').timeTo((difftime1*".$time2."), function(){
+			var time=difftime1*".$time2.";
 			if(time==1){
 				callsubmit1();
 			}else{
@@ -186,15 +200,16 @@ function showtime2(){
 
 echo("<script>
 function showtime3(){
-	var low1=document.getElementById('cbouplimit').value 
-	var up1=document.getElementById('cbollimit').value
+	var low1=document.getElementById('cbouplimit').value;
+	var up1=document.getElementById('cbollimit').value;
 	if(low1!='' && up1!=''){
+		var difftime1 = parseInt(up1-low1);
 		document.getElementById('btnlow').style.display='none'; 
 		document.getElementById('btnmid').style.display='none'; 
 		document.getElementById('btnhigh').style.display='none'; 
 		document.getElementById('level').align='left';
 		document.getElementById('level').innerHTML='Quiz Started...';
-		document.getElementById('txtstarttime').value=".$time3."; 
+		document.getElementById('txtstarttime').value=difftime1*".$time3."; 
 		if(window.XMLHttpRequest){
 			// code for IE7+, Firefox, Chrome, Opera, Safari
 			xmlhttp = new XMLHttpRequest();
@@ -210,8 +225,8 @@ function showtime3(){
 		xmlhttp.open('GET','getquestion2.php?q=+".$tid."&d=2&l1='+low1+'&up1='+up1',true);
 		xmlhttp.send();
 			
-		$('#countdown-1').timeTo(".$time3.", function(){
-			var time=".$time3.";
+		$('#countdown-1').timeTo((difftime1*".$time3."), function(){
+			var time=difftime1*".$time3.";
 			if(time==1){
 				callsubmit1();
 			}else{
@@ -247,37 +262,22 @@ function showtime3(){
 function blankfun(){
 }
 function callsubmit1(){
-	//alert("hello");
 	var e11=document.getElementById("countdown-1").firstChild.firstChild.firstChild.innerHTML;
 	e11=parseInt(e11);
-	//alert(e11);
 	var e12=document.getElementById("countdown-1").childNodes[1].firstChild.firstChild.innerHTML;
 	e12=parseInt(e12);
-	//alert(e12);
 	var colon1=document.getElementById("countdown-1").childNodes[2].innerHTML;
-	//colon1=parseInt(colon1);
-	//alert(colon1);
-	
 	var e21=document.getElementById("countdown-1").childNodes[3].firstChild.firstChild.innerHTML;
 	e11=parseInt(e21);
-	//alert(e21);
 	var e22=document.getElementById("countdown-1").childNodes[4].firstChild.firstChild.innerHTML;
 	e12=parseInt(e22);
-	//alert(e22);
 	var colon2=document.getElementById("countdown-1").childNodes[5].innerHTML;
-	//colon1=parseInt(colon1);
-	//alert(colon2);
-	
 	var e31=document.getElementById("countdown-1").childNodes[6].firstChild.firstChild.innerHTML;
 	e31=parseInt(e31);
-	//alert(e31);
 	var e32=document.getElementById("countdown-1").childNodes[7].firstChild.firstChild.innerHTML;
 	e32=parseInt(e32);
-	//alert(e32);
 	document.getElementById("txtendtime").value=e11+e12+colon1+e21+e22+colon2+e31+e32;
 	document.forms["f1"].submit();
-	//var x1= x[0].firstChild.innerHTML;
-	
 }
 </script>
 <div class="container">
@@ -295,7 +295,6 @@ function callsubmit1(){
 							while($resultqry = mysql_fetch_assoc($sltqry)){
 								$alid = $resultqry['id'];
 								$class = $resultqry['class'];
-						
 					?>
 					<li><a href="index.php?clid=<?=$alid?>" <?if($clid==$alid){echo "class='active'";}?>>Class <?=$class?></a></li>
 					<?
