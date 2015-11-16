@@ -14,7 +14,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css_menu/timeTo.css" type="text/css" rel="stylesheet">
 <!-- start plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -219,6 +218,7 @@ $(function(){
 			</div>
 			<div class="h_search navbar-right">
 				<div class="logindiv popup_login">
+					<h5>Get The App Download</h5>
 					<?php if((isset($_SESSION['usrname'])) && ($_SESSION['usrname']!='')){?>
 						<p style="background: rgba(255, 255, 255, 0.8) none repeat scroll 0% 0%; padding: 3px 8px;"><i class="userpicture"> <?php if((isset($_SESSION['user_pic'])) && ($_SESSION['user_pic']!='')){ ?> <img src="../upload/student_images/<?=$_SESSION['user_pic']?>" class="profile_pic"> <?php }else{ ?><img src="images/no-img.jpg" class="profile_pic"><?php } ?></i><!--span>welcome,</span--><?=$_SESSION['usrname']?> | <a href="../regsubmit.php?op=lgt" style="color:#ff0000; background:none;"><i><img src="images/logout.png" alt="logout image"></i> Logout</a></p>
 					<?}
