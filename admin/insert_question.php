@@ -78,7 +78,7 @@ if(isset($_POST['submit2'])){
 						$answers = '|'.trim($option1).'|'.trim($option2).'|'.trim($option3).'|'.trim($option4);
 						$correctn = str_replace(chr(194)," ",$rawdtta[6]);
 						//$correct_ans = 0;
-						if(trim($correctn) == trim($option1)){
+						/*if(trim($correctn) == trim($option1)){
 							$correct_ans = 1;
 						}else if(trim($correctn) == trim($option2)){
 							$correct_ans = 2;
@@ -86,10 +86,11 @@ if(isset($_POST['submit2'])){
 							$correct_ans = 3;
 						}else{
 							$correct_ans = 4;
-						}
+						}*/
 						/*else if(trim($correctn) == trim($option4)){
 							$correct_ans = 4;
 						}*/
+						$correct_ans = $correctn;
 						$levels = str_replace(chr(194)," ",$rawdtta[7]);
 						if($levels == 'HIGH'){
 							$level = 2;
