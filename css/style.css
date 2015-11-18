@@ -23,11 +23,13 @@ body {
 .header_bg{
 	border-top:8px groove #3b3b3b;
 	background: #ffffff;
+	position:relative;
 }
 .header_bg1 {
 	border-top:8px groove #3b3b3b;
 	background: url('../images/slider_bg.jpg') no-repeat  left;
 	background-size: 100%;
+	position:relative;
 }
 .header{
 	padding: 2% 0;
@@ -806,7 +808,7 @@ body {
 .logindiv{
 	position: absolute;
 	top: -40px;
-	left: 0;
+	right: 0;
 	z-index: 111;
 }
 	.logindiv h5{
@@ -848,7 +850,7 @@ body {
 	display: none;
 	position: absolute;
 	width: 230px;
-	right: -226px;
+	right: -70px;
 	background-color: #FFF;
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 	top: 42px;
@@ -1526,4 +1528,10 @@ body {
     -moz-animation-iteration-count: infinite;
     -moz-animation-name: blink;
     -moz-animation-timing-function: ease-in-out;    
+}
+
+.iner_logheader{
+	position: absolute;
+	left: 36%;
+	top: 25%;
 }
