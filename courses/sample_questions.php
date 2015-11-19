@@ -5,9 +5,16 @@
 	}
 ?>
 <script type="text/javascript">
-  $(function() {
+$(document).ready(function(){
+		$(".sub_flipreg").click(function(){
+			$(document).find("#flipreg").trigger('click');
+		});
+	}); 
+
+ $(function() {
 		$(".sample_questioncls").addClass("active");
   });
+  
 </script>
 <div class="container">
 		<div class="abou aboutNew details row">
@@ -98,7 +105,7 @@
 					</div-->
 				</div>
 				<div class="winprize">
-					<a href="#a"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
+					<a href="javascript:void(0)" class="sub_flipreg"><i class="fa fa-trophy"></i> Register and Win Prizes</a>
 				</div>
 			</div>
 		</div>
