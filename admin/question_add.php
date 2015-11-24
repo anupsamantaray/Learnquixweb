@@ -2,6 +2,7 @@
 include_once("function.php");
 include_once("function1.php");
 $res=mysql_query("select * from `student_class`");
+include "common/thumbnail.class.php";
 ?>
 <html>
 <title>Admin Panel</title>
@@ -60,6 +61,37 @@ margin-bottom:5px;
 	</div>
 </div>
  <!--------------top bar end-------->
+ 
+<?php 
+
+	if($_POST['imagesubmit']) {
+		
+	$files	= $_FILES["filename"]["name"];
+	
+	
+	$fileName=time().$_FILES["filename"]["name"];
+		$size = $_FILES['flImage']["size"];
+		$size = ($size/1024)/1024; // converting in MB
+		$MAX_FILESIZE= MAX_FILESIZE;
+		if(move_uploaded_file($_FILES["filename"]["tmp_name"],"question_images/".$fileName)){
+			list($width, $height) = getimagesize( "question_images/".$fileName );
+			if( $width < MIN_ENTRY_RESOLUTION_WIDTH || $height < MIN_ENTRY_RESOLUTION_HEIGHT) {
+				$isValidUpload = false;
+				} else {
+					$pic=new Thumbnail();
+					$pic->filename	="question_images/".$fileName;
+					$pic->filename2	="question_images/image/image_".$fileName;
+					$pic->maxW=400;
+					$pic->SetNewWH();
+					$pic->MakeNew();
+					$pic->FinirPImage();
+				}
+	
+		}
+	}
+?> 
+ 
+ 
  
  <!--------------content bar-------->
 <div id="main_bar">
@@ -158,15 +190,28 @@ margin-bottom:5px;
 								<td>
 									<input type="submit" name="submit1" value="Add" class="button">
 								</td>
-								<td></td>
+								
 							</tr>
-							<tr> 
-								 
-								<td>OR 
-									Upload an Excel
-									<input type="file" name="questn_excel" class="questn_excel" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
-								</td> 
+							
+							<!-- insert Image Url-->
+							<tr><td></br></td></tr>
+							<tr>
+								<td>Insert Image</td>
+							</tr>
+							<tr>
 								<td>
+									<input type="file" name="filename" id="">
+									<button type="button" name="imagesubmit" value="Insert Image" class="button">
+									<input type="text" name="url" class="form" value=""/>
+									
+								</td>
+							</tr>
+							
+							<tr><td></br></td></tr>
+							<tr> 
+								<td>OR Upload an Excel<br/>
+									<input type="file" name="questn_excel" class="questn_excel" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+								
 									<input type="submit" name="submit2" value="Add" class="button">
 								</td>
 							</tr>
