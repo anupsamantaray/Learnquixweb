@@ -1,4 +1,4 @@
-<?php include "header.php";
+<?php include "common/header2.php";
 	$clid = (isset($_SESSION['class']) && ($_SESSION['class'] != ''))?$_SESSION['class']:0;
 	if($clid == 0){
 		$clid = (isset($_REQUEST['clid']) && ($_REQUEST['clid'] != ''))?$_REQUEST['clid']:9;
@@ -90,11 +90,11 @@ else if (document.all&&!document.getElementById){
 												<td align='center'><?=$rows_srch['subject']?></td>
 												<td align='center'><?=$rows_srch['Topic']?></td>
 												<td align='center'>
-													<a href='../admin/<?=$rows_getextradetails['ebook']?>' target="_blank"><?=$arrebook[count($arrebook)-1]?></a>
+													<a href='admin/<?=$rows_getextradetails['ebook']?>' target="_blank"><?=$arrebook[count($arrebook)-1]?></a>
 												</td>
 												<td align='center'>
 												<? if($rows_getextradetails['video']!=''){?>
-													<a href="../admin/<?=$rows_getextradetails['video']?>" onclick="window.open('../admin/<?=$rows_getextradetails["video"]?>', 'newwindow', width=400, height=400); return false;">
+													<a href="admin/<?=$rows_getextradetails['video']?>" onclick="window.open('admin/<?=$rows_getextradetails["video"]?>', 'newwindow', width=1200, height=600); return false;">
 														<!--img src='images/vid-placeholder.jpg' alt='...' class='img-thumbnail myvideo'><i class='fa fa-caret-right vediosPlay'></i-->
 														<?=$rows_getextradetails['video']?>
 													</a>
@@ -117,4 +117,4 @@ else if (document.all&&!document.getElementById){
 		</div>
 	</div>
 </div><!-- end main -->
-<?php include "footer.php"?>
+<?php include "common/footer.php"?>

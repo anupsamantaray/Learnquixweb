@@ -248,8 +248,8 @@ $(function(){
 						</form>
 					</div>
 				</div>
-				<form>
-					<input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+				<form method="post" action="search.php">
+					<input type="text" class="text" name="serval" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
 					<input type="submit" value="search">
 				</form>
 			</div>
