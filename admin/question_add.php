@@ -201,7 +201,7 @@ margin-bottom:5px;
 							<tr>
 								<td>
 									<input type="file" name="filename" id="">
-									<button type="button" name="imagesubmit" value="Insert Image" class="button">
+									<input type="button" name="imagesubmit" value="Insert Image" class="button">
 									<input type="text" name="url" class="form" value=""/>
 									
 								</td>
