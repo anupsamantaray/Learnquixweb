@@ -200,9 +200,9 @@ margin-bottom:5px;
 							</tr>
 							<tr>
 								<td>
-									<input type="file" name="filename" id="">
-									<input type="button" name="imagesubmit" value="Insert Image" class="button">
-									<input type="text" name="url" class="form" value=""/>
+									<input type="file" name="filename" class="filename">
+									<input type="button" name="imagesubmit" value="Insert Image" class="button imagesubmit" onClick="imgUpload()">
+									<input type="text" name="url" class="form imgurl" value=""/>
 									
 								</td>
 							</tr>
@@ -376,4 +376,31 @@ function showquestions(str) {
         xmlhttp.send();
     }
 }
+
+function imgUpload(){
+	var img = $('.filename');
+	var data = new FormData();
+	data.append('image', img[0].files[0]);
+	$.ajax({
+		url : 'uploadImgForQuestion.php',
+		type:'POST',
+		dataType:'json',
+		data:data,
+		contentType:false,
+		cache:false,
+		processData:false,
+		success:function(response){
+			if(response.status == 1){
+				console.log(response);
+				if(response.img_path != ''){
+					$(".imgurl").val(response.img_path);
+				}
+			}
+		},
+		error:function(response){
+			console.log(response);
+		},
+	});
+}
+
 </script>
