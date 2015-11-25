@@ -202,10 +202,13 @@ margin-bottom:5px;
 								<td>
 									<input type="file" name="filename" class="filename">
 								
-									<input type="button" name="imagesubmit" value="Insert Image" class="button imagesubmit" onClick="imgUpload()">
-									<input type="text" name="url" class="form imgurl" value=""/>
-								</td>	
 								
+									<input type="button" name="imagesubmit" value="Insert Image" class="button imagesubmit" onClick="imgUpload()">   Copy URL =>
+								</td>	
+								<td>
+									 <input type="text" name="url" class="form imgurl" value=""/>
+									
+								</td>
 							</tr>
 							
 							<tr><td></br></td></tr>
