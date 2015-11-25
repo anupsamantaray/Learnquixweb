@@ -19,13 +19,13 @@ if($img_type=='image/png' || $img_type=='image/jpeg' || $img_type=='image/gif' |
 		 $pic->SetNewWH();
 		 $pic->makeNew();
 		 $pic->FinirPImage();
-		 $image = "thumb_".$image;
+		 $image1 = "thumb_".$image;
 		 
 		 $httphost = $_SERVER['HTTP_ORIGIN'];
 		 if($_SERVER['HTTP_ORIGIN'] == 'http://localhost'){
 			 $httphost = $_SERVER['HTTP_ORIGIN'].'/Learnquixweb/';
 		 }
-		 die(json_encode(array("status"=>"1","server"=>$httphost,"img_path"=>$httphost."courses/uploads/question_images/question_images_thumb/thumb_".$image)));
+		 die(json_encode(array("status"=>"1","server"=>$httphost,"img_path"=>$httphost."courses/uploads/question_images/question_images_thumb/".$image1)));
 	}
 }
 die(json_encode(array("status"=>"0")));
