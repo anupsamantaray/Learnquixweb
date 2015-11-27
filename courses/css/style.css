@@ -16,7 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 body {
 	font-family: 'open_sansregular';
-	background:#ffffff;
+	background:#ffffff !important;
 	font-size: 100%;
 }
 /* start header */
@@ -1678,4 +1678,7 @@ body {
 	position: absolute;
 	left: 36%;
 	top: 25%;
+}
+.anotherright_class{
+	border: !important;	px solid #fff;
 }
