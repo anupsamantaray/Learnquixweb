@@ -21,7 +21,7 @@ if(isset($_POST['submit1'])){
 				$answer.="|".$answ;
 			}
 			$crtt='';
-			$x=$_POST['corrClassesect'][$qu];
+			$x=$_POST['correct'][$qu];
 			$level=$_POST['difficulty'][$qu];
 			$fet=mysql_query("select * from `student_question` where `class_id`='$classid' and `subject_id`='$subjectid' and `topic_id`='$topid' and `questions`='$quess' and `answers`='$answer' and `correct`='$x'")or die(mysql_error());
 			$res=mysql_numrows($fet);
