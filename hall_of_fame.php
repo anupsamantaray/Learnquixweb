@@ -20,7 +20,7 @@ $mess=$_GET['err'];
 						<div class="col-md-12 memory_option effect5">
 							<div class="col-sm-4 leftImges">
 								<!--img src="images/Amit Khanna.png" alt="" style="height:100%;"-->
-								<img src="<?php echo $res['image'];?>" alt="" style="height:100%;">
+								<img src="admin/<?php echo $res['image'];?>" alt="" style="height:100%;">
 							</div>
 							<div class="col-sm-8">
 								<h4><?=$res['name']?></h4>
