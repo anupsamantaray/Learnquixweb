@@ -24,7 +24,7 @@ if($_REQUEST['map_id']){
 						while($rslt=mysql_fetch_array($fetch)){ ?>
 					<h2 class="userIDnew" style="line-height:30px;"><span>Class : <?=$rslt['class']?></span><br/>Topic : <?=$rslt['topic']?></h2>
 					<p class="para"><?=$rslt['map_text']?></p>
-					<div class="feedbackDiv">
+					<div class="feedbackDiv" style="width: 100%;">
 						<div class="map_view_det">
 							<img src="../admin/<?=$rslt['map_image']?>" style="height: 100%; width: 100%;">
 						</div>
