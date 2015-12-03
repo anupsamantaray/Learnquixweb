@@ -65,7 +65,7 @@
 												if(mysql_num_rows($fet3)>0){
 													$res3 = mysql_fetch_assoc($fet3);
 											?>
-											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?file=<?php echo $res3['ebook'];?>" target="_blank" style="padding:0 !important;">
+											<a href="<?=$BASE_PDF_URL?>pdf_server_open.php?emlid=<?=$_SESSION['user_email']?>&file=<?php echo $res3['ebook'];?>" target="_blank" style="padding:0 !important;">
 												<!--button class="btn btn-success btn-label"><i class="fa fa-globe" style="margin-right:8px;"></i> View Pdf</button-->
 												<img src="images/view_pdf.png" style="margin-bottom:0 !important;" data-toggle="tooltip" title="View PDF">
 											</a>

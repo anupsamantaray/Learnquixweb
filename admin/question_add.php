@@ -395,7 +395,7 @@ function imgUpload(){
 		processData:false,
 		success:function(response){
 			if(response.status == 1){
-				console.log(response);
+				//console.log(response);
 				if(response.img_path != ''){
 					$(".imgurl").val(response.img_path);
 				}
