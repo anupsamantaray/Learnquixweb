@@ -40,7 +40,7 @@ function showtime(){
 	xmlhttp.send();
 	if(time==2700){
 		if (confirm("Do you want to appear for quiz ?") == true){
-			window.location.assign('ShowQuizes.php');
+			window.location.assign('show_quizzes_part_one.php');
 		} 
 	}
 }
