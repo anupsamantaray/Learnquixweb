@@ -1558,6 +1558,9 @@ body {
 		float:right;
 		padding: 3px 0 0 0;
 	}
+	.qimgnew img{
+		float:none !important;
+	}
 	.questionDiv_3{
 		border-bottom:1px solid #ECECEC;
 		margin-bottom:15px;

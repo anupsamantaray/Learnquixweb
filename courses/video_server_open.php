@@ -5,8 +5,12 @@ $filejj = explode("/",$_GET["file"]);
 $file=$filejj[1];
 $filepath='../admin/'.$_GET["file"];
 ?>
-<script>
+<!--script type="text/javascript" src="js/jquery.min.js"></script-->
+<script type="text/javascript">
+
 function starttimer(){
+	/*var videopath="<?=$filepath?>";
+	$('#divId').load(videopath);*/
 	setInterval(function(){showtime()},5000);
 }
 function showtime(){
@@ -38,6 +42,7 @@ function showtime(){
 		} 
 	}
 }
+
 </script>
 <body onload="starttimer();">
 	<form method='post' style="display:none;" >
@@ -45,5 +50,6 @@ function showtime(){
 		<input type="text" id="txtpth" value="<?php echo $filepath; ?>"/>
 		<input type="text" id="eml" value="<?php echo $_REQUEST['emlid']; ?>"/>
 	</form>
-	<iframe src='<?php echo $filepath; ?>' style="width:100%; height:97%;"></iframe>
+	<iframe src="<?php echo $filepath;?>" autoplay="off" style="width:100%; height:97%;"></iframe>
+	<!--<div id="divId" style="width:100%; height:97%;"></div>-->
 </body>

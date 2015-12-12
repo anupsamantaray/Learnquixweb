@@ -29,7 +29,7 @@ $l=1;
 for($i=0;$i<$j;$i++){
 	try{
 		echo("<div class='questionDiv'>");
-		echo("<h5 class='right_ans' style='border:1px solid #fff;'>".$arrquestion[$i]."</h5>");
+		echo("<h5 class='right_ans qimgnew' style='border:1px solid #fff;'>".$arrquestion[$i]."</h5>");
 		//echo("<h5 class='right_ans'> Question ".($i+1)." <br />".$arrquestion[$i]."</h5>");
 		//echo($arrquestion[$i]);
 		//echo("<br>");
