@@ -933,7 +933,7 @@ body {
 	}
 	.h_search {
 		width: 98%;
-		padding: 20px;
+		padding:0 15px 10px 15px;
 	}
 	.h_menu {
 		position: relative;
@@ -997,6 +997,47 @@ body {
 	}
 	.technology h4 {
 		font-size: 20px;
+	}
+	.logindiv{
+		position:inherit;
+		padding:10px 0;
+		top:inherit;
+	}
+	.logindiv p{
+		display:inherit;
+		text-align: center;
+	}
+	.iner_logheader{
+		position:inherit;
+		padding:10px 0;
+		top:inherit;
+	}
+	.logo {
+		margin:0 0 10px 0 !important;
+	}
+	.iner_logheader{
+		position: inherit !important;
+		padding: 10px 0 0 0px;
+		top: inherit;
+		margin: 0px;
+		text-align: center;
+		left: inherit !important;
+	}
+	#panel{
+		right: 0;
+		top: 51px;
+	}
+	.subreg{
+		width:100%;
+	}
+	.header{
+		padding: 0px;
+	}
+	.para{
+		text-align:justify;
+	}
+	.aboutText{
+		padding:0 !important;
 	}
 }
 @media only screen and (max-width: 640px){
