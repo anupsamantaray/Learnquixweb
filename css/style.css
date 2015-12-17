@@ -1576,3 +1576,13 @@ body {
 	left: 36%;
 	top: 25%;
 }
+/*-------------Site_Map-------------*/
+
+	.sitemap ul li{
+		font-size:16px;
+		
+	}
+		.sub_sitemap li{
+			color:#FF5454 !important;
+			font-size:14px !important;
+		}
