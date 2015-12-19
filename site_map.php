@@ -8,7 +8,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about_us.php">About us</a></li>
 					<li><a href="courses/index.php">Courses</a></li>
-					<li>Quizzes
+					<li><a href="javascript:void(0);" class="active">Quizzes</a>
 						<ul class="sub_sitemap">
 							<li><a href="courses/index.php">Basic Quiz</a></li>
 							<li><a href="courses/quize_competitive.php">Compitative Quiz</a></li>
@@ -16,7 +16,7 @@
 					</li>
 					<li><a href="hall_of_fame.php">Hall Of Frame</a></li>
 					<li><a href="games.php">Video & Fun Game</a></li>
-					<li>Remember Cards
+					<li><a href="javascript:void(0);" class="active">Remember Cards</a>
 						<ul class="sub_sitemap">
 							<li><a href="pagetest.php">Memory Cards</a></li>
 							<li><a href="concept.php">Concept Map</a></li>
