@@ -149,7 +149,7 @@
 						<div class="clearfix"></div>
 					</div>
 					
-					<div class="science_Div">
+					<div class="science_Div table-responsive">
 						<table class="table table-striped table-bordered">
                           <thead>
                             <tr>

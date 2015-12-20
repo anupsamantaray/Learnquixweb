@@ -921,7 +921,7 @@ body {
 	}
 	.h_search {
 		width: 98%;
-		padding: 20px;
+		padding:0 15px;
 	}
 	.h_menu {
 		position: relative;
@@ -986,6 +986,62 @@ body {
 	.technology h4 {
 		font-size: 20px;
 	}
+	.child_right{
+		padding:0 15px !important;
+	}
+	.lableText{
+		padding:0 0 8px 15px !important;
+	}
+	.leftNav h2{
+		text-align:center;
+		font-size:24px;
+	}
+	.logindiv{
+		position:inherit;
+		padding:10px 0;
+		top:inherit;
+	}
+	.logindiv p{
+		display:inherit;
+		text-align: center;
+	}
+	.iner_logheader{
+		position:inherit;
+		padding:10px 0;
+		top:inherit;
+	}
+	.logo {
+		margin:0 0 10px 0 !important;
+	}
+	.iner_logheader{
+		position: inherit !important;
+		padding: 10px 0 0 0px;
+		top: inherit;
+		margin: 0px;
+		text-align: center;
+		left: inherit !important;
+	}
+	.userpicture{
+		display:inline-block !important;
+	}
+	.ebdiv{
+		margin:10px 0 0 0;
+	}
+	.winprize {
+		margin-right: 15px;
+	}
+	.promo_button{
+		margin: 15px 0px 0px 15px !important;
+	}
+	.child_promo {
+		width: 100% !important;
+	}
+	.feedbackDiv{
+		width: 100% !important;
+	}
+	.forme_Qus_new{
+		width: 100% !important;
+	}
 }
 @media only screen and (max-width: 640px){
 	.company_ad{
@@ -996,6 +1052,19 @@ body {
 	}
 	.technology h4 {
 		font-size: 17px;
+	}
+	.newshow_res{
+		padding:0 !important;
+	}
+	.panel-body {
+		padding: 0 !important;
+	}
+}
+@media only screen and (max-width: 360px) {
+	
+	.science_Div h3{
+		width:50% !important;
+		font-size:18px;
 	}
 }
 @media only screen and (max-width: 480px) {

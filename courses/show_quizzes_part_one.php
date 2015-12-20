@@ -56,7 +56,7 @@
 								if(mysql_num_rows($slct_qry)>0){ ?>
 									<div style="" id="collapse<?=$sid?>" class="panel-collapse collapse in">
 											<div class="panel-body">
-												<div class="col-md-6">
+												<div class="col-md-6 newshow_res">
 													<ul class="maths_nav">
 									<?
 									while($rows_slct_qry=mysql_fetch_assoc($slct_qry)){ ?>

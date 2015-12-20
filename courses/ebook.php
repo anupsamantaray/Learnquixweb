@@ -46,6 +46,7 @@
 					
 						<div class="science_Div">
 							<h3 style="width:25%;"><!--i class="fa fa-puzzle-piece myicon"></i--><?=$rrslt['subject']?></h3>
+							<div class="table-responsive ebdiv">
 							<table aria-describedby="example_info" class="table table-striped table-bordered datatables dataTable" id="example" border="0" cellpadding="0" cellspacing="0">  
 								<tbody aria-relevant="all" aria-live="polite" role="alert">
 									<?php
@@ -91,6 +92,7 @@
 									?>
 								</tbody>
 							</table>
+							</div>
 							<div class="clearfix"></div>
 						</div>
 						<? } 
