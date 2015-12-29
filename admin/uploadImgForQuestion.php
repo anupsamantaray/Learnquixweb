@@ -14,8 +14,8 @@ if($img_type=='image/png' || $img_type=='image/jpeg' || $img_type=='image/gif' |
 		 $pic=new Thumbnail();
 		 $pic->filename="../uploads/question_images/".$image;
 		 $pic->filename2="../uploads/question_images/question_images_thumb/thumb_".$image;
-		 $pic->maxW=90;
-		 $pic->maxH=90;
+		 $pic->maxW=400;
+		 $pic->maxH=350;
 		 $pic->SetNewWH();
 		 $pic->makeNew();
 		 $pic->FinirPImage();

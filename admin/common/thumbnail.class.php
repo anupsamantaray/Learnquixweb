@@ -5,8 +5,10 @@ var $filename2;
 var $imageP;
 var $image;
 var $infoImage=array();
-var $maxW=180;
-var $maxH=135;
+//var $maxW=180;
+//var $maxH=135;
+var $maxW=200;
+var $maxH=180;
 var $Text="";
 
 var $setTypeImg=array(
