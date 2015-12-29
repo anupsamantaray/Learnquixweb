@@ -1028,7 +1028,7 @@ body {
 		margin:10px 0 0 0;
 	}
 	.winprize {
-		margin-right: 15px;
+		/*margin-right: 15px;*/
 	}
 	.promo_button{
 		margin: 15px 0px 0px 15px !important;
@@ -1041,6 +1041,15 @@ body {
 	}
 	.forme_Qus_new{
 		width: 100% !important;
+	}
+	#panel{
+		right:0;
+	}
+	.subreg{
+		width:100%;
+	}
+	.item2{
+		height:auto !important;
 	}
 }
 @media only screen and (max-width: 640px){
@@ -1463,7 +1472,7 @@ body {
 	.item2{
 		border:3px solid #F3F3F3 !important;
 		padding:2px !important;
-		height:300px !important;
+		height:300px;
 	}
 	.slideleft{
 		position: absolute !important;

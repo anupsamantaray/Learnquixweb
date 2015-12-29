@@ -1039,6 +1039,9 @@ body {
 	.aboutText{
 		padding:0 !important;
 	}
+	.item2{
+		height:auto !important;
+	}
 }
 @media only screen and (max-width: 640px){
 	.company_ad{
@@ -1444,7 +1447,7 @@ body {
 	.item2{
 		border:3px solid #F3F3F3 !important;
 		padding:2px !important;
-		height:300px !important;
+		height:300px;
 	}
 	.slideleft{
 		position: absolute !important;
